@@ -1,0 +1,148 @@
+/*
+
+  Macian: Layout
+
+  Josh Avanier
+
+*/
+
+.t0 {top: 0}
+.r0 {right: 0}
+.b0 {bottom: 0}
+.l0 {left: 0}
+.a0 {top: 0; right: 0; bottom: 0; left: 0}
+
+.t1 {top: 1em}
+.r1 {right: 1em}
+.b1 {bottom: 1em}
+.l1 {left: 1em}
+
+.t2 {top: 2em}
+.r2 {right: 2em}
+.b2 {bottom: 2em}
+.l2 {left: 2em}
+
+.t-1 {top: -1em}
+.r-1 {right: -1em}
+.b-1 {bottom: -1em}
+.l-1 {left: -1em}
+
+.t-2 {top: -2em}
+.r-2 {right: -2em}
+.b-2 {bottom: -2em}
+.l-2 {left: -2em}
+
+.pss {position: static}
+.psr {position: relative}
+.psa {position: absolute}
+.psf {position: fixed}
+
+.z1 {z-index: 1}
+.z2 {z-index: 2}
+.z3 {z-index: 3}
+.z4 {z-index: 4}
+.z5 {z-index: 5}
+.z6 {z-index: 6}
+.z7 {z-index: 7}
+.z8 {z-index: 8}
+.z9 {z-index: 9}
+
+.rf {float: right} .lf {float: left}
+
+@media screen and (min-width: 30em) {
+  .t0-s {top: 0}
+  .r0-s {right: 0}
+  .b0-s {bottom: 0}
+  .l0-s {left: 0}
+  .a0-s {top: 0; right: 0; bottom: 0; left: 0}
+  .t1-s {top: 1em}
+  .r1-s {right: 1em}
+  .b1-s {bottom: 1em}
+  .l1-s {left: 1em}
+  .t2-s {top: 2em}
+  .r2-s {right: 2em}
+  .b2-s {bottom: 2em}
+  .l2-s {left: 2em}
+  .t-1-s {top: -1em}
+  .r-1-s {right: -1em}
+  .b-1-s {bottom: -1em}
+  .l-1-s {left: -1em}
+  .t-2-s {top: -2em}
+  .r-2-s {right: -2em}
+  .b-2-s {bottom: -2em}
+  .l-2-s {left: -2em}
+  .pss-s {position: static}
+  .psr-s {position: relative}
+  .psa-s {position: absolute}
+  .psf-s {position: fixed}
+  .z1-s {z-index: 1}
+  .z2-s {z-index: 2}
+  .z3-s {z-index: 3}
+  .z4-s {z-index: 4}
+  .z5-s {z-index: 5}
+  .z6-s {z-index: 6}
+  .z7-s {z-index: 7}
+  .z8-s {z-index: 8}
+  .z9-s {z-index: 9}
+  .rf-s {float: right}
+  .lf-s {float: left}
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .t0-m {top: 0}
+  .r0-m {right: 0}
+  .b0-m {bottom: 0}
+  .l0-m {left: 0}
+  .a0-m {top: 0; right: 0; bottom: 0; left: 0}
+  .t1-m {top: 1em}
+  .r1-m {right: 1em}
+  .b1-m {bottom: 1em}
+  .l1-m {left: 1em}
+  .t2-m {top: 2em}
+  .r2-m {right: 2em}
+  .b2-m {bottom: 2em}
+  .l2-m {left: 2em}
+  .t-1-m {top: -1em}
+  .r-1-m {right: -1em}
+  .b-1-m {bottom: -1em}
+  .l-1-m {left: -1em}
+  .t-2-m {top: -2em}
+  .r-2-m {right: -2em}
+  .b-2-m {bottom: -2em}
+  .l-2-m {left: -2em}
+  .pss-m {position: static}
+  .psr-m {position: relative}
+  .psa-m {position: absolute}
+  .psf-m {position: fixed}
+  .z1-m {z-index: 1}
+  .z2-m {z-index: 2}
+  .z3-m {z-index: 3}
+  .z4-m {z-index: 4}
+  .z5-m {z-index: 5}
+  .z6-m {z-index: 6}
+  .z7-m {z-index: 7}
+  .z8-m {z-index: 8}
+  .z9-m {z-index: 9}
+  .rf-m {float: right}
+  .lf-m {float: left}
+}
+
+@media screen and (min-width: 60em) {
+  .t0-l {top: 0} .r0-l {right: 0} .b0-l {bottom: 0} .l0-l {left: 0}
+  .a0-l {top: 0; right: 0; bottom: 0; left: 0}
+
+  .t1-l {top: 1em} .r1-l {right: 1em} .b1-l {bottom: 1em} .l1-l {left: 1em}
+  .t2-l {top: 2em} .r2-l {right: 2em} .b2-l {bottom: 2em} .l2-l {left: 2em}
+
+  .t-1-l {top: -1em} .r-1-l {right: -1em} .b-1-l {bottom: -1em} .l-1-l {left: -1em}
+  .t-2-l {top: -2em} .r-2-l {right: -2em} .b-2-l {bottom: -2em} .l-2-l {left: -2em}
+
+  .pss-l {position: static} .psr-l {position: relative}
+  .psa-l {position: absolute} .psf-l {position: fixed}
+
+  .z1-l {z-index: 1} .z2-l {z-index: 2} .z3-l {z-index: 3}
+  .z4-l {z-index: 4} .z5-l {z-index: 5} .z6-l {z-index: 6}
+  .z7-l {z-index: 7} .z8-l {z-index: 8} .z9-l {z-index: 9}
+
+  .rf-l {float: right} .lf-l {float: left}
+}

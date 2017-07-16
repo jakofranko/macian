@@ -1,0 +1,108 @@
+/*
+
+  Macian: Display
+
+  Josh Avanier
+
+*/
+
+.dn {display: none}
+.di {display: inline}
+.db {display: block}
+.dib {display: inline-block}
+.dit {display: inline-table}
+.dt {display: table}
+.dtl {display: table-cell}
+.dtr {display: table-row}
+.dtc {display: table-column}
+.drg {display: table-row-group}
+.dcg {display: table-column-group}
+.dtf {table-layout: fixed; width: 100%}
+
+.o10 {opacity: 1}
+.o9 {opacity: .9}
+.o8 {opacity: .8}
+.o7 {opacity: .7}
+.o6 {opacity: .6}
+.o5 {opacity: .5}
+.o4 {opacity: .4}
+.o3 {opacity: .3}
+.o2 {opacity: .2}
+.o1 {opacity: .1}
+.o05 {opacity: .05}
+.o025 {opacity: .025}
+.o0 {opacity: 0}
+
+@media screen and (min-width: 30em) {
+  .dn-s {display: none}
+  .di-s {display: inline}
+  .db-s {display: block}
+  .dib-s {display: inline-block}
+  .dit-s {display: inline-table}
+  .dt-s {display: table}
+  .dtc-s {display: table-cell}
+  .dtr-s {display: table-row}
+  .dtcl-s {display: table-column}
+  .dtrg-s {display: table-row-group}
+  .dtcg-s {display: table-column-group}
+  .dtf-s {table-layout: fixed; width: 100%}
+  .o10-s {opacity: 1}
+  .o9-s {opacity: .9}
+  .o8-s {opacity: .8}
+  .o7-s {opacity: .7}
+  .o6-s {opacity: .6}
+  .o5-s {opacity: .5}
+  .o4-s {opacity: .4}
+  .o3-s {opacity: .3}
+  .o2-s {opacity: .2}
+  .o1-s {opacity: .1}
+  .o05-s {opacity: .05}
+  .o025-s {opacity: .025}
+  .o0-s {opacity: 0}
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .dn-m {display: none}
+  .di-m {display: inline}
+  .db-m {display: block}
+  .dib-m {display: inline-block}
+  .dit-m {display: inline-table}
+  .dt-m {display: table}
+  .dtc-m {display: table-cell}
+  .dtr-m {display: table-row}
+  .dtcl-m {display: table-column}
+  .dtrg-m {display: table-row-group}
+  .dtcg-m {display: table-column-group}
+  .dtf-m {table-layout: fixed; width: 100%}
+  .o10-m {opacity: 1}
+  .o9-m {opacity: .9}
+  .o8-m {opacity: .8}
+  .o7-m {opacity: .7}
+  .o6-m {opacity: .6}
+  .o5-m {opacity: .5}
+  .o4-m {opacity: .4}
+  .o3-m {opacity: .3}
+  .o2-m {opacity: .2}
+  .o1-m {opacity: .1}
+  .o05-m {opacity: .05}
+  .o025-m {opacity: .025}
+  .o0-m {opacity: 0}
+}
+
+@media screen and (min-width: 60em) {
+  .dn-l {display: none} .di-l {display: inline}
+  .db-l {display: block} .dib-l {display: inline-block}
+
+  .dit-l {display: inline-table} .dt-l {display: table}
+  .dtc-l {display: table-cell} .dtr-l {display: table-row}
+  .dtcl-l {display: table-column} .dtrg-l {display: table-row-group}
+  .dtcg-l {display: table-column-group}
+
+  .dtf-l {table-layout: fixed; width: 100%}
+
+  .o10-l {opacity: 1} .o9-l {opacity: .9} .o8-l {opacity: .8}
+   .o7-l {opacity: .7} .o6-l {opacity: .6} .o5-l {opacity: .5}
+   .o4-l {opacity: .4} .o3-l {opacity: .3} .o2-l {opacity: .2}
+   .o1-l {opacity: .1} .o05-l {opacity: .05} .o025-l {opacity: .025}
+   .o0-l {opacity: 0}
+}

@@ -1,4 +1,10 @@
-/* Macian print */
+/*
+
+  Macian: Print
+
+  Josh Avanier
+
+*/
 
 @media print {
   @page {size: A4; margin: 1in}

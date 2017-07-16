@@ -1,0 +1,285 @@
+/*
+
+  Macian: Typography
+
+  Josh Avanier
+
+*/
+
+.f1, h1 {font-size: 2.6179em}
+.f2, h2 {font-size: 2.0581em}
+.f3, h3 {font-size: 1.618em}
+.f4, h4 {font-size: 1.272em}
+.f5, h5 {font-size: 1em}
+.f6, h6 {font-size: .7862em}
+
+.lhs {line-height: 1em} /* small  */
+.lht {line-height: 1.272em} /* title  */
+.lhc {line-height: 1.618em} /* copy   */
+.lhd {line-height: 2em} /* double */
+
+.srf {font-family: serif}
+.sns {font-family: sans-serif}
+.mono {font-family: monospace}
+
+.fwn {font-weight: normal}
+.fwb {font-weight: bold}
+
+.fw1 {font-weight: 100}
+.fw2 {font-weight: 200}
+.fw3 {font-weight: 300}
+.fw4 {font-weight: 400}
+.fw5 {font-weight: 500}
+.fw6 {font-weight: 600}
+.fw7 {font-weight: 700}
+.fw8 {font-weight: 800}
+.fw9 {font-weight: 900}
+
+.fn {font-style: normal}
+.ti {font-style: italic}
+.to {font-style: oblique}
+
+.sc {font-variant: small-caps}
+
+.aj {text-align: justify; hyphens: auto}
+.al {text-align: left}
+.ar {text-align: right}
+.ac {text-align: center}
+
+.upc {text-transform: uppercase}
+.lwc {text-transform: lowercase}
+.cap {text-transform: capitalize}
+
+.tk {letter-spacing:   .1em}
+.tkt {letter-spacing: -.05em}
+.tkm {letter-spacing:  .25em}
+
+.tol {text-decoration: overline}
+.tul {text-decoration: underline}
+.ts {text-decoration: strikethrough}
+
+.indent {text-indent: 1.2em}
+
+.m {max-width: 30em} /* ~66 chars */
+.mw {max-width: 34em} /* ~80 chars */
+.mn {max-width: 20em} /* ~45 chars */
+
+.col-2, .col-3, .col-4 {
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1
+}
+
+/* Defaults */
+
+.slct {
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all
+}
+
+a {text-decoration: none}
+
+a.link {
+  color: #0074d9; text-decoration: none;
+  -webkit-transition: color .15s ease-in;
+          transition: color .15s ease-in;
+}
+
+a.link:hover {
+  text-decoration: underline;
+  -webkit-transition: all .15s ease-in;
+          transition: all .15s ease-in;
+}
+
+a.link:link, a:visited, a:hover, a:active, a:focus {
+  -webkit-transition: color .15s ease-in;
+          transition: color .15s ease-in;
+}
+
+blockquote {padding: 0 2em; border-left: .1618em solid #222}
+pre {overflow-x: auto; overflow-y: hidden; overflow: scroll}
+
+mark {background-color: #ffd96d}
+
+.lspi {list-style-position: inside}
+.lsz {list-style-type: decimal-leading-zero}
+.lsur {list-style-type: upper-roman}
+.lslr {list-style-type: lower-roman}
+.lsua {list-style-type: upper-alpha}
+.lsla {list-style-type: lower-alpha}
+.lsc {list-style-type: circle}
+.lss {list-style-type: square}
+.lsn {list-style: none}
+
+@media screen and (min-width: 30em) {
+  .f1-s {font-size: 2.6179em}
+  .f2-s {font-size: 2.0581em}
+  .f3-s {font-size: 1.618em}
+  .f4-s {font-size: 1.272em}
+  .f5-s {font-size: 1em}
+  .f6-s {font-size: .7862em}
+  .lhs-s {line-height: 1}
+  .lht-s {line-height: 1.25}
+  .lhc-s {line-height: 1.5}
+  .lhd-s {line-height: 2}
+  .srf-s {font-family: serif}
+  .sns-s {font-family: sans-serif}
+  .mono-s {font-family: "Menlo", monospace}
+  .fwn-s {font-weight: normal}
+  .fwb-s {font-weight: bold}
+  .fw1-s {font-weight: 100}
+  .fw2-s {font-weight: 200}
+  .fw3-s {font-weight: 300}
+  .fw4-s {font-weight: 400}
+  .fw5-s {font-weight: 500}
+  .fw6-s {font-weight: 600}
+  .fw7-s {font-weight: 700}
+  .fw8-s {font-weight: 800}
+  .fw9-s {font-weight: 900}
+  .fn-s {font-style: normal}
+  .ti-s {font-style: italic}
+  .to-s {font-style: oblique}
+  .sc-s {font-variant: small-caps}
+  .aj-s {text-align: justify; hyphens: auto}
+  .al-s {text-align: left}
+  .ar-s {text-align: right}
+  .ac-s {text-align: center}
+  .upc-s {text-transform: uppercase}
+  .lwc-s {text-transform: lowercase}
+  .cap-s {text-transform: capitalize}
+  .tk-s {letter-spacing: .1em}
+  .tkt-s {letter-spacing: -.05em}
+  .tkm-s {letter-spacing: .25em}
+  .tol-s {text-decoration: overline}
+  .tul-s {text-decoration: underline}
+  .ts-s {text-decoration: strikethrough}
+  .ind-s {text-indent: 18px}
+  .m-s {max-width: 30em}
+  .mw-s {max-width: 34em}
+  .mn-s {max-width: 20em}
+  .lspi-s {list-style-position: inside}
+  .lsz-s {list-style-type: decimal-leading-zero}
+  .lsur-s {list-style-type: upper-roman}
+  .lslr-s {list-style-type: lower-roman}
+  .lsua-s {list-style-type: upper-alpha}
+  .lsla-s {list-style-type: lower-alpha}
+  .lsc-s {list-style-type: circle}
+  .lss-s {list-style-type: square}
+  .lsn-s {list-style: none}
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .f1-m {font-size: 2.6179em}
+  .f2-m {font-size: 2.0581em}
+  .f3-m {font-size: 1.618em}
+  .f4-m {font-size: 1.272em}
+  .f5-m {font-size: 1em}
+  .f6-m {font-size: .7862em}
+  .lhs-m {line-height: 1}
+  .lht-m {line-height: 1.25}
+  .lhc-m {line-height: 1.5}
+  .lhd-m {line-height: 2}
+  .srf-m {font-family: serif}
+  .sns-m {font-family: sans-serif}
+  .mono-m {font-family: monospace}
+  .fwn-m {font-weight: normal}
+  .fwb-m {font-weight: bold}
+  .fw1-m {font-weight: 100}
+  .fw2-m {font-weight: 200}
+  .fw3-m {font-weight: 300}
+  .fw4-m {font-weight: 400}
+  .fw5-m {font-weight: 500}
+  .fw6-m {font-weight: 600}
+  .fw7-m {font-weight: 700}
+  .fw8-m {font-weight: 800}
+  .fw9-m {font-weight: 900}
+  .fn-m {font-style: normal}
+  .ti-m {font-style: italic}
+  .to-m {font-style: oblique}
+  .sc-m {font-variant: small-caps}
+  .aj-m {text-align: justify; hyphens: auto}
+  .al-m {text-align: left}
+  .ar-m {text-align: right}
+  .ac-m {text-align: center}
+  .upc-m {text-transform: uppercase}
+  .lwc-m {text-transform: lowercase}
+  .cap-m {text-transform: capitalize}
+  .tkm {letter-spacing: .1em}
+  .tkt-m {letter-spacing: -.05em}
+  .tkm-m {letter-spacing: .25em}
+  .tol-m {text-decoration: overline}
+  .tul-m {text-decoration: underline}
+  .ts-m {text-decoration: strikethrough}
+  .ind-m {text-indent: 18px}
+  .m-m {max-width: 30em}
+  .mw-m {max-width: 34em}
+  .mn-m {max-width: 20em}
+  .lspi-m {list-style-position: inside}
+  .lsz-m {list-style-type: decimal-leading-zero}
+  .lsur-m {list-style-type: upper-roman}
+  .lslr-m {list-style-type: lower-roman}
+  .lsua-m {list-style-type: upper-alpha}
+  .lsla-m {list-style-type: lower-alpha}
+  .lsc-m {list-style-type: circle}
+  .lss-m {list-style-type: square}
+  .lsn-m {list-style: none}
+}
+
+@media screen and (min-width: 60em) {
+  .f1-l {font-size: 2.6179em}
+  .f2-l {font-size: 2.0581em}
+  .f3-l {font-size: 1.618em}
+  .f4-l {font-size: 1.272em}
+  .f5-l {font-size: 1em}
+  .f6-l {font-size: .7862em}
+  .lhs-l {line-height: 1}
+  .lht-l {line-height: 1.25}
+  .lhc-l {line-height: 1.5}
+  .lhd-l {line-height: 2}
+  .srf-l {font-family: serif}
+  .sns-l {font-family: sans-serif}
+  .mono-l {font-family: "Menlo", monospace}
+  .fwn-l {font-weight: normal}
+  .fwb-l {font-weight: bold}
+  .fw1-l {font-weight: 100}
+  .fw2-l {font-weight: 200}
+  .fw3-l {font-weight: 300}
+  .fw4-l {font-weight: 400}
+  .fw5-l {font-weight: 500}
+  .fw6-l {font-weight: 600}
+  .fw7-l {font-weight: 700}
+  .fw8-l {font-weight: 800}
+  .fw9-l {font-weight: 900}
+  .fn-l {font-style: normal}
+  .ti-l {font-style: italic}
+  .to-l {font-style: oblique}
+  .sc-l {font-variant: small-caps}
+  .aj-l {text-align: justify; hyphens: auto}
+  .al-l {text-align: left}
+  .ar-l {text-align: right}
+  .ac-l {text-align: center}
+  .upc-l {text-transform: uppercase}
+  .lwc-l {text-transform: lowercase}
+  .cap-l {text-transform: capitalize}
+  .tk-l {letter-spacing: .1em}
+  .tkt-l {letter-spacing: -.05em}
+  .tkm-l {letter-spacing: .25em}
+  .tol-l {text-decoration: overline}
+  .tul-l {text-decoration: underline}
+  .ts-l {text-decoration: strikethrough}
+  .ind-l {text-indent: 18px}
+  .m-l {max-width: 30em}
+  .mw-l {max-width: 34em}
+  .mn-l {max-width: 20em}
+  .lspi-l {list-style-position: inside}
+  .lsz-l {list-style-type: decimal-leading-zero}
+  .lsur-l {list-style-type: upper-roman}
+  .lslr-l {list-style-type: lower-roman}
+  .lsua-l {list-style-type: upper-alpha}
+  .lsla-l {list-style-type: lower-alpha}
+  .lsc-l {list-style-type: circle}
+  .lss-l {list-style-type: square}
+  .lsn-l {list-style: none}
+}
