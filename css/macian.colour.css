@@ -1,57 +1,20 @@
 /*
 
-  Macian: Colours
+  Macian.colour
 
   Josh Avanier
 
+  MIT
+
 */
 
-.red {color: #e85f5c}
-.orn {color: #f1b316}
-.ylw {color: #ffd96d}
-.grn {color: #70b77e}
-.blu {color: #0074d9}
-.ind {color: #531382}
-.vio {color: #7310ba}
-.wht {color: #f5f5f5}
+.noir{color:#2a2a2a}
+.blanc{color:#f5f5f5!important}
 
-.blk {color: #000}
-.blk-10 {color: #eee}
-.blk-20 {color: #ddd}
-.blk-30 {color: #ccc}
-.blk-40 {color: #bbb}
-.blk-50 {color: #aaa}
-.blk-60 {color: #999}
-.blk-70 {color: #888}
-.blk-80 {color: #777}
-.blk-90 {color: #555}
-.noir {color: #2a2a2a}
+.bg-noir{background-color:#2a2a2a}
+.bg-blanc{background-color:#f5f5f5}
 
-.bg-red {background-color: #e85f5c}
-.bg-orn {background-color: #f1b316}
-.bg-ylw {background-color: #ffd96d}
-.bg-grn {background-color: #70b77e}
-.bg-blu {background-color: #0074d9}
-.bg-ind {background-color: #531382}
-.bg-vio {background-color: #7310ba}
-.bg-wht {background-color: #f5f5f5}
-.bg-noir {background-color: #2a2a2a}
-.bg-blk {background-color: #000}
-.bg-blk-10 {background-color: #eee}
-.bg-blk-20 {background-color: #ddd}
-.bg-blk-30 {background-color: #ccc}
-.bg-blk-40 {background-color: #bbb}
-.bg-blk-50 {background-color: #aaa}
-.bg-blk-60 {background-color: #999}
-.bg-blk-70 {background-color: #888}
-.bg-blk-80 {background-color: #777}
-.bg-blk-90 {background-color: #555}
+.bg-cl{background-color:transparent}
 
-.bg-clear {background-color: transparent}
-
-.b-red {border-color: #e85f5c !important}
-.b-orn {border-color: #f1b316 !important}
-.b-ylw {border-color: #ffd96d !important}
-.b-grn {border-color: #70b77e !important}
-.b-blu {border-color: #0074d9 !important}
-.b-wht {border-color: #f5f5f5 !important}
+.b-blanc{border-color:#f5f5f5 !important}
+.b-noir{border-color:#2a2a2a !important}
