@@ -16,10 +16,6 @@
   -webkit-box-sizing:border-box;
      -moz-box-sizing:border-box;
           box-sizing:border-box;
-  -webkit-user-select:none;
-     -moz-user-select:none;
-      -ms-user-select:none;
-          user-select:none
 }
 
 body{
@@ -27,6 +23,7 @@ body{
   color:#2a2a2a;
   font:16px/1.618em "Roboto",sans-serif;
   -webkit-text-size-adjust:100%
+      -ms-text-size-adjust: 100%
 }
 
 img,video{
@@ -51,11 +48,4 @@ th{
 .ruled thead tr:last-of-type,.ruled tbody tr{
   border:0;
   border-bottom:1px solid #ddd
-}
-
-.slct, table th, table td{
-  -webkit-user-select:all;
-     -moz-user-select:all;
-      -ms-user-select:all;
-          user-select:all
 }

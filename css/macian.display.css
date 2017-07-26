@@ -21,16 +21,12 @@
 .dcg{display:table-column-group}
 .dtf{table-layout:fixed;width:100%}
 
-.o10{opacity:1}
-.o9{opacity:.9}
-.o8{opacity:.8}
-.o7{opacity:.7}
-.o6{opacity:.6}
-.o5{opacity:.5}
-.o4{opacity:.4}
-.o3{opacity:.3}
-.o2{opacity:.2}
-.o1{opacity:.1}
+.o10{opacity:1} .o9{opacity:.9}
+.o8{opacity:.8} .o7{opacity:.7}
+.o6{opacity:.6} .o5{opacity:.5}
+.o4{opacity:.4} .o3{opacity:.3}
+.o2{opacity:.2} .o1{opacity:.1}
+
 .o05{opacity:.05}
 .o025{opacity:.025}
 .o0{opacity:0}

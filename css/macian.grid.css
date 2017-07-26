@@ -9,9 +9,7 @@
 */
 
 .r{overflow:auto}
-
-.c1,.c2,.c3,.c4,.c5,.c6,
-.c7,.c8,.c9,.ca,.cb,.cc,
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.ca,.cb,.cc,
 .g4,.g3,.g2,.g1{float:left;width:100%}
 
 @media screen and (min-width:30em){

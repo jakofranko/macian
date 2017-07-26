@@ -1,0 +1,87 @@
+/*
+
+  Macian.box.width
+
+  Josh Avanier
+
+  MIT
+
+*/
+
+.wa{width:auto} .wf{width:100%} .vw{width:100vw}
+
+.w1{width:10%} .w2{width:20%} .w3{width:30%}
+.w4{width:40%} .w5{width:50%} .w6{width:60%}
+.w7{width:70%} .w8{width:80%} .w9{width:90%}
+
+.mw1{min-width:10%} .mw2{min-width:20%} .mw3{min-width:30%}
+.mw4{min-width:40%} .mw5{min-width:50%} .mw6{min-width:60%}
+.mw7{min-width:70%} .mw8{min-width:80%} .mw9{min-width:90%}
+
+.xw1{max-width:10%} .xw2{max-width:20%} .xw3{max-width:30%}
+.xw4{max-width:40%} .xw5{max-width:50%} .xw6{max-width:60%}
+.xw7{max-width:70%} .xw8{max-width:80%} .xw9{max-width:90%}
+
+.vw1{width:10vw} .vw2{width:20vw} .vw3{width:30vw}
+.vw4{width:40vw} .vw5{width:50vw} .vw6{width:60vw}
+.vw7{width:70vw} .vw8{width:80vw} .vw9{width:90vw}
+
+@media screen and (min-width:30em){
+  .wa-s{width:auto} .wf-s{width:100%} .vw-s{width:100vw}
+
+  .w1-s{width:10%} .w2-s{width:20%} .w3-s{width:30%}
+  .w4-s{width:40%} .w5-s{width:50%} .w6-s{width:60%}
+  .w7-s{width:70%} .w8-s{width:80%} .w9-s{width:90%}
+
+  .mw1-s{min-width:10%} .mw2-s{min-width:20%} .mw3-s{min-width:30%}
+  .mw4-s{min-width:40%} .mw5-s{min-width:50%} .mw6-s{min-width:60%}
+  .mw7-s{min-width:70%} .mw8-s{min-width:80%} .mw9-s{min-width:90%}
+
+  .xw1-s{max-width:10%} .xw2-s{max-width:20%} .xw3-s{max-width:30%}
+  .xw4-s{max-width:40%} .xw5-s{max-width:50%} .xw6-s{max-width:60%}
+  .xw7-s{max-width:70%} .xw8-s{max-width:80%} .xw9-s{max-width:90%}
+
+  .vw1-s{width:10vw} .vw2-s{width:20vw} .vw3-s{width:30vw}
+  .vw4-s{width:40vw} .vw5-s{width:50vw} .vw6-s{width:60vw}
+  .vw7-s{width:70vw} .vw8-s{width:80vw} .vw9-s{width:90vw}
+}
+
+@media screen and (min-width:30em) and (max-width:60em){
+  .wa-m{width:auto} .wf-m{width:100%} .vw-m{width:100vw}
+
+  .w1-m{width:10%} .w2-m{width:20%} .w3-m{width:30%}
+  .w4-m{width:40%} .w5-m{width:50%} .w6-m{width:60%}
+  .w7-m{width:70%} .w8-m{width:80%} .w9-m{width:90%}
+
+  .mw1-m{min-width:10%} .mw2-m{min-width:20%} .mw3-m{min-width:30%}
+  .mw4-m{min-width:40%} .mw5-m{min-width:50%} .mw6-m{min-width:60%}
+  .mw7-m{min-width:70%} .mw8-m{min-width:80%} .mw9-m{min-width:90%}
+
+  .xw1-m{max-width:10%} .xw2-m{max-width:20%} .xw3-m{max-width:30%}
+  .xw4-m{max-width:40%} .xw5-m{max-width:50%} .xw6-m{max-width:60%}
+  .xw7-m{max-width:70%} .xw8-m{max-width:80%} .xw9-m{max-width:90%}
+
+  .vw1-m{width:10vw} .vw2-m{width:20vw} .vw3-m{width:30vw}
+  .vw4-m{width:40vw} .vw5-m{width:50vw} .vw6-m{width:60vw}
+  .vw7-m{width:70vw} .vw8-m{width:80vw} .vw9-m{width:90vw}
+}
+
+@media screen and (min-width:60em){
+  .wa-l{width:auto} .wf-l{width:100%} .vw-l{width:100vw}
+
+  .w1-l{width:10%} .w2-l{width:20%} .w3-l{width:30%}
+  .w4-l{width:40%} .w5-l{width:50%} .w6-l{width:60%}
+  .w7-l{width:70%} .w8-l{width:80%} .w9-l{width:90%}
+
+  .mw1-l{min-width:10%} .mw2-l{min-width:20%} .mw3-l{min-width:30%}
+  .mw4-l{min-width:40%} .mw5-l{min-width:50%} .mw6-l{min-width:60%}
+  .mw7-l{min-width:70%} .mw8-l{min-width:80%} .mw9-l{min-width:90%}
+
+  .xw1-l{max-width:10%} .xw2-l{max-width:20%} .xw3-l{max-width:30%}
+  .xw4-l{max-width:40%} .xw5-l{max-width:50%} .xw6-l{max-width:60%}
+  .xw7-l{max-width:70%} .xw8-l{max-width:80%} .xw9-l{max-width:90%}
+
+  .vw1-l{width:10vw} .vw2-l{width:20vw} .vw3-l{width:30vw}
+  .vw4-l{width:40vw} .vw5-l{width:50vw} .vw6-l{width:60vw}
+  .vw7-l{width:70vw} .vw8-l{width:80vw} .vw9-l{width:90vw}
+}

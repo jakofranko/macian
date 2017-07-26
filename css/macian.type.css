@@ -8,24 +8,17 @@
 
 */
 
-.f1,h1{font-size:2.6179em}
-.f2,h2{font-size:2.0581em}
-.f3,h3{font-size:1.618em}
-.f4,h4{font-size:1.272em}
-.f5,h5{font-size:1em}
-.f6,h6{font-size:.7862em}
+.f1,h1{font-size:2.6179em} .f2,h2{font-size:2.0581em} .f3,h3{font-size:1.618em}
+.f4,h4{font-size:1.272em} .f5,h5{font-size:1em} .f6,h6{font-size:.7862em}
 
-.lhs{line-height:1em}     /* small  */
-.lht{line-height:1.272em} /* title  */
-.lhc{line-height:1.618em} /* copy   */
-.lhd{line-height:2em}     /* double */
+.lhs{line-height:1em} .lht{line-height:1.272em}
+.lhc{line-height:1.618em} .lhd{line-height:2em}
 
 .srf{font-family:serif}
 .sns{font-family:sans-serif}
 .mon{font-family:monospace}
 
-.fwn{font-weight:normal}
-.fwb{font-weight:bold}
+.fwn{font-weight:normal} .fwb{font-weight:bold}
 
 .fw1{font-weight:100} .fw2{font-weight:200} .fw3{font-weight:300}
 .fw4{font-weight:400} .fw5{font-weight:500} .fw6{font-weight:600}
@@ -50,15 +43,15 @@
 .tkt{letter-spacing:-.05em}
 .tkm{letter-spacing:.25em}
 
-.tol{text-decoration:overline}
-.tul{text-decoration:underline}
+.to{text-decoration:overline}
+.tu{text-decoration:underline}
 .ts{text-decoration:strikethrough}
 
-.indent{text-indent:1.2em}
+.indent{text-indent:1em}
 
-.m{max-width:30em} /* ~66 chars */
-.mw{max-width:34em} /* ~80 chars */
-.mn{max-width:20em} /* ~45 chars */
+.m{max-width:30em}
+.mw{max-width:34em}
+.mn{max-width:20em}
 
 .col-2,.col-3,.col-4{
   -webkit-column-count:1;
@@ -89,6 +82,8 @@ blockquote{padding:0 2em;border-left:.1618em solid #222}
 pre{overflow-x:auto;overflow-y:hidden;overflow:scroll}
 
 mark{background-color:#ffd96d}
+
+/* Lists */
 
 ul,ol{list-style-position:inside}
 
@@ -122,10 +117,7 @@ ul{list-style-type:circle}
   .tk-s{letter-spacing:.1em}
   .tkt-s{letter-spacing:-.05em}
   .tkm-s{letter-spacing:.25em}
-  .tol-s{text-decoration:overline}
-  .tul-s{text-decoration:underline}
-  .ts-s{text-decoration:strikethrough}
-  .ind-s{text-indent:18px}
+  .ind-s{text-indent:1em}
   .m-s{max-width:30em}
   .mw-s{max-width:34em}
   .mn-s{max-width:20em}
@@ -149,7 +141,7 @@ ul{list-style-type:circle}
   .tkm{letter-spacing:.1em}
   .tkt-m{letter-spacing:-.05em}
   .tkm-m{letter-spacing:.25em}
-  .ind-m{text-indent:18px}
+  .ind-m{text-indent:1em}
   .m-m{max-width:30em}
   .mw-m{max-width:34em}
   .mn-m{max-width:20em}
@@ -173,7 +165,7 @@ ul{list-style-type:circle}
   .tk-l{letter-spacing:.1em}
   .tkt-l{letter-spacing:-.05em}
   .tkm-l{letter-spacing:.25em}
-  .ind-l{text-indent:18px}
+  .ind-l{text-indent:1em}
   .m-l{max-width:30em}
   .mw-l{max-width:34em}
   .mn-l{max-width:20em}
