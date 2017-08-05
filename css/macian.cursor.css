@@ -3,42 +3,43 @@
   Macian.cursor
 
   Josh Avanier
-
   MIT
 
 */
 
-.c-alias{cursor:alias}
-.c-ascroll{cursor:all-scroll}
-.c-cell{cursor:cell}
-.c-conmenu{cursor:context-menu}
-.c-c-rsz{cursor:col-resize}
-.c-r-rsz{cursor:row-resize}
-.c-e-rsz{cursor:e-resize}
-.c-ew-rsz{cursor:ew-resize}
-.c-n-rsz{cursor:n-resize}
-.c-ne-rsz{cursor:ne-resize}
-.c-nesw-rsz{cursor:nesw-resize}
-.c-nwse-rsz{cursor:nwse-resize}
-.c-s-rsz{cursor:ns-resize}
-.c-nw-rsz{cursor:nw-resize}
-.c-s-rsz{cursor:s-resize}
-.c-se-rsz{cursor:se-resize}
-.c-sw-rsz{cursor:sw-resize}
-.c-w-rsz{cursor:w-resize}
-.c-copy{cursor:copy}
-.c-cross{cursor:crosshair}
-.c-grab{cursor:grab}
-.c-grabbing{cursor:grabbing}
-.c-help{cursor:help}
-.c-move{cursor:move}
-.c-no-drop{cursor:no-drop}
-.c-none{cursor:none}
-.c-na{cursor:not-allowed}
-.c-pointer{cursor:pointer}
-.c-progress{cursor:progress}
-.c-v-text{cursor:vertical-text}
-.c-wait{cursor:wait}
-.c-zm-in{cursor:zoom-in}
-.c-zm-out{cursor:zoom-out}
-.c-default{cursor:default}
+/* TODO: Come up with better .classnames */
+
+.c-a {cursor: alias}
+.c-a-s {cursor: all-scroll}
+.c-cell {cursor: cell}
+.c-c-m {cursor: context-menu}
+.c-c-r {cursor: col-resize}
+.c-r-r {cursor: row-resize}
+.c-e-r {cursor: e-resize}
+.c-ew-r {cursor: ew-resize}
+.c-n-r {cursor: n-resize}
+.c-ne-r {cursor: ne-resize}
+.c-nesw-r {cursor: nesw-resize}
+.c-nwse-r {cursor: nwse-resize}
+.c-s-r {cursor: ns-resize}
+.c-nw-r {cursor: nw-resize}
+.c-s-r {cursor: s-resize}
+.c-se-r {cursor: se-resize}
+.c-sw-r {cursor: sw-resize}
+.c-w-r {cursor: w-resize}
+.c-copy {cursor: copy}
+.c-cross {cursor: crosshair}
+.c-grab {cursor: grab}
+.c-grabbing{cursor: grabbing}
+.c-help {cursor: help}
+.c-move {cursor: move}
+.c-no-drop {cursor: no-drop}
+.c-no {cursor: none}
+.c-na {cursor: not-allowed}
+.c-point {cursor: pointer}
+.c-prog {cursor: progress}
+.c-v-t {cursor: vertical-text}
+.c-w {cursor: wait}
+.c-z-i {cursor: zoom-in}
+.c-z-o {cursor: zoom-out}
+.c-d {cursor: default}

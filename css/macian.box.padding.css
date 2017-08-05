@@ -3,183 +3,182 @@
   Macian.box.padding
 
   Josh Avanier
-
   MIT
 
 */
 
-.p0{padding:0} .p1{padding:.25em} .p2{padding:.5em} .p3{padding:1em}
-.p4{padding:2em} .p5{padding:4em} .p6{padding:8em} .p7{padding:16em}
+.p0 {padding: 0} .p1 {padding: .25em} .p2 {padding: .5em} .p3 {padding: 1em}
+.p4 {padding: 2em} .p5 {padding: 4em} .p6 {padding: 8em} .p7 {padding: 16em}
 
-.pt0{padding-top:0} .pt1{padding-top:.25em}
-.pt2{padding-top:.5em} .pt3{padding-top:1em}
-.pt4{padding-top:2em} .pt5{padding-top:4em}
-.pt6{padding-top:8em} .pt7{padding-top:16em}
+.pt0 {padding-top: 0} .pt1 {padding-top: .25em}
+.pt2 {padding-top: .5em} .pt3 {padding-top: 1em}
+.pt4 {padding-top: 2em} .pt5 {padding-top: 4em}
+.pt6 {padding-top: 8em} .pt7 {padding-top: 16em}
 
-.pr0{padding-right: 0} .pr1{padding-right:.25em}
-.pr2{padding-right:.5em} .pr3{padding-right:1em}
-.pr4{padding-right:2em} .pr5{padding-right:4em}
-.pr6{padding-right:8em} .pr7{padding-right:16em}
+.pr0 {padding-right: 0} .pr1 {padding-right: .25em}
+.pr2 {padding-right: .5em} .pr3 {padding-right: 1em}
+.pr4 {padding-right: 2em} .pr5 {padding-right: 4em}
+.pr6 {padding-right: 8em} .pr7 {padding-right: 16em}
 
-.pb0{padding-bottom:0} .pb1{padding-bottom:.25em}
-.pb2{padding-bottom:.5em} .pb3{padding-bottom:1em}
-.pb4{padding-bottom:2em} .pb5{padding-bottom:4em}
-.pb6{padding-bottom:8em} .pb7{padding-bottom:16em}
+.pb0 {padding-bottom: 0} .pb1 {padding-bottom: .25em}
+.pb2 {padding-bottom: .5em} .pb3 {padding-bottom: 1em}
+.pb4 {padding-bottom: 2em} .pb5 {padding-bottom: 4em}
+.pb6 {padding-bottom: 8em} .pb7 {padding-bottom: 16em}
 
-.pl0{padding-left:0} .pl1{padding-left:.25em}
-.pl2{padding-left:.5em} .pl3{padding-left:1em}
-.pl4{padding-left:2em} .pl5{padding-left:4em}
-.pl6{padding-left:8em} .pl7{padding-left:16em}
+.pl0 {padding-left: 0} .pl1 {padding-left: .25em}
+.pl2 {padding-left: .5em} .pl3 {padding-left: 1em}
+.pl4 {padding-left: 2em} .pl5 {padding-left: 4em}
+.pl6 {padding-left: 8em} .pl7 {padding-left: 16em}
 
-.pv0{padding-top:0;padding-bottom:0}
-.pv1{padding-top:.25em;padding-bottom:.25em}
-.pv2{padding-top:.5em;padding-bottom:.5em}
-.pv3{padding-top:1em;padding-bottom:1em}
-.pv4{padding-top:2em;padding-bottom:2em}
-.pv5{padding-top:4em;padding-bottom:4em}
-.pv6{padding-top:8em;padding-bottom:8em}
-.pv7{padding-top:16em;padding-bottom:16em}
+.pv0 {padding-top: 0;padding-bottom: 0}
+.pv1 {padding-top: .25em;padding-bottom: .25em}
+.pv2 {padding-top: .5em;padding-bottom: .5em}
+.pv3 {padding-top: 1em;padding-bottom: 1em}
+.pv4 {padding-top: 2em;padding-bottom: 2em}
+.pv5 {padding-top: 4em;padding-bottom: 4em}
+.pv6 {padding-top: 8em;padding-bottom: 8em}
+.pv7 {padding-top: 16em;padding-bottom: 16em}
 
-.ph0{padding-left:0;padding-right:0}
-.ph1{padding-left:.25em;padding-right:.25em}
-.ph2{padding-left:.5em;padding-right:.5em}
-.ph3{padding-left:1em;padding-right:1em}
-.ph4{padding-left:2em;padding-right:2em}
-.ph5{padding-left:4em;padding-right:4em}
-.ph6{padding-left:8em;padding-right:8em}
-.ph7{padding-left:16em;padding-right:16em}
+.ph0 {padding-left: 0;padding-right: 0}
+.ph1 {padding-left: .25em;padding-right: .25em}
+.ph2 {padding-left: .5em;padding-right: .5em}
+.ph3 {padding-left: 1em;padding-right: 1em}
+.ph4 {padding-left: 2em;padding-right: 2em}
+.ph5 {padding-left: 4em;padding-right: 4em}
+.ph6 {padding-left: 8em;padding-right: 8em}
+.ph7 {padding-left: 16em;padding-right: 16em}
 
-@media screen and (min-width:30em){
-  .p0-s{padding:0} .p1-s{padding:.25em}
-  .p2-s{padding:.5em} .p3-s{padding:1em}
-  .p4-s{padding:2em} .p5-s{padding:4em}
-  .p6-s{padding:8em} .p7-s{padding:16em}
+@media screen and (min-width: 30em) {
+  .p0-s {padding: 0} .p1-s {padding: .25em}
+  .p2-s {padding: .5em} .p3-s {padding: 1em}
+  .p4-s {padding: 2em} .p5-s {padding: 4em}
+  .p6-s {padding: 8em} .p7-s {padding: 16em}
 
-  .pt0-s{padding-top: 0} .pt1-s{padding-top:.25em}
-  .pt2-s{padding-top:.5em} .pt3-s{padding-top:1em}
-  .pt4-s{padding-top:2em} .pt5-s{padding-top:4em}
-  .pt6-s{padding-top:8em} .pt7-s{padding-top:16em}
+  .pt0-s {padding-top: 0} .pt1-s {padding-top: .25em}
+  .pt2-s {padding-top: .5em} .pt3-s {padding-top: 1em}
+  .pt4-s {padding-top: 2em} .pt5-s {padding-top: 4em}
+  .pt6-s {padding-top: 8em} .pt7-s {padding-top: 16em}
 
-  .pr0-s{padding-right:0} .pr1-s{padding-right:.25em}
-  .pr2-s{padding-right:.5em} .pr3-s{padding-right:1em}
-  .pr4-s{padding-right:2em} .pr5-s{padding-right:4em}
-  .pr6-s{padding-right:8em} .pr7-s{padding-right:16em}
+  .pr0-s {padding-right: 0} .pr1-s {padding-right: .25em}
+  .pr2-s {padding-right: .5em} .pr3-s {padding-right: 1em}
+  .pr4-s {padding-right: 2em} .pr5-s {padding-right: 4em}
+  .pr6-s {padding-right: 8em} .pr7-s {padding-right: 16em}
 
-  .pb0-s{padding-bottom:0} .pb1-s{padding-bottom:.25em}
-  .pb2-s{padding-bottom:.5em} .pb3-s{padding-bottom:1em}
-  .pb4-s{padding-bottom:2em} .pb5-s{padding-bottom:4em}
-  .pb6-s{padding-bottom:8em} .pb7-s{padding-bottom:16em}
+  .pb0-s {padding-bottom: 0} .pb1-s {padding-bottom: .25em}
+  .pb2-s {padding-bottom: .5em} .pb3-s {padding-bottom: 1em}
+  .pb4-s {padding-bottom: 2em} .pb5-s {padding-bottom: 4em}
+  .pb6-s {padding-bottom: 8em} .pb7-s {padding-bottom: 16em}
 
-  .pl0-s{padding-left:0} .pl1-s{padding-left:.25em}
-  .pl2-s{padding-left:.5em} .pl3-s{padding-left:1em}
-  .pl4-s{padding-left:2em} .pl5-s{padding-left:4em}
-  .pl6-s{padding-left:8em} .pl7-s{padding-left:16em}
+  .pl0-s {padding-left: 0} .pl1-s {padding-left: .25em}
+  .pl2-s {padding-left: .5em} .pl3-s {padding-left: 1em}
+  .pl4-s {padding-left: 2em} .pl5-s {padding-left: 4em}
+  .pl6-s {padding-left: 8em} .pl7-s {padding-left: 16em}
 
-  .pv0-s{padding-top:0;padding-bottom:0}
-  .pv1-s{padding-top:.25em;padding-bottom:.25em}
-  .pv2-s{padding-top:.5em;padding-bottom:.5em}
-  .pv3-s{padding-top:1em;padding-bottom:1em}
-  .pv4-s{padding-top:2em;padding-bottom:2em}
-  .pv5-s{padding-top:4em;padding-bottom:4em}
-  .pv6-s{padding-top:8em;padding-bottom:8em}
-  .pv7-s{padding-top:16em;padding-bottom:16em}
+  .pv0-s {padding-top: 0;padding-bottom: 0}
+  .pv1-s {padding-top: .25em;padding-bottom: .25em}
+  .pv2-s {padding-top: .5em;padding-bottom: .5em}
+  .pv3-s {padding-top: 1em;padding-bottom: 1em}
+  .pv4-s {padding-top: 2em;padding-bottom: 2em}
+  .pv5-s {padding-top: 4em;padding-bottom: 4em}
+  .pv6-s {padding-top: 8em;padding-bottom: 8em}
+  .pv7-s {padding-top: 16em;padding-bottom: 16em}
 
-  .ph0-s{padding-left:0;padding-right:0}
-  .ph1-s{padding-left:.25em;padding-right:.25em}
-  .ph2-s{padding-left:.5em;padding-right:.5em}
-  .ph3-s{padding-left:1em;padding-right:1em}
-  .ph4-s{padding-left:2em;padding-right:2em}
-  .ph5-s{padding-left:4em;padding-right:4em}
-  .ph6-s{padding-left:8em;padding-right:8em}
-  .ph7-s{padding-left:16em;padding-right:16em}
+  .ph0-s {padding-left: 0;padding-right: 0}
+  .ph1-s {padding-left: .25em;padding-right: .25em}
+  .ph2-s {padding-left: .5em;padding-right: .5em}
+  .ph3-s {padding-left: 1em;padding-right: 1em}
+  .ph4-s {padding-left: 2em;padding-right: 2em}
+  .ph5-s {padding-left: 4em;padding-right: 4em}
+  .ph6-s {padding-left: 8em;padding-right: 8em}
+  .ph7-s {padding-left: 16em;padding-right: 16em}
 }
 
-@media screen and (min-width:30em) and (max-width:60em){
-  .p0-m{padding:0} .p1-m{padding:.25em}
-  .p2-m{padding:.5em} .p3-m{padding:1em}
-  .p4-m{padding:2em} .p5-m{padding:4em}
-  .p6-m{padding:8em} .p7-m{padding:16em}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .p0-m {padding: 0} .p1-m {padding: .25em}
+  .p2-m {padding: .5em} .p3-m {padding: 1em}
+  .p4-m {padding: 2em} .p5-m {padding: 4em}
+  .p6-m {padding: 8em} .p7-m {padding: 16em}
 
-  .pt0-m{padding-top:0} .pt1-m{padding-top:.25em}
-  .pt2-m{padding-top:.5em} .pt3-m{padding-top:1em}
-  .pt4-m{padding-top:2em} .pt5-m{padding-top:4em}
-  .pt6-m{padding-top:8em} .pt7-m{padding-top:16em}
+  .pt0-m {padding-top: 0} .pt1-m {padding-top: .25em}
+  .pt2-m {padding-top: .5em} .pt3-m {padding-top: 1em}
+  .pt4-m {padding-top: 2em} .pt5-m {padding-top: 4em}
+  .pt6-m {padding-top: 8em} .pt7-m {padding-top: 16em}
 
-  .pr0-m{padding-right:0} .pr1-m{padding-right:.25em}
-  .pr2-m{padding-right:.5em} .pr3-m{padding-right:1em}
-  .pr4-m{padding-right:2em} .pr5-m{padding-right:4em}
-  .pr6-m{padding-right:8em} .pr7-m{padding-right:16em}
+  .pr0-m {padding-right: 0} .pr1-m {padding-right: .25em}
+  .pr2-m {padding-right: .5em} .pr3-m {padding-right: 1em}
+  .pr4-m {padding-right: 2em} .pr5-m {padding-right: 4em}
+  .pr6-m {padding-right: 8em} .pr7-m {padding-right: 16em}
 
-  .pb0-m{padding-bottom:0} .pb1-m{padding-bottom:.25em}
-  .pb2-m{padding-bottom:.5em} .pb3-m{padding-bottom:1em}
-  .pb4-m{padding-bottom:2em} .pb5-m{padding-bottom:4em}
-  .pb6-m{padding-bottom:8em} .pb7-m{padding-bottom:16em}
+  .pb0-m {padding-bottom: 0} .pb1-m {padding-bottom: .25em}
+  .pb2-m {padding-bottom: .5em} .pb3-m {padding-bottom: 1em}
+  .pb4-m {padding-bottom: 2em} .pb5-m {padding-bottom: 4em}
+  .pb6-m {padding-bottom: 8em} .pb7-m {padding-bottom: 16em}
 
-  .pl0-m{padding-left:0} .pl1-m{padding-left:.25em}
-  .pl2-m{padding-left:.5em} .pl3-m{padding-left:1em}
-  .pl4-m{padding-left:2em} .pl5-m{padding-left:4em}
-  .pl6-m{padding-left:8em} .pl7-m{padding-left:16em}
+  .pl0-m {padding-left: 0} .pl1-m {padding-left: .25em}
+  .pl2-m {padding-left: .5em} .pl3-m {padding-left: 1em}
+  .pl4-m {padding-left: 2em} .pl5-m {padding-left: 4em}
+  .pl6-m {padding-left: 8em} .pl7-m {padding-left: 16em}
 
-  .pv0-m{padding-top:0;padding-bottom:0;}
-  .pv1-m{padding-top:.25em;padding-bottom:.25em}
-  .pv2-m{padding-top:.5em;padding-bottom:.5em}
-  .pv3-m{padding-top:1em;padding-bottom:1em}
-  .pv4-m{padding-top:2em;padding-bottom:2em}
-  .pv5-m{padding-top:4em;padding-bottom:4em}
-  .pv6-m{padding-top:8em;padding-bottom:8em}
-  .pv7-m{padding-top:16em;padding-bottom:16em}
+  .pv0-m {padding-top: 0;padding-bottom: 0;}
+  .pv1-m {padding-top: .25em;padding-bottom: .25em}
+  .pv2-m {padding-top: .5em;padding-bottom: .5em}
+  .pv3-m {padding-top: 1em;padding-bottom: 1em}
+  .pv4-m {padding-top: 2em;padding-bottom: 2em}
+  .pv5-m {padding-top: 4em;padding-bottom: 4em}
+  .pv6-m {padding-top: 8em;padding-bottom: 8em}
+  .pv7-m {padding-top: 16em;padding-bottom: 16em}
 
-  .ph0-m{padding-left:0;padding-right:0}
-  .ph1-m{padding-left:.25em;padding-right:.25em}
-  .ph2-m{padding-left:.5em;padding-right:.5em}
-  .ph3-m{padding-left:1em;padding-right:1em}
-  .ph4-m{padding-left:2em;padding-right:2em}
-  .ph5-m{padding-left:4em;padding-right:4em}
-  .ph6-m{padding-left:8em;padding-right:8em}
-  .ph7-m{padding-left:16em;padding-right:16em}
+  .ph0-m {padding-left: 0;padding-right: 0}
+  .ph1-m {padding-left: .25em;padding-right: .25em}
+  .ph2-m {padding-left: .5em;padding-right: .5em}
+  .ph3-m {padding-left: 1em;padding-right: 1em}
+  .ph4-m {padding-left: 2em;padding-right: 2em}
+  .ph5-m {padding-left: 4em;padding-right: 4em}
+  .ph6-m {padding-left: 8em;padding-right: 8em}
+  .ph7-m {padding-left: 16em;padding-right: 16em}
 }
 
-@media screen and (min-width:60em){
-  .p0-l{padding:0} .p1-l{padding:.25em}
-  .p2-l{padding:.5em} .p3-l{padding:1em}
-  .p4-l{padding:2em} .p5-l{padding:4em}
-  .p6-l{padding:8em} .p7-l{padding:16em}
+@media screen and (min-width: 60em) {
+  .p0-l {padding: 0} .p1-l {padding: .25em}
+  .p2-l {padding: .5em} .p3-l {padding: 1em}
+  .p4-l {padding: 2em} .p5-l {padding: 4em}
+  .p6-l {padding: 8em} .p7-l {padding: 16em}
 
-  .pt0-l{padding-top:0} .pt1-l{padding-top:.25em}
-  .pt2-l{padding-top:.5em} .pt3-l{padding-top:1em}
-  .pt4-l{padding-top:2em} .pt5-l{padding-top:4em}
-  .pt6-l{padding-top:8em} .pt7-l{padding-top:16em}
+  .pt0-l {padding-top: 0} .pt1-l {padding-top: .25em}
+  .pt2-l {padding-top: .5em} .pt3-l {padding-top: 1em}
+  .pt4-l {padding-top: 2em} .pt5-l {padding-top: 4em}
+  .pt6-l {padding-top: 8em} .pt7-l {padding-top: 16em}
 
-  .pr0-l{padding-right:0} .pr1-l{padding-right:.25em}
-  .pr2-l{padding-right:.5em} .pr3-l{padding-right:1em}
-  .pr4-l{padding-right:2em} .pr5-l{padding-right:4em}
-  .pr6-l{padding-right:8em} .pr7-l{padding-right:16em}
+  .pr0-l {padding-right: 0} .pr1-l {padding-right: .25em}
+  .pr2-l {padding-right: .5em} .pr3-l {padding-right: 1em}
+  .pr4-l {padding-right: 2em} .pr5-l {padding-right: 4em}
+  .pr6-l {padding-right: 8em} .pr7-l {padding-right: 16em}
 
-  .pb0-l{padding-bottom:0} .pb1-l{padding-bottom:.25em}
-  .pb2-l{padding-bottom:.5em} .pb3-l{padding-bottom:1em}
-  .pb4-l{padding-bottom:2em} .pb5-l{padding-bottom:4em}
-  .pb6-l{padding-bottom:8em} .pb7-l{padding-bottom:16em}
+  .pb0-l {padding-bottom: 0} .pb1-l {padding-bottom: .25em}
+  .pb2-l {padding-bottom: .5em} .pb3-l {padding-bottom: 1em}
+  .pb4-l {padding-bottom: 2em} .pb5-l {padding-bottom: 4em}
+  .pb6-l {padding-bottom: 8em} .pb7-l {padding-bottom: 16em}
 
-  .pl0-l{padding-left:0} .pl1-l{padding-left:.25em}
-  .pl2-l{padding-left:.5em} .pl3-l{padding-left:1em}
-  .pl4-l{padding-left:2em} .pl5-l{padding-left:4em}
-  .pl6-l{padding-left:8em} .pl7-l{padding-left:16em}
+  .pl0-l {padding-left: 0} .pl1-l {padding-left: .25em}
+  .pl2-l {padding-left: .5em} .pl3-l {padding-left: 1em}
+  .pl4-l {padding-left: 2em} .pl5-l {padding-left: 4em}
+  .pl6-l {padding-left: 8em} .pl7-l {padding-left: 16em}
 
-  .pv0-l{padding-top:0;padding-bottom:0;}
-  .pv1-l{padding-top:.25em;padding-bottom:.25em}
-  .pv2-l{padding-top:.5em;padding-bottom:.5em}
-  .pv3-l{padding-top:1em;padding-bottom:1em}
-  .pv4-l{padding-top:2em;padding-bottom:2em}
-  .pv5-l{padding-top:4em;padding-bottom:4em}
-  .pv6-l{padding-top:8em;padding-bottom:8em}
-  .pv7-l{padding-top:16em;padding-bottom:16em}
+  .pv0-l {padding-top: 0;padding-bottom: 0;}
+  .pv1-l {padding-top: .25em;padding-bottom: .25em}
+  .pv2-l {padding-top: .5em;padding-bottom: .5em}
+  .pv3-l {padding-top: 1em;padding-bottom: 1em}
+  .pv4-l {padding-top: 2em;padding-bottom: 2em}
+  .pv5-l {padding-top: 4em;padding-bottom: 4em}
+  .pv6-l {padding-top: 8em;padding-bottom: 8em}
+  .pv7-l {padding-top: 16em;padding-bottom: 16em}
 
-  .ph0-l{padding-left:0;padding-right:0}
-  .ph1-l{padding-left:.25em;padding-right:.25em}
-  .ph2-l{padding-left:.5em;padding-right:.5em}
-  .ph3-l{padding-left:1em;padding-right:1em}
-  .ph4-l{padding-left:2em;padding-right:2em}
-  .ph5-l{padding-left:4em;padding-right:4em}
-  .ph6-l{padding-left:8em;padding-right:8em}
-  .ph7-l{padding-left:16em;padding-right:16em}
+  .ph0-l {padding-left: 0;padding-right: 0}
+  .ph1-l {padding-left: .25em;padding-right: .25em}
+  .ph2-l {padding-left: .5em;padding-right: .5em}
+  .ph3-l {padding-left: 1em;padding-right: 1em}
+  .ph4-l {padding-left: 2em;padding-right: 2em}
+  .ph5-l {padding-left: 4em;padding-right: 4em}
+  .ph6-l {padding-left: 8em;padding-right: 8em}
+  .ph7-l {padding-left: 16em;padding-right: 16em}
 }

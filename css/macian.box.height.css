@@ -3,85 +3,84 @@
   Macian.box.height
 
   Josh Avanier
-
   MIT
 
 */
 
-.ha{height:auto} .hf{height:100%} .vh{height:100vh}
+.ha {height: auto} .hf {height: 100%} .vh {height: 100vh}
 
-.h10{height:10%} .h20{height:20%} .h30{height:30%}
-.h40{height:40%} .h50{height:50%} .h60{height:60%}
-.h70{height:70%} .h80{height:80%} .h90{height:90%}
+.h10 {height: 10%} .h20 {height: 20%} .h30 {height: 30%}
+.h40 {height: 40%} .h50 {height: 50%} .h60 {height: 60%}
+.h70 {height: 70%} .h80 {height: 80%} .h90 {height: 90%}
 
-.mh10{min-height:10%} .mh20{min-height:20%} .mh30{min-height:30%}
-.mh40{min-height:40%} .mh50{min-height:50%} .mh60{min-height:60%}
-.mh70{min-height:70%} .mh80{min-height:80%} .mh90{min-height:90%}
+.mh10 {min-height: 10%} .mh20 {min-height: 20%} .mh30 {min-height: 30%}
+.mh40 {min-height: 40%} .mh50 {min-height: 50%} .mh60 {min-height: 60%}
+.mh70 {min-height: 70%} .mh80 {min-height: 80%} .mh90 {min-height: 90%}
 
-.xh10{max-height:10%} .xh20{max-height:20%} .xh30{max-height:30%}
-.xh40{max-height:40%} .xh50{max-height:50%} .xh60{max-height:60%}
-.xh70{max-height:70%} .xh80{max-height:80%} .xh90{max-height:90%}
+.xh10 {max-height: 10%} .xh20 {max-height: 20%} .xh30 {max-height: 30%}
+.xh40 {max-height: 40%} .xh50 {max-height: 50%} .xh60 {max-height: 60%}
+.xh70 {max-height: 70%} .xh80 {max-height: 80%} .xh90 {max-height: 90%}
 
-.vh10{height:10vh} .vh20{height:20vh} .vh30{height:30vh}
-.vh40{height:40vh} .vh50{height:50vh} .vh60{height:60vh}
-.vh70{height:70vh} .vh80{height:80vh} .vh90{height:90vh}
+.vh10 {height: 10vh} .vh20 {height: 20vh} .vh30 {height: 30vh}
+.vh40 {height: 40vh} .vh50 {height: 50vh} .vh60 {height: 60vh}
+.vh70 {height: 70vh} .vh80 {height: 80vh} .vh90 {height: 90vh}
 
-@media screen and (min-width:30em){
-  .ha-s{height:auto} .hf-s{height:100%} .vh-s{height:100vh}
+@media screen and (min-width: 30em) {
+  .ha-s {height: auto} .hf-s {height: 100%} .vh-s {height: 100vh}
 
-  .h1-s{height:10%} .h2-s{height:20%} .h3-s{height:30%}
-  .h4-s{height:40%} .h5-s{height:50%} .h6-s{height:60%}
-  .h7-s{height:70%} .h8-s{height:80%} .h9-s{height:90%}
+  .h1-s {height: 10%} .h2-s {height: 20%} .h3-s {height: 30%}
+  .h4-s {height: 40%} .h5-s {height: 50%} .h6-s {height: 60%}
+  .h7-s {height: 70%} .h8-s {height: 80%} .h9-s {height: 90%}
 
-  .mh1-s{min-height:10%} .mh2-s{min-height:20%} .mh3-s{min-height:30%}
-  .mh4-s{min-height:40%} .mh5-s{min-height:50%} .mh6-s{min-height:60%}
-  .mh7-s{min-height:70%} .mh8-s{min-height:80%} .mh9-s{min-height:90%}
+  .mh1-s {min-height: 10%} .mh2-s {min-height: 20%} .mh3-s {min-height: 30%}
+  .mh4-s {min-height: 40%} .mh5-s {min-height: 50%} .mh6-s {min-height: 60%}
+  .mh7-s {min-height: 70%} .mh8-s {min-height: 80%} .mh9-s {min-height: 90%}
 
-  .xh1-s{max-height:10%} .xh2-s{max-height:20%} .xh3-s{max-height:30%}
-  .xh4-s{max-height:40%} .xh5-s{max-height:50%} .xh6-s{max-height:60%}
-  .xh7-s{max-height:70%} .xh8-s{max-height:80%} .xh9-s{max-height:90%}
+  .xh1-s {max-height: 10%} .xh2-s {max-height: 20%} .xh3-s {max-height: 30%}
+  .xh4-s {max-height: 40%} .xh5-s {max-height: 50%} .xh6-s {max-height: 60%}
+  .xh7-s {max-height: 70%} .xh8-s {max-height: 80%} .xh9-s {max-height: 90%}
 
-  .vh1-s{height:10vh} .vh2-s{height:20vh} .vh3-s{height:30vh}
-  .vh4-s{height:40vh} .vh5-s{height:50vh} .vh6-s{height:60vh}
-  .vh7-s{height:70vh} .vh8-s{height:80vh} .vh9-s{height:90vh}
+  .vh1-s {height: 10vh} .vh2-s {height: 20vh} .vh3-s {height: 30vh}
+  .vh4-s {height: 40vh} .vh5-s {height: 50vh} .vh6-s {height: 60vh}
+  .vh7-s {height: 70vh} .vh8-s {height: 80vh} .vh9-s {height: 90vh}
 }
 
-@media screen and (min-width:30em) and (max-width:60em){
-  .ha-m{height:auto} .hf-m{height:100%} .vh-m{height:100vh}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .ha-m {height: auto} .hf-m {height: 100%} .vh-m {height: 100vh}
 
-  .h1-m{height:10%} .h2-m{height:20%} .h3-m{height:30%}
-  .h4-m{height:40%} .h5-m{height:50%} .h6-m{height:60%}
-  .h7-m{height:70%} .h8-m{height:80%} .h9-m{height:90%}
+  .h1-m {height: 10%} .h2-m {height: 20%} .h3-m {height: 30%}
+  .h4-m {height: 40%} .h5-m {height: 50%} .h6-m {height: 60%}
+  .h7-m {height: 70%} .h8-m {height: 80%} .h9-m {height: 90%}
 
-  .mh1-m{min-height:10%} .mh2-m{min-height:20%} .mh3-m{min-height:30%}
-  .mh4-m{min-height:40%} .mh5-m{min-height:50%} .mh6-m{min-height:60%}
-  .mh7-m{min-height:70%} .mh8-m{min-height:80%} .mh9-m{min-height:90%}
+  .mh1-m {min-height: 10%} .mh2-m {min-height: 20%} .mh3-m {min-height: 30%}
+  .mh4-m {min-height: 40%} .mh5-m {min-height: 50%} .mh6-m {min-height: 60%}
+  .mh7-m {min-height: 70%} .mh8-m {min-height: 80%} .mh9-m {min-height: 90%}
 
-  .xh1-m{max-height:10%} .xh2-m{max-height:20%} .xh3-m{max-height:30%}
-  .xh4-m{max-height:40%} .xh5-m{max-height:50%} .xh6-m{max-height:60%}
-  .xh7-m{max-height:70%} .xh8-m{max-height:80%} .xh9-m{max-height:90%}
+  .xh1-m {max-height: 10%} .xh2-m {max-height: 20%} .xh3-m {max-height: 30%}
+  .xh4-m {max-height: 40%} .xh5-m {max-height: 50%} .xh6-m {max-height: 60%}
+  .xh7-m {max-height: 70%} .xh8-m {max-height: 80%} .xh9-m {max-height: 90%}
 
-  .vh1-m{height:10vh} .vh2-m{height:20vh} .vh3-m{height:30vh}
-  .vh4-m{height:40vh} .vh5-m{height:50vh} .vh6-m{height:60vh}
-  .vh7-m{height:70vh} .vh8-m{height:80vh} .vh9-m{height:90vh}
+  .vh1-m {height: 10vh} .vh2-m {height: 20vh} .vh3-m {height: 30vh}
+  .vh4-m {height: 40vh} .vh5-m {height: 50vh} .vh6-m {height: 60vh}
+  .vh7-m {height: 70vh} .vh8-m {height: 80vh} .vh9-m {height: 90vh}
 }
 
-@media screen and (min-width:60em){
-  .ha-l{height:auto} .hf-l{height:100%} .vh-l{height:100vh}
+@media screen and (min-width: 60em) {
+  .ha-l {height: auto} .hf-l {height: 100%} .vh-l {height: 100vh}
 
-  .h1-l{height:10%} .h2-l{height:20%} .h3-l{height:30%}
-  .h4-l{height:40%} .h5-l{height:50%} .h6-l{height:60%}
-  .h7-l{height:70%} .h8-l{height:80%} .h9-l{height:90%}
+  .h1-l {height: 10%} .h2-l {height: 20%} .h3-l {height: 30%}
+  .h4-l {height: 40%} .h5-l {height: 50%} .h6-l {height: 60%}
+  .h7-l {height: 70%} .h8-l {height: 80%} .h9-l {height: 90%}
 
-  .mh1-l{min-height:10%} .mh2-l{min-height:20%} .mh3-l{min-height:30%}
-  .mh4-l{min-height:40%} .mh5-l{min-height:50%} .mh6-l{min-height:60%}
-  .mh7-l{min-height:70%} .mh8-l{min-height:80%} .mh9-l{min-height:90%}
+  .mh1-l {min-height: 10%} .mh2-l {min-height: 20%} .mh3-l {min-height: 30%}
+  .mh4-l {min-height: 40%} .mh5-l {min-height: 50%} .mh6-l {min-height: 60%}
+  .mh7-l {min-height: 70%} .mh8-l {min-height: 80%} .mh9-l {min-height: 90%}
 
-  .xh1-l{max-height:10%} .xh2-l{max-height:20%} .xh3-l{max-height:30%}
-  .xh4-l{max-height:40%} .xh5-l{max-height:50%} .xh6-l{max-height:60%}
-  .xh7-l{max-height:70%} .xh8-l{max-height:80%} .xh9-l{max-height:90%}
+  .xh1-l {max-height: 10%} .xh2-l {max-height: 20%} .xh3-l {max-height: 30%}
+  .xh4-l {max-height: 40%} .xh5-l {max-height: 50%} .xh6-l {max-height: 60%}
+  .xh7-l {max-height: 70%} .xh8-l {max-height: 80%} .xh9-l {max-height: 90%}
 
-  .vh1-l{height:10vh} .vh2-l{height:20vh} .vh3-l{height:30vh}
-  .vh4-l{height:40vh} .vh5-l{height:50vh} .vh6-l{height:60vh}
-  .vh7-l{height:70vh} .vh8-l{height:80vh} .vh9-l{height:90vh}
+  .vh1-l {height: 10vh} .vh2-l {height: 20vh} .vh3-l {height: 30vh}
+  .vh4-l {height: 40vh} .vh5-l {height: 50vh} .vh6-l {height: 60vh}
+  .vh7-l {height: 70vh} .vh8-l {height: 80vh} .vh9-l {height: 90vh}
 }
