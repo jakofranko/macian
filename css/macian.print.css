@@ -16,10 +16,10 @@
   body {
     width: 100% !important;
     font-size: 12pt;
-    line-height: 1.3
+    line-height: 1.618
   }
 
-  .github-corner, nav, .printhide {display: none}
+  nav, .printhide {display: none}
   footer {page-break-after: always}
   p {page-break-inside: avoid}
 }

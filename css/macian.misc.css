@@ -7,25 +7,11 @@
 
 */
 
-.bs1 {box-shadow: 0 0 4px 2px rgba(0,0,0,0.2)}
-.bs2 {box-shadow: 0 0 8px 2px rgba(0,0,0,0.2)}
-.bs3 {box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.2)}
-.bs4 {box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.2)}
-.bs5 {box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2)}
-
 .cover {background-size: cover !important}
 .contain {background-size: contain !important}
 
-.bg-c {background-repeat: no-repeat;background-position: center center}
-.bg-t {background-repeat: no-repeat;background-position: top center}
-.bg-r {background-repeat: no-repeat;background-position: center right}
-.bg-b {background-repeat: no-repeat;background-position: bottom center}
-.bg-l {background-repeat: no-repeat;background-position: center left}
-
-/*.zebra tbody tr: nth-child(even) {background-color: rgba(0,0,0,0.1618)}*/
-
 details,summary {outline: none}
-summary {background-color: #eee;padding: 1em}
+summary {background-color: #eee; padding: 1em}
 summary p {padding: 1em}
 
 .oa {overflow: auto} .oxa {overflow-x: auto}
@@ -43,22 +29,13 @@ summary p {padding: 1em}
 @media screen and (min-width: 30em) {
   .cover-s {background-size: cover !important}
   .contain-s {background-size: contain !important}
-
-  .bg-c-s {background-repeat: no-repeat;background-position: center center}
-  .bg-t-s {background-repeat: no-repeat;background-position: top center}
-  .bg-r-s {background-repeat: no-repeat;background-position: center right}
-  .bg-b-s {background-repeat: no-repeat;background-position: bottom center}
-  .bg-l-s {background-repeat: no-repeat;background-position: center left}
-
   .oa-s {overflow: auto} .oxa-s {overflow-x: auto}
   .oya-s {overflow-y: auto} .ov-s {overflow: visible}
   .oxv-s {overflow-x: visible} .oyv-s {overflow-y: visible}
   .oh-s {overflow: hidden} .oxh-s {overflow-x: hidden}
   .oyh-s {overflow-y: hidden} .os-s {overflow: scroll}
   .oxs-s {overflow-x: scroll} .oys-s {overflow-y: scroll}
-
   .cn-s {margin-left: auto;margin-right: auto}
-
   .vl-s {vertical-align: baseline} .vm-s {vertical-align: middle}
   .vt-s {vertical-align: top} .vb-s {vertical-align: bottom}
 }
@@ -66,22 +43,13 @@ summary p {padding: 1em}
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .cover-m {background-size: cover !important}
   .contain-m {background-size: contain !important}
-
-  .bg-c-m {background-repeat: no-repeat;background-position: center center}
-  .bg-t-m {background-repeat: no-repeat;background-position: top center}
-  .bg-r-m {background-repeat: no-repeat;background-position: center right}
-  .bg-b-m {background-repeat: no-repeat;background-position: bottom center}
-  .bg-l-m {background-repeat: no-repeat;background-position: center left}
-
   .oa-m {overflow: auto} .oxa-m {overflow-x: auto}
   .oya-m {overflow-y: auto} .ov-m {overflow: visible}
   .oxv-m {overflow-x: visible} .oyv-m {overflow-y: visible}
   .oh-m {overflow: hidden} .oxh-m {overflow-x: hidden}
   .oyh-m {overflow-y: hidden} .os-m {overflow: scroll}
   .oxs-m {overflow-x: scroll} .oys-m {overflow-y: scroll}
-
   .cn-m {margin-left: auto;margin-right: auto}
-
   .vl-m {vertical-align: baseline} .vm-m {vertical-align: middle}
   .vt-m {vertical-align: top} .vb-m {vertical-align: bottom}
 }
@@ -89,22 +57,13 @@ summary p {padding: 1em}
 @media screen and (min-width: 60em) {
   .cover-l {background-size: cover !important}
   .contain-l {background-size: contain !important}
-
-  .bg-c-l {background-repeat: no-repeat;background-position: center center}
-  .bg-t-l {background-repeat: no-repeat;background-position: top center}
-  .bg-r-l {background-repeat: no-repeat;background-position: center right}
-  .bg-b-l {background-repeat: no-repeat;background-position: bottom center}
-  .bg-l-l {background-repeat: no-repeat;background-position: center left}
-
   .oa-l {overflow: auto} .oxa-l {overflow-x: auto}
   .oya-l {overflow-y: auto} .ov-l {overflow: visible}
   .oxv-l {overflow-x: visible} .oyv-l {overflow-y: visible}
   .oh-l {overflow: hidden} .oxh-l {overflow-x: hidden}
   .oyh-l {overflow-y: hidden} .os-l {overflow: scroll}
   .oxs-l {overflow-x: scroll} .oys-l {overflow-y: scroll}
-
   .cn-l {margin-left: auto;margin-right: auto}
-
   .vl-l {vertical-align: baseline} .vm-l {vertical-align: middle}
   .vt-l {vertical-align: top} .vb-l {vertical-align: bottom}
 }

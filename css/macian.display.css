@@ -20,9 +20,7 @@
 .o4 {opacity: .4} .o3 {opacity: .3}
 .o2 {opacity: .2} .o1 {opacity: .1}
 
-.o05 {opacity: .05}
-.o025 {opacity: .025}
-.o0 {opacity: 0}
+.o05 {opacity: .05} .o025 {opacity: .025} .o0 {opacity: 0}
 
 @media screen and (min-width: 30em) {
   .dn-s {display: none} .di-s {display: inline}
@@ -32,7 +30,7 @@
   .dtcl-s {display: table-column} .dtrg-s {display: table-row-group}
   .dtcg-s {display: table-column-group} .dtf-s {table-layout: fixed;width: 100%}
 
-  .of-s {opacity: 1} .o9-s {opacity: .9}
+  .of-s {opacity:  1} .o9-s {opacity: .9}
   .o8-s {opacity: .8} .o7-s {opacity: .7}
   .o6-s {opacity: .6} .o5-s {opacity: .5}
   .o4-s {opacity: .4} .o3-s {opacity: .3}
@@ -49,7 +47,7 @@
   .dtcl-m {display: table-column} .dtrg-m {display: table-row-group}
   .dtcg-m {display: table-column-group} .dtf-m {table-layout: fixed;width: 100%}
 
-  .of-m {opacity: 1} .o9-m {opacity: .9}
+  .of-m {opacity:  1} .o9-m {opacity: .9}
   .o8-m {opacity: .8} .o7-m {opacity: .7}
   .o6-m {opacity: .6} .o5-m {opacity: .5}
   .o4-m {opacity: .4} .o3-m {opacity: .3}
@@ -66,7 +64,7 @@
   .dtcl-l {display: table-column} .dtrg-l {display: table-row-group}
   .dtcg-l {display: table-column-group} .dtf-l {table-layout: fixed;width: 100%}
 
-  .of-l {opacity: 1} .o9-l {opacity: .9}
+  .of-l {opacity:  1} .o9-l {opacity: .9}
   .o8-l {opacity: .8} .o7-l {opacity: .7}
   .o6-l {opacity: .6} .o5-l {opacity: .5}
   .o4-l {opacity: .4} .o3-l {opacity: .3}

@@ -9,13 +9,13 @@
 
 .r {overflow: auto}
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.ca,.cb,.cc,
-.g4,.g3,.g2,.g1 {float: left;width: 100%}
+.g4,.g3,.g2,.g1 {float: left; width: 100%}
 
 @media screen and (min-width: 30em) {
   .cc-s {width: 100%} .cb-s {width: 91.66%} .ca-s {width: 83.33%}
-  .c9-s {width: 75%} .c8-s {width: 66.66%} .c7-s {width: 58.33%}
-  .c6-s {width: 50%} .c5-s {width: 41.66%} .c4-s {width: 33.33%}
-  .c3-s {width: 25%} .c2-s {width: 16.66%} .c1-s {width: 8.33%}
+  .c9-s {width:  75%} .c8-s {width: 66.66%} .c7-s {width: 58.33%}
+  .c6-s {width:  50%} .c5-s {width: 41.66%} .c4-s {width: 33.33%}
+  .c3-s {width:  25%} .c2-s {width: 16.66%} .c1-s {width:  8.33%}
 
   .g4-s {width: 61.8%} .g3-s {width: 38.2%}
   .g2-s {width: 23.6%} .g1-s {width: 14.6%}
@@ -23,9 +23,9 @@
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .cc-m {width: 100%} .cb-m {width: 91.66%} .ca-m {width: 83.33%}
-  .c9-m {width: 75%} .c8-m {width: 66.66%} .c7-m {width: 58.33%}
-  .c6-m {width: 50%} .c5-m {width: 41.66%} .c4-m {width: 33.33%}
-  .c3-m {width: 25%} .c2-m {width: 16.66%} .c1-m {width: 8.33%}
+  .c9-m {width:  75%} .c8-m {width: 66.66%} .c7-m {width: 58.33%}
+  .c6-m {width:  50%} .c5-m {width: 41.66%} .c4-m {width: 33.33%}
+  .c3-m {width:  25%} .c2-m {width: 16.66%} .c1-m {width:  8.33%}
 
   .g4-m {width: 61.8%} .g3-m {width: 38.2%}
   .g2-m {width: 23.6%} .g1-m {width: 14.6%}
@@ -33,9 +33,9 @@
 
 @media screen and (min-width: 60em) {
   .cc {width: 100%} .cb {width: 91.66%} .ca {width: 83.33%}
-  .c9 {width: 75%} .c8 {width: 66.66%} .c7 {width: 58.33%}
-  .c6 {width: 50%} .c5 {width: 41.66%} .c4 {width: 33.33%}
-  .c3 {width: 25%} .c2 {width: 16.66%} .c1 {width: 8.33%}
+  .c9 {width:  75%} .c8 {width: 66.66%} .c7 {width: 58.33%}
+  .c6 {width:  50%} .c5 {width: 41.66%} .c4 {width: 33.33%}
+  .c3 {width:  25%} .c2 {width: 16.66%} .c1 {width:  8.33%}
 
   .g4-l {width: 61.8%} .g3-s {width: 38.2%}
   .g2-l {width: 23.6%} .g1-s {width: 14.6%}

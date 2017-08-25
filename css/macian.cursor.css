@@ -28,13 +28,13 @@
 .c-sw-r {cursor: sw-resize}
 .c-w-r {cursor: w-resize}
 .c-copy {cursor: copy}
-.c-cross {cursor: crosshair}
-.c-grab {cursor: grab}
-.c-grabbing{cursor: grabbing}
-.c-help {cursor: help}
-.c-move {cursor: move}
-.c-no-drop {cursor: no-drop}
-.c-no {cursor: none}
+.c-x {cursor: crosshair}
+.c-g {cursor: grab}
+.c-ging{cursor: grabbing}
+.c-h {cursor: help}
+.c-m {cursor: move}
+.c-n-d {cursor: no-drop}
+.c-n {cursor: none}
 .c-na {cursor: not-allowed}
 .c-point {cursor: pointer}
 .c-prog {cursor: progress}
