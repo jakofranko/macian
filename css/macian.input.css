@@ -7,18 +7,20 @@
 
 */
 
-input,
-textarea,
-select {
+input, textarea, select {
   padding: 7px;
   border: 0.1em solid #eee;
   outline: none;
   max-width: 100%
 }
 
-.rn {resize: none}
+.rn {
+  resize: none
+}
 
-select {background: #fff}
+select {
+  background: #fff
+}
 
 input[type="range"] {
   background-color: transparent;
@@ -44,8 +46,7 @@ input[type="range"]::-webkit-slider-thumb {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1618)
 }
 
-input:invalid,
-input:invalid::-webkit-input-placeholder {
+input:invalid, input:invalid::-webkit-input-placeholder {
   color: #e85f5c
 }
 
@@ -54,11 +55,7 @@ input:invalid::-webkit-input-placeholder {
   cursor: not-allowed
 }
 
-button,
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-a.btn {
+button, input[type="button"], input[type="submit"], input[type="reset"], a.btn {
   background-color: #202020;
   color: #f8f8f8;
   padding: .5em;
@@ -68,14 +65,11 @@ a.btn {
   text-align: center
 }
 
-button:hover,
-input[type="button"]:hover {
+button:hover, input[type="button"]:hover {
   cursor: pointer
 }
 
-button:active,
-input[type="button"]:active,
-.btn:active {
+button:active, input[type="button"]:active, .btn:active {
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
 }
 
@@ -84,18 +78,16 @@ input[type="button"]:active,
   color: inherit
 }
 
-progress,
-progress::-webkit-progress-bar {
+progress, progress::-webkit-progress-bar {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border: none;
   background-color: #eee;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
 }
 
-meter,
-meter::-webkit-meter-bar {
+meter, meter::-webkit-meter-bar {
   background: none;
   background-color: #eee;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
@@ -111,23 +103,14 @@ progress::-webkit-progress-value {
   background-color: #70b77e
 }
 
-progress.red::-webkit-progress-value,
-meter.red::-webkit-meter-optimum-value,
-progress.bg-red::-webkit-progress-bar,
-meter.bg-red::-webkit-meter-bar {
+progress.red::-webkit-progress-value, meter.red::-webkit-meter-optimum-value, progress.bg-red::-webkit-progress-bar, meter.bg-red::-webkit-meter-bar {
   background-color: #e85f5c
 }
 
-progress.grn::-webkit-progress-value,
-meter.grn::-webkit-meter-optimum-value,
-progress.bg-grn::-webkit-progress-bar,
-meter.bg-grn::-webkit-meter-bar {
+progress.grn::-webkit-progress-value, meter.grn::-webkit-meter-optimum-value, progress.bg-grn::-webkit-progress-bar, meter.bg-grn::-webkit-meter-bar {
   background-color: #70b77e
 }
 
-progress.noir::-webkit-progress-value,
-meter.noir::-webkit-meter-optimum-value,
-progress.bg-noir::-webkit-progress-bar,
-meter.bg-noir::-webkit-meter-bar {
+progress.noir::-webkit-progress-value, meter.noir::-webkit-meter-optimum-value, progress.bg-noir::-webkit-progress-bar, meter.bg-noir::-webkit-meter-bar {
   background-color: #202020
 }

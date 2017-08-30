@@ -26,6 +26,7 @@
 .vw7 {width: 70vw} .vw8 {width: 80vw} .vw9 {width: 90vw}
 
 @media screen and (min-width: 30em) {
+
   .wa-s {width: auto} .wf-s {width: 100%} .vw-s {width: 100vw}
 
   .w1-s {width: 10%} .w2-s {width: 20%} .w3-s {width: 30%}
@@ -43,9 +44,11 @@
   .vw1-s {width: 10vw} .vw2-s {width: 20vw} .vw3-s {width: 30vw}
   .vw4-s {width: 40vw} .vw5-s {width: 50vw} .vw6-s {width: 60vw}
   .vw7-s {width: 70vw} .vw8-s {width: 80vw} .vw9-s {width: 90vw}
+
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
+
   .wa-m {width: auto} .wf-m {width: 100%} .vw-m {width: 100vw}
 
   .w1-m {width: 10%} .w2-m {width: 20%} .w3-m {width: 30%}
@@ -63,9 +66,11 @@
   .vw1-m {width: 10vw} .vw2-m {width: 20vw} .vw3-m {width: 30vw}
   .vw4-m {width: 40vw} .vw5-m {width: 50vw} .vw6-m {width: 60vw}
   .vw7-m {width: 70vw} .vw8-m {width: 80vw} .vw9-m {width: 90vw}
+
 }
 
 @media screen and (min-width: 60em) {
+
   .wa-l {width: auto} .wf-l {width: 100%} .vw-l {width: 100vw}
 
   .w1-l {width: 10%} .w2-l {width: 20%} .w3-l {width: 30%}
@@ -83,4 +88,5 @@
   .vw1-l {width: 10vw} .vw2-l {width: 20vw} .vw3-l {width: 30vw}
   .vw4-l {width: 40vw} .vw5-l {width: 50vw} .vw6-l {width: 60vw}
   .vw7-l {width: 70vw} .vw8-l {width: 80vw} .vw9-l {width: 90vw}
+
 }

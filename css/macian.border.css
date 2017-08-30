@@ -7,11 +7,11 @@
 
 */
 
-.ba {border-style: solid;border-width: 1px}
-.bt {border-top-style: solid;border-top-width: 1px}
-.br {border-right-style: solid;border-right-width: 1px}
-.bb {border-bottom-style: solid;border-bottom-width: 1px}
-.bl {border-left-style: solid;border-left-width: 1px}
+.ba {border-style:        solid; border-width:        1px}
+.bt {border-top-style:    solid; border-top-width:    1px}
+.br {border-right-style:  solid; border-right-width:  1px}
+.bb {border-bottom-style: solid; border-bottom-width: 1px}
+.bl {border-left-style:   solid; border-left-width:   1px}
 
 .bst {border-style: dotted}
 .bsd {border-style: dashed}
@@ -19,57 +19,77 @@
 
 .bn,table.bn th,table.bn td {border-style: none;border-width: 0}
 
-.br0 {border-radius: 0}
-.br1 {border-radius: .7862em}
-.br2 {border-radius: 1em}
-.br3 {border-radius: 1.272em}
-.br4 {border-radius: 1.618em}
-.br5 {border-radius: 2.0581em}
-.br6 {border-radius: 2.6179em}
+.br0 {border-radius:        0} .br1 {border-radius:  .7862em}
+.br2 {border-radius:      1em} .br3 {border-radius:  1.272em}
+.br4 {border-radius:  1.618em} .br5 {border-radius: 2.0581em}
+.br6 {border-radius: 2.6179em} .brf {border-radius:     100%}
 
-.br-100 {border-radius: 100%}
+.bw0 {border-width:     0} .bw1 {border-width: .125em}
+.bw2 {border-width: .25em} .bw3 {border-width:   .5em}
+.bw4 {border-width:   1em} .bw5 {border-width:    2em}
 
-.bw0 {border-width: 0} .bw1 {border-width: .125em} .bw2 {border-width: .25em}
-.bw3 {border-width: .5em} .bw4 {border-width: 1em} .bw5 {border-width: 2em}
-
-.bt-0 {border-top-width: 0} .br-0 {border-right-width: 0}
-.bb-0 {border-bottom-width: 0} .bl-0 {border-left-width: 0}
+.bt-0 {border-top-width:    0} .br-0 {border-right-width: 0}
+.bb-0 {border-bottom-width: 0} .bl-0 {border-left-width:  0}
 
 @media screen and (min-width: 30em) {
-  .ba-s {border-style: solid;border-width: 1px}
-  .bt-s {border-top-style: solid;border-top-width: 1px}
-  .br-s {border-right-style: solid;border-right-width: 1px}
-  .bb-s {border-bottom-style: solid;border-bottom-width: 1px}
-  .bl-s {border-left-style: solid;border-left-width: 1px}
 
-  .bn-s,table.bn-s th,table.bn-s td {border-style: none;border-width: 0}
+  .ba-s {border-style:        solid; border-width:        1px}
+  .bt-s {border-top-style:    solid; border-top-width:    1px}
+  .br-s {border-right-style:  solid; border-right-width:  1px}
+  .bb-s {border-bottom-style: solid; border-bottom-width: 1px}
+  .bl-s {border-left-style:   solid; border-left-width:   1px}
 
-  .bw0-s {border-width: 0} .bw1-s {border-width: .125em} .bw2-s {border-width: .25em}
-  .bw3-s {border-width: .5em} .bw4-s {border-width: 1em} .bw5-s {border-width: 2em}
+  .bn-s,
+  table.bn-s th,
+  table.bn-s td {
+    border-style: none;
+    border-width: 0
+  }
+
+  .bw0-s {border-width:     0} .bw1-s {border-width: .125em}
+  .bw2-s {border-width: .25em} .bw3-s {border-width:   .5em}
+  .bw4-s {border-width:   1em} .bw5-s {border-width:    2em}
+
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
-  .ba-m {border-style: solid;border-width: 1px}
-  .bt-m {border-top-style: solid;border-top-width: 1px}
-  .br-m {border-right-style: solid;border-right-width: 1px}
-  .bb-m {border-bottom-style: solid;border-bottom-width: 1px}
-  .bl-m {border-left-style: solid;border-left-width: 1px}
 
-  .bn-m,table.bn-m th,table.bn-m td {border-style: none;border-width: 0}
+  .ba-m {border-style:        solid; border-width:        1px}
+  .bt-m {border-top-style:    solid; border-top-width:    1px}
+  .br-m {border-right-style:  solid; border-right-width:  1px}
+  .bb-m {border-bottom-style: solid; border-bottom-width: 1px}
+  .bl-m {border-left-style:   solid; border-left-width:   1px}
 
-  .bw0-m {border-width: 0} .bw1-m {border-width: .125em} .bw2-m {border-width: .25em}
-  .bw3-m {border-width: .5em} .bw4-m {border-width: 1em} .bw5-m {border-width: 2em}
+  .bn-m,
+  table.bn-m th,
+  table.bn-m td {
+    border-style: none;
+    border-width: 0
+  }
+
+  .bw0-m {border-width:     0} .bw1-m {border-width: .125em}
+  .bw2-m {border-width: .25em} .bw3-m {border-width:   .5em}
+  .bw4-m {border-width:   1em} .bw5-m {border-width:    2em}
+
 }
 
 @media screen and (min-width: 60em) {
-  .ba-l {border-style: solid;border-width: 1px}
-  .bt-l {border-top-style: solid;border-top-width: 1px}
-  .br-l {border-right-style: solid;border-right-width: 1px}
-  .bb-l {border-bottom-style: solid;border-bottom-width: 1px}
-  .bl-l {border-left-style: solid;border-left-width: 1px}
 
-  .bn-l,table.bn-l th,table.bn-l td {border-style: none;border-width: 0}
+  .ba-l {border-style:        solid; border-width:        1px}
+  .bt-l {border-top-style:    solid; border-top-width:    1px}
+  .br-l {border-right-style:  solid; border-right-width:  1px}
+  .bb-l {border-bottom-style: solid; border-bottom-width: 1px}
+  .bl-l {border-left-style:   solid; border-left-width:   1px}
 
-  .bw0-l {border-width: 0} .bw1-l {border-width: .125em} .bw2-l {border-width: .25em}
-  .bw3-l {border-width: .5em} .bw4-l {border-width: 1em} .bw5-l {border-width: 2em}
+  .bn-l,
+  table.bn-l th,
+  table.bn-l td {
+    border-style: none;
+    border-width: 0
+  }
+
+  .bw0-l {border-width:     0} .bw1-l {border-width: .125em}
+  .bw2-l {border-width: .25em} .bw3-l {border-width:   .5em}
+  .bw4-l {border-width:   1em} .bw5-l {border-width:    2em}
+
 }

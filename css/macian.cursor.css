@@ -9,9 +9,9 @@
 
 /* TODO: Come up with better .classnames */
 
-.c-a {cursor: alias}
+.c-a   {cursor: alias}
 .c-a-s {cursor: all-scroll}
-.c-cell {cursor: cell}
+.c-cl  {cursor: cell}
 .c-c-m {cursor: context-menu}
 .c-c-r {cursor: col-resize}
 .c-r-r {cursor: row-resize}
@@ -27,7 +27,7 @@
 .c-se-r {cursor: se-resize}
 .c-sw-r {cursor: sw-resize}
 .c-w-r {cursor: w-resize}
-.c-copy {cursor: copy}
+.c-c {cursor: copy}
 .c-x {cursor: crosshair}
 .c-g {cursor: grab}
 .c-ging{cursor: grabbing}
@@ -36,8 +36,8 @@
 .c-n-d {cursor: no-drop}
 .c-n {cursor: none}
 .c-na {cursor: not-allowed}
-.c-point {cursor: pointer}
-.c-prog {cursor: progress}
+.c-pt {cursor: pointer}
+.c-pg {cursor: progress}
 .c-v-t {cursor: vertical-text}
 .c-w {cursor: wait}
 .c-z-i {cursor: zoom-in}

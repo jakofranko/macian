@@ -7,13 +7,13 @@
 
 */
 
-.noir {color: #202020}
+.noir  {color: #202020}
 .blanc {color: #f8f8f8!important}
 
-.bg-noir {background-color: #202020}
+.bg-noir  {background-color: #202020}
 .bg-blanc {background-color: #f8f8f8}
 
 .bg-cl {background-color: transparent}
 
 .b-blanc {border-color: #f8f8f8 !important}
-.b-noir {border-color: #202020 !important}
+.b-noir  {border-color: #202020 !important}
