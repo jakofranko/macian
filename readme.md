@@ -1,8 +1,8 @@
-# ⌗ Macian
+# Macian
 
 ![MIT License](https://joshavanier.github.io/badges/mit.svg)
 
-Macian is a CSS framework inspired by and based on [Tachyons](https://tachyons.io/).
+A CSS framework inspired by and based on [Tachyons](https://tachyons.io/)
 
 ## Purpose
 
