@@ -1,7 +1,6 @@
 # Modules
-Macian is divided into modular components.
 
-## Menu
+## ☰
 
 ### .base
 Basic and general styles
