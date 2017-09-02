@@ -4,13 +4,9 @@
 
 A CSS framework inspired by and based on [Tachyons](https://tachyons.io/)
 
-## Purpose
-
-Macian was created to be a framework that is suited to my own personal preferences.
-
 ## Goals
 
-My goal with Macian is to create a lightweight and versatile CSS framework to simplify the process of web development as well as to provide consistency across my web creations.
+My goals with Macian is to create a lightweight yet versatile CSS framework to both simplify the process of creating things for the web and to unify my creations under a consistent set of standards.
 
 ## Credits
 
@@ -20,7 +16,7 @@ Tachyons
 
 [![GitHub](https://joshavanier.github.io/badges/github.svg)](https://github.com/tachyons-css/tachyons/) [![@tachyons_css](https://joshavanier.github.io/badges/twitter.svg)](https://twitter.com/tachyons_css) [![tachyons.io](https://joshavanier.github.io/badges/website.svg)](https://tachyons.io)
 
---------------------------------------------------------------------------------
+---
 
 Josh Avanier
 
