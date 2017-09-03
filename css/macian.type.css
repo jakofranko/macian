@@ -33,17 +33,17 @@
 .ar {text-align: right}
 .ac {text-align: center}
 
+.cap {text-transform: capitalize}
 .upc {text-transform: uppercase}
 .lwc {text-transform: lowercase}
-.cap {text-transform: capitalize}
 
 .tk  {letter-spacing:   .1em}
 .tkt {letter-spacing: -.05em}
 .tkm {letter-spacing:  .25em}
 
-.to {text-decoration: overline}
-.tu {text-decoration: underline}
 .ts {text-decoration: strikethrough}
+.tu {text-decoration: underline}
+.to {text-decoration: overline}
 
 .ind {text-indent: 1em}
 
@@ -67,10 +67,9 @@ pre {overflow-x: auto; overflow-y: hidden; overflow: scroll}
 
 mark {background-color: #ffd96d}
 
-ul, ol {list-style-position: inside}
-ul {list-style-type: circle}
+ul, ol, .lspi {list-style-position: inside}
+/*ul {list-style-type: circle}*/
 
-.lspi {list-style-position: inside}
 .lsz  {list-style-type: decimal-leading-zero}
 .lsur {list-style-type: upper-roman}
 .lslr {list-style-type: lower-roman}
@@ -90,9 +89,9 @@ ul {list-style-type: circle}
   .lhc-s {line-height: 1.5} .lhd-s {line-height:    2}
 
   .aj-s {text-align: justify; hyphens: auto}
-  .al-s {text-align: left}
-  .ar-s {text-align: right}
   .ac-s {text-align: center}
+  .ar-s {text-align: right}
+  .al-s {text-align: left}
 
   .tk-s  {letter-spacing:   .1em}
   .tkt-s {letter-spacing: -.05em}
@@ -116,9 +115,9 @@ ul {list-style-type: circle}
   .lhc-m {line-height: 1.5} .lhd-m {line-height:    2}
 
   .aj-m {text-align: justify; hyphens: auto}
-  .al-m {text-align: left}
-  .ar-m {text-align: right}
   .ac-m {text-align: center}
+  .ar-m {text-align: right}
+  .al-m {text-align: left}
 
   .tk-m  {letter-spacing:   .1em}
   .tkt-m {letter-spacing: -.05em}
@@ -142,9 +141,9 @@ ul {list-style-type: circle}
   .lhc-l {line-height: 1.5} .lhd-l {line-height:    2}
 
   .aj-l {text-align: justify; hyphens: auto}
-  .al-l {text-align: left}
-  .ar-l {text-align: right}
   .ac-l {text-align: center}
+  .ar-l {text-align: right}
+  .al-l {text-align: left}
 
   .tk-l  {letter-spacing:   .1em}
   .tkt-l {letter-spacing: -.05em}

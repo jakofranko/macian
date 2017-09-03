@@ -12,6 +12,7 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
+
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box
@@ -21,6 +22,7 @@ body {
   background-color: #f8f8f8;
   color: #202020;
   font: 16px/1.618em "Roboto", sans-serif;
+
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%
 }
@@ -38,11 +40,10 @@ th, td {
   border: 1px solid #202020
 }
 
-.ruled thead tr:last-of-type, .ruled tbody tr {
+.rl thead tr:last-of-type, .rl tbody tr {
   border: 0;
   border-bottom: 1px solid #ddd
 }
 
-nav ul, ul.menu {list-style: none}
-
-nav ul li, .menu li {display: inline-block}
+nav ul, nav ol, .menu {list-style: none}
+nav ul li, nav ol li, .menu li {display: inline-block}
