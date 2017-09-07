@@ -68,7 +68,6 @@ pre {overflow-x: auto; overflow-y: hidden; overflow: scroll}
 mark {background-color: #ffd96d}
 
 ul, ol, .lspi {list-style-position: inside}
-/*ul {list-style-type: circle}*/
 
 .lsz  {list-style-type: decimal-leading-zero}
 .lsur {list-style-type: upper-roman}

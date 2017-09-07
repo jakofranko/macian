@@ -7,110 +7,130 @@
 
 */
 
-input, textarea, select {
-  /*padding: 7px;*/
-  border: 0.1em solid #eee;
-  outline: none;
-  /*max-width: 100%*/
+input,
+textarea,
+select {
+	border: 0.1em solid #eee;
+	outline: none;
 }
 
 .rn {
-  resize: none
+	resize: none
 }
 
 select {
-  background: #fff
+	background: #fff
 }
 
 input[type="range"] {
-  background-color: transparent;
-  border: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+	background-color: transparent;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
-  height: 5px;
-  background: #eee;
-  border: none;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
+	height: 5px;
+	background: #eee;
+	border: none;
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
 }
 
 input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  height: 1em;
-  width: 1em;
-  border-radius: 50%;
-  background-color: #202020;
-  margin-top: -4px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1618)
+	-webkit-appearance: none;
+	height: 1em;
+	width: 1em;
+	border-radius: 50%;
+	background-color: #202020;
+	margin-top: -4px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1618)
 }
 
-input:invalid, input:invalid::-webkit-input-placeholder {
-  color: #e85f5c
+input:invalid,
+input:invalid::-webkit-input-placeholder {
+	color: #e85f5c
 }
 
-.disabled, :disabled {
-  opacity: 0.618;
-  cursor: not-allowed
+.disabled,
+ :disabled {
+	opacity: 0.618;
+	cursor: not-allowed
 }
 
-button, input[type="button"], input[type="submit"], input[type="reset"], a.btn {
-  background-color: #202020;
-  color: #f8f8f8;
-  padding: .5em;
-  outline: none;
-  border: 0;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1618);
-  text-align: center
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn {
+	background-color: #202020;
+	color: #f8f8f8;
+	padding: .5em;
+	outline: none;
+	border: 0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1618);
+	text-align: center
 }
 
-button:hover, input[type="button"]:hover {
-  cursor: pointer
+button:hover,
+input[type="button"]:hover {
+	cursor: pointer
 }
 
-button:active, input[type="button"]:active, .btn:active {
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
+button:active,
+input[type="button"]:active,
+.btn:active {
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
 }
 
 .btn {
-  text-decoration: none;
-  color: inherit
+	text-decoration: none;
+	color: inherit
 }
 
-progress, progress::-webkit-progress-bar {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  background-color: #eee;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
+progress,
+progress::-webkit-progress-bar {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	background-color: #eee;
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
 }
 
-meter, meter::-webkit-meter-bar {
-  background: none;
-  background-color: #eee;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
-  -moz-appearance: none;
+meter,
+meter::-webkit-meter-bar {
+	background: none;
+	background-color: #eee;
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
+	-moz-appearance: none;
 }
 
 meter::-webkit-meter-optimum-value {
-  background: none;
-  background-color: #70b77e
+	background: none;
+	background-color: #70b77e
 }
 
 progress::-webkit-progress-value {
-  background-color: #70b77e
+	background-color: #70b77e
 }
 
-progress.red::-webkit-progress-value, meter.red::-webkit-meter-optimum-value, progress.bg-red::-webkit-progress-bar, meter.bg-red::-webkit-meter-bar {
-  background-color: #e85f5c
+progress.red::-webkit-progress-value,
+meter.red::-webkit-meter-optimum-value,
+progress.bg-red::-webkit-progress-bar,
+meter.bg-red::-webkit-meter-bar {
+	background-color: #e85f5c
 }
 
-progress.grn::-webkit-progress-value, meter.grn::-webkit-meter-optimum-value, progress.bg-grn::-webkit-progress-bar, meter.bg-grn::-webkit-meter-bar {
-  background-color: #70b77e
+progress.grn::-webkit-progress-value,
+meter.grn::-webkit-meter-optimum-value,
+progress.bg-grn::-webkit-progress-bar,
+meter.bg-grn::-webkit-meter-bar {
+	background-color: #70b77e
 }
 
-progress.noir::-webkit-progress-value, meter.noir::-webkit-meter-optimum-value, progress.bg-noir::-webkit-progress-bar, meter.bg-noir::-webkit-meter-bar {
-  background-color: #202020
+progress.noir::-webkit-progress-value,
+meter.noir::-webkit-meter-optimum-value,
+progress.bg-noir::-webkit-progress-bar,
+meter.bg-noir::-webkit-meter-bar {
+	background-color: #202020
 }

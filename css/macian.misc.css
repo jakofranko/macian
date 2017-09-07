@@ -12,9 +12,6 @@
 
 details,summary {outline: none}
 
-summary {background-color: #eee; padding: 1em}
-summary p {padding: 1em}
-
 .oa  {overflow: auto}      .oxa {overflow-x: auto}
 .oya {overflow-y: auto}    .ov  {overflow: visible}
 .oxv {overflow-x: visible} .oyv {overflow-y: visible}

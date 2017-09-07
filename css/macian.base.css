@@ -9,40 +9,49 @@
 
 /**{box-shadow:inset 0 0 1px #ccc}*/
 
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
 
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box
+}
+
+html {
+	height: 100%;
+	width: 100%
 }
 
 body {
-  background-color: #f8f8f8;
-  color: #202020;
-  font: 16px/1.618em "Roboto", sans-serif;
+	background-color: #f8f8f8;
+	color: #202020;
+	font: 16px/1.618em "Roboto", sans-serif;
 
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%
+	-webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%
 }
 
 img, video {max-width: 100%}
 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  overflow-x: auto
+	width: 100%;
+	border-collapse: collapse;
+	overflow-x: auto
 }
 
-th, td {
-  padding: 7px;
-  border: 1px solid #202020
+th,
+td {
+	padding: 7px;
+	border: 1px solid #202020
 }
 
-.rl thead tr:last-of-type, .rl tbody tr {
-  border: 0;
-  border-bottom: 1px solid #ddd
+.rl thead tr:last-of-type,
+.rl tbody tr {
+	border: 0;
+	border-bottom: 1px solid #ddd
 }
 
 nav ul, nav ol, .menu {list-style: none}
