@@ -11,7 +11,7 @@
 	<link href="../css/macian.css" rel="stylesheet">
 </head>
 
-<body class="bg-noir blanc p3 p4-m p5-l r">
+<body class="noselect bg-noir blanc p3 p4-m p5-l r">
 
 	<div class="dn db-l c2 vh8 oya f6">
 
@@ -19,26 +19,28 @@
 			<h1 class="f5 upc tk">Codex Macian</h1>
 		</header>
 
-		<h3 class="mb3 f5 fwn">Typography</h3>
+		<h3 class="mb3 f5 fwn">Typographicae</h3>
 		<ul class="mb4 lsn lspi lhd">
-			<li class="mb1"><a href="#typescale">Type Scale</a></li>
+			<li class="mb1"><a href="#typescale">Scale</a></li>
 			<li class="mb1"><a href="#measure">Measure</a></li>
 			<li class="mb1"><a href="#leading">Leading</a></li>
 			<li class="mb1"><a href="#tracking">Tracking</a></li>
-			<li class="mb1"><a href="#fontweights">Font Weights</a></li>
-			<li class="mb1"><a href="#textalign">Text Alignment</a></li>
+			<li class="mb1"><a href="#fontweights">Weights</a></li>
+			<li class="mb1"><a href="#textalign">Alignment</a></li>
 		</ul>
 
-		<h3 class="mb3 f5 fwn">Architecture</h3>
+		<h3 class="mb3 f5 fwn">Architectura</h3>
 		<ul class="mb4 lsn lspi lhd">
 			<li class="mb1"><a href="#grid">Grid</a></li>
 			<li class="mb1"><a href="#spacing">Spacing</a></li>
 			<li class="mb1"><a href="#floats">Floats</a></li>
 			<li class="mb1"><a href="#heights">Heights</a></li>
+      <li class="mb1"><a href="#widths">Widths</a></li>
 		</ul>
 
-		<h3 class="mb3 f5 fwn">Decor</h3>
+		<h3 class="mb3 f5 fwn">Ornamentum</h3>
 		<ul class="mb4 lsn lspi lhd">
+      <li class="mb1"><a href="#chroma">Chroma</a></li>
 			<li class="mb1"><a href="#borders">Borders</a></li>
 			<li class="mb1"><a href="#opacity">Opacity</a></li>
 		</ul>
@@ -47,47 +49,47 @@
 
 	<div class="ca vh8-l oya p4 ph5-l">
 
-		<section class="mb5" id="typescale">
-			<h2 class="mb4 f5">Type Scale</h2>
-			<p class="mb4 f6 mon">.f[1-6](-(s/m/l)) | 1: 2.6179em; 2: 2.0581em; 3: 1.618em; 4: 1.272em; 5: 1em; 6: .7862em</p>
+		<section class="mb5 pb5 bb" id="typescale">
+			<h2 class="mb4 f6 upc tk">Scale</h2>
+			<p class="mb4 f6 mon">.f[1-6](-(s/m/l)) | f<sub>i</sub> = f0r<sup>i/n</sup> | r = &phi;; n = 2</p>
 			<div class="r ba mon lhc">
 				<div class="c6 c6-s c6-m ba p4">
-					<p class="mb3 f6 mon">.f1</p>
-					<p class="f1 sns">Hello</p>
+					<p class="mb3 f6 mon">.f1 (2.6179)</p>
+					<p class="f1">&#9608;&#9608;&#9608;&#9608;&#9608;</p>
 				</div>
 				<div class="c6 c6-s c6-m ba p4">
-					<p class="mb3 f6 mon">.f2</p>
-					<p class="f2 sns">Hello</p>
+					<p class="mb3 f6 mon">.f2 (2.0581)</p>
+					<p class="f2">&#9608;&#9608;&#9608;&#9608;&#9608;</p>
 				</div>
 				<div class="c6 c6-s c6-m ba p4">
-					<p class="mb3 f6 mon">.f3</p>
-					<p class="f3 sns">Hello</p>
+					<p class="mb3 f6 mon">.f3 (1.618)</p>
+					<p class="f3">&#9608;&#9608;&#9608;&#9608;&#9608;</p>
 				</div>
 				<div class="c6 c6-s c6-m ba p4">
-					<p class="mb3 f6 mon">.f4</p>
-					<p class="f4 sns">Hello</p>
+					<p class="mb3 f6 mon">.f4 (1.272)</p>
+					<p class="f4">&#9608;&#9608;&#9608;&#9608;&#9608;</p>
 				</div>
 				<div class="c6 c6-s c6-m ba p4">
-					<p class="mb3 f6 mon">.f5</p>
-					<p class="f5 sns">Hello</p>
+					<p class="mb3 f6 mon">.f5 (1)</p>
+					<p class="f5">&#9608;&#9608;&#9608;&#9608;&#9608;</p>
 				</div>
 				<div class="c6 c6-s c6-m ba p4">
-					<p class="mb3 f6 mon">.f6</p>
-					<p class="f6 sns">Hello</p>
+					<p class="mb3 f6 mon">.f6 (0.7862)</p>
+					<p class="f6">&#9608;&#9608;&#9608;&#9608;&#9608;</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="mb5 mon" id="measure">
-			<h2 class="mb4 f5">Measure</h2>
-			<p class="mb4 f6 mon">.m(w/n)(-(s/m/l))</p>
+		<section class="mb5 pb5 bb" id="measure">
+			<h2 class="mb4 f6 upc tk">Measure</h2>
+			<p class="mb4 f6 mon">.m(w/n)(-(s/m/l)) | w: wide; n: narrow</p>
 			<p class="mb4 bb mw f6">.mw (~80 characters)</p>
 			<p class="mb4 bb m f6">.m (~66 characters)</p>
 			<p class="bb mn f6">.mn (~45 characters)</p>
 		</section>
 
-		<section class="mb5" id="leading">
-			<h2 class="mb4 f5">Leading</h2>
+		<section class="mb5 pb5 bb" id="leading">
+			<h2 class="mb4 f6 upc tk">Leading</h2>
 			<p class="mb4 f6 mon">.lh[s/c/t/d](-(s/m/l)) | s: solid; c: copy; t: title; d: double</p>
 			<div class="r">
 				<div class="c3">
@@ -109,8 +111,8 @@
 			</div>
 		</section>
 
-		<section class="mb5" id="tracking">
-			<h2 class="mb4 f5">Tracking</h2>
+		<section class="mb5 pb5 bb" id="tracking">
+			<h2 class="mb4 f6 upc tk">Tracking</h2>
       <p class="mb4 f6 mon">.tk(t/m)(-(s/m/l)) | t: tight; m: mega</p>
 			<div class="r mb4">
 				<div class="c6 mb4">
@@ -132,9 +134,9 @@
 			</div>
 		</section>
 
-		<section class="mb5" id="fontweights">
-			<h2 class="mb4 f5">Font Weights</h2>
-      <p class="mb4 f6 mon">.fw[n/(1-9)](-(s/m/l)) | n: none; 1: 100; 9: 900
+		<section class="mb5 pb5 bb" id="fontweights">
+			<h2 class="mb4 f6 upc tk">Weights</h2>
+      <p class="mb4 f6 mon">.fw[n/(1-9)](-(s/m/l)) | n: none; 1:100
 			<div class="r">
 				<div class="c3 c3-m mb2 f4 fwn">.fwn</div>
 				<div class="c3 c3-m mb2 f4 fwb">.fwb</div>
@@ -150,18 +152,19 @@
 			</div>
 		</section>
 
-		<section class="mb5" id="textalign">
-			<h2 class="mb4 f5">Text Align</h2>
-      <p class="mb4 f6 mon">.a[l/c/r](-(s/m/l)) | l: left; c: center; r: right</p>
+		<section class="mb5 pb5 bb" id="textalign">
+			<h2 class="mb4 f6 upc tk">Align</h2>
+      <p class="mb4 f6 mon">.a[l/j/c/r](-(s/m/l)) | l: left; j: justify; c: center; r: right</p>
 			<div class="r ba f6 mon">
-				<div class="c4 p3 ba al">.al</div>
-				<div class="c4 p3 ba ac">.ac</div>
-				<div class="c4 p3 ba ar">.ar</div>
+				<div class="c3 p3 ba al">.al</div>
+        <div class="c3 p3 ba aj">.aj</div>
+				<div class="c3 p3 ba ac">.ac</div>
+				<div class="c3 p3 ba ar">.ar</div>
 			</div>
 		</section>
 
-		<section class="mb5" id="grid">
-			<h2 class="mb4 f5">Grid</h2>
+		<section class="mb5 pb5 bb" id="grid">
+			<h2 class="mb4 f6 upc tk">Grid</h2>
 			<p class="mb4 lhd f6 mon">.c[1-c](-(s/m)) | Note: b + 1 breaks in Chrome</p>
 			<div class="mb4 r ba f6 mon">
 				<div class="r">
@@ -214,16 +217,17 @@
 			</div>
 		</section>
 
-		<section class="mb5" id="spacing">
-			<h2 class="mb4 f5">Spacing</h2>
-			<div class="mb4 p3 ba bsd f6 mon">
-				<span>.m_, .mt_, .mr_, .mb_, .ml_, .mv_, .mh_</span>
+		<section class="mb5 pb5 bb" id="spacing">
+			<h2 class="mb4 f6 upc tk">Spacing</h2>
+      <p class="mb4 f6 mon">.[m/p(t/r/b/l/v/h)[0-7]](-(s/m/l)) | m: margin; p: padding; t: &#8593;; r: &#8594;; b: &#8595;; l: &#8592;; v: &#8597;; h: &#8596;
+			<div class="mb4 p3 ba bsd f6 mon ac">
+				<span>.m</span>
 				<div class="p3 ba">
-					<span>.p_, .pt_, .pr_, .pb_, .pl_, .pv_, .ph_</span>
+					<span>.p</span>
 				</div>
 			</div>
 			<div class="r f6 mon">
-				<div class="c6 pr2-l">
+				<div class="c6 pr3-l">
 					<p class="mb3 ba pb0"></p>
 					<p class="mb3 ba pb1"></p>
 					<p class="mb3 ba pb2"></p>
@@ -233,66 +237,111 @@
 					<p class="mb3 ba pb6"></p>
 					<p class="mb3 ba pb7"></p>
 				</div>
-				<div class="c6 pl2-l">
-					<p class="mb3 p2 ba"><span class="mr0">></span>o</p>
-					<p class="mb3 p2 ba"><span class="mr1">></span>o</p>
-					<p class="mb3 p2 ba"><span class="mr2">></span>o</p>
-					<p class="mb3 p2 ba"><span class="mr3">></span>o</p>
-					<p class="mb3 p2 ba"><span class="mr4">></span>o</p>
-					<p class="mb3 p2 ba"><span class="mr5">></span>o</p>
-					<p class="mb3 p2 ba"><span class="mr6">></span>o</p>
-					<p class="mb3 p2 ba"><span class="mr7">></span>o</p>
+				<div class="c6 pl3-l">
+					<p class="mb3 p2 ba"><span class="mr0">&#9608;</span>&#9608;</p>
+					<p class="mb3 p2 ba"><span class="mr1">&#9608;</span>&#9608;</p>
+					<p class="mb3 p2 ba"><span class="mr2">&#9608;</span>&#9608;</p>
+					<p class="mb3 p2 ba"><span class="mr3">&#9608;</span>&#9608;</p>
+					<p class="mb3 p2 ba"><span class="mr4">&#9608;</span>&#9608;</p>
+					<p class="mb3 p2 ba"><span class="mr5">&#9608;</span>&#9608;</p>
+					<p class="mb3 p2 ba"><span class="mr6">&#9608;</span>&#9608;</p>
+					<p class="mb3 p2 ba"><span class="mr7">&#9608;</span>&#9608;</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="pb5" id="floats">
-			<h2 class="mb4 f5">Floats</h2>
-      <p class="f6 mon">.[l/r]f(-(s/m/l)) | l: left; r: right</p>
+		<section class="mb5 pb5 bb" id="floats">
+			<h2 class="mb4 f6 upc tk">Floats</h2>
+      <p class="mb4 f6 mon">.[l/r]f(-(s/m/l)) | l: &#8592;; r: &#8594;</p>
+      <div class="mb4">
+        <p class="wa lf f1">&#8592;</p>
+        <p class="wa rf f1">&#8594;</p>
+      </div>
 		</section>
 
-		<section class="mb5" id="heights">
-			<h2 class="mb4 f5">Heights</h2>
-			<p class="mb4 f6 mon">.(m/x/v)h[(f/a)/(1-9)](-(s/m/l)) | m: min; x: max; v: vh; f: full; a: auto; 1: 10%; 9: 90%</p>
+		<section class="mb5 pb5 bb" id="heights">
+			<h2 class="mb4 f6 upc tk">Heights</h2>
+			<p class="mb4 f6 mon">.(m/x/v)h[(f/a)/(1-9)](-(s/m/l)) | m: min; x: max; v: vh; f: full; a: auto; 1:10%</p>
 			<div class="dn db-l vh5 r f6 mon">
-				<div class="dib c1 hf ba">
-					<div class="bb hf p2">.hf</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h9 p2">.h9</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h8 p2">.h8</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h7 p2">.h7</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h6 p2">.h6</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h5 p2">.h5</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h4 p2">.h4</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h3 p2">.h3</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h2 p2">.h2</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb h1 p2">.h1</div>
-				</div>
-				<div class="dib c1 hf ba">
-					<div class="bb ha p2">.ha</div>
-				</div>
+				<div class="dib c1 hf ba"><div class="bb hf p2">.hf</div></div>
+				<div class="dib c1 hf ba"><div class="bb h9 p2">.h9</div></div>
+				<div class="dib c1 hf ba"><div class="bb h8 p2">.h8</div></div>
+				<div class="dib c1 hf ba"><div class="bb h7 p2">.h7</div></div>
+				<div class="dib c1 hf ba"><div class="bb h6 p2">.h6</div></div>
+				<div class="dib c1 hf ba"><div class="bb h5 p2">.h5</div></div>
+				<div class="dib c1 hf ba"><div class="bb h4 p2">.h4</div></div>
+				<div class="dib c1 hf ba"><div class="bb h3 p2">.h3</div></div>
+				<div class="dib c1 hf ba"><div class="bb h2 p2">.h2</div></div>
+				<div class="dib c1 hf ba"><div class="bb h1 p2">.h1</div></div>
+				<div class="dib c1 hf ba"><div class="bb ha p2">.ha</div></div>
 			</div>
 		</section>
 
-		<section class="mb5" id="borders">
-			<h2 class="mb4 f5">Borders</h2>
+    <section class="mb5 pb5 bb" id="widths">
+			<h2 class="mb4 f6 upc tk">Widths</h2>
+			<p class="mb4 f6 mon">.(m/x/v)w[(f/a)/(1-9)](-(s/m/l)) | m: min; x: max; v: vh; f: full; a: auto; 1:10%</p>
+			<div class="dn db-l ba r f6 mon">
+				<div class="db wf ba"><div class="br wf p2">.wf</div></div>
+				<div class="db wf ba"><div class="br w9 p2">.w9</div></div>
+        <div class="db wf ba"><div class="br w8 p2">.w8</div></div>
+        <div class="db wf ba"><div class="br w7 p2">.w7</div></div>
+        <div class="db wf ba"><div class="br w6 p2">.w6</div></div>
+        <div class="db wf ba"><div class="br w5 p2">.w5</div></div>
+        <div class="db wf ba"><div class="br w4 p2">.w4</div></div>
+        <div class="db wf ba"><div class="br w3 p2">.w3</div></div>
+        <div class="db wf ba"><div class="br w2 p2">.w2</div></div>
+        <div class="db wf ba"><div class="br w1 p2">.w1</div></div>
+			</div>
+		</section>
+
+    <section class="mb5 pb5 bb" id="chroma">
+      <h2 class="mb4 f6 upc tk">Chroma</h2>
+      <p class="mb4 f6 mon">.(bg-){colour}</p>
+      <div class="mb4 r f6 mon">
+        <div class="c6 p3">
+          <div class="p3 bg-noir">.bg-noir #202020</div>
+        </div>
+        <div class="c6 p3">
+          <div class="p3 bg-blanc noir">.bg-blanc #f8f8f8</div>
+        </div>
+        <div class="c6 p3">
+          <div class="p3 bg-red blanc">.bg-red #EB4E32</div>
+        </div>
+        <div class="c6 p3">
+          <div class="p3 bg-ylw blanc">.bg-ylw #FFD954</div>
+        </div>
+        <div class="c6 p3">
+          <div class="p3 bg-grn blanc">.bg-grn #83BD75</div>
+        </div>
+        <div class="c6 p3">
+          <div class="p3 bg-blu blanc">.bg-blu #2E76C3</div>
+        </div>
+      </div>
+
+      <div class="r f6 mon">
+        <div class="c6 p3">
+          <div class="ba p3 bg-blanc noir">.noir</div>
+        </div>
+        <div class="c6 p3">
+          <div class="ba p3 blanc">.blanc</div>
+        </div>
+        <div class="c6 p3">
+          <div class="ba p3 red blanc">.red</div>
+        </div>
+        <div class="c6 p3">
+          <div class="ba p3 ylw blanc">.ylw</div>
+        </div>
+        <div class="c6 p3">
+          <div class="ba p3 grn blanc">.grn</div>
+        </div>
+        <div class="c6 p3">
+          <div class="ba p3 blu blanc">.blu</div>
+        </div>
+      </div>
+    </section>
+
+		<section class="mb5 pb5 bb" id="borders">
+			<h2 class="mb4 f6 upc tk">Borders</h2>
 			<p class="mb4 f6 mon">.b[n/t/r/b/l/a](-(s/m/l))</p>
 			<div class="mb4 r f6 mon">
 				<div class="c2 c2-m p2">
@@ -386,14 +435,14 @@
 			</div>
 		</section>
 
-		<section class="mb5" id="borderradii">
-			<h2 class="mb4 f5">Border Radii</h2>
+		<section class="mb5 pb5 bb" id="borderradii">
+			<h2 class="mb4 f6 upc tk">Border Radii</h2>
 			<p class="mb4">Content</p>
 		</section>
 
-		<section class="mb5" id="opacity">
-			<h2 class="mb4 f5">Opacity</h2>
-			<p class="mb4 f6 mon">.o[f/(0-9)]</p>
+		<section class="mb5 pb5 bb" id="opacity">
+			<h2 class="mb4 f6 upc tk">Opacity</h2>
+			<p class="mb4 f6 mon">.o[f/(0-9)](-(s/m/l)) | f: 1; 1:0.1</p>
 			<div class="r f6 mon ac">
 				<div class="c2 p3 bg-blanc noir of">.of</div>
 				<div class="c2 p3 bg-blanc noir o9">.o9</div>
