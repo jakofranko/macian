@@ -7,7 +7,7 @@
 
 */
 
-/**{box-shadow:inset 0 0 1px #ccc}*/
+.dev > * {box-shadow:inset 0 0 1px #ccc}
 
 *,
 *::before,
@@ -18,6 +18,13 @@
   -webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box
+}
+
+.noselect > * {
+-webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none
 }
 
 html {
@@ -41,7 +48,7 @@ body {
 
 ::-webkit-scrollbar {
   background-color: #202020;
-  width: 4px
+  width: 8px
 }
 
 ::-webkit-scrollbar-thumb { background-color: #222 }
@@ -57,13 +64,13 @@ table {
 th,
 td {
 	padding: 7px;
-	border: 1px solid #202020
+	border: .125em solid #202020
 }
 
 .rl thead tr:last-of-type,
 .rl tbody tr {
 	border: 0;
-	border-bottom: 1px solid #ddd
+	border-bottom: .125em solid #ddd
 }
 
 nav ul, nav ol, .menu {list-style: none}
