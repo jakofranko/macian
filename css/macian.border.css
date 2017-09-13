@@ -33,11 +33,11 @@
 
 @media screen and (min-width: 30em) {
 
-  .ba-s {border-style:        solid; border-width:        1px}
-  .bt-s {border-top-style:    solid; border-top-width:    1px}
-  .br-s {border-right-style:  solid; border-right-width:  1px}
-  .bb-s {border-bottom-style: solid; border-bottom-width: 1px}
-  .bl-s {border-left-style:   solid; border-left-width:   1px}
+  .ba-s {border-style:        solid; border-width:        .125em}
+  .bt-s {border-top-style:    solid; border-top-width:    .125em}
+  .br-s {border-right-style:  solid; border-right-width:  .125em}
+  .bb-s {border-bottom-style: solid; border-bottom-width: .125em}
+  .bl-s {border-left-style:   solid; border-left-width:   .125em}
 
   .bn-s, .bn-s th, .bn-s td {border-style: none; border-width: 0}
 
@@ -49,11 +49,11 @@
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
 
-  .ba-m {border-style:        solid; border-width:        1px}
-  .bt-m {border-top-style:    solid; border-top-width:    1px}
-  .br-m {border-right-style:  solid; border-right-width:  1px}
-  .bb-m {border-bottom-style: solid; border-bottom-width: 1px}
-  .bl-m {border-left-style:   solid; border-left-width:   1px}
+  .ba-m {border-style:        solid; border-width:        .125em}
+  .bt-m {border-top-style:    solid; border-top-width:    .125em}
+  .br-m {border-right-style:  solid; border-right-width:  .125em}
+  .bb-m {border-bottom-style: solid; border-bottom-width: .125em}
+  .bl-m {border-left-style:   solid; border-left-width:   .125em}
 
   .bn-m, .bn-m th, .bn-m td {border-style: none; border-width: 0}
 
@@ -65,11 +65,11 @@
 
 @media screen and (min-width: 60em) {
 
-  .ba-l {border-style:        solid; border-width:        1px}
-  .bt-l {border-top-style:    solid; border-top-width:    1px}
-  .br-l {border-right-style:  solid; border-right-width:  1px}
-  .bb-l {border-bottom-style: solid; border-bottom-width: 1px}
-  .bl-l {border-left-style:   solid; border-left-width:   1px}
+  .ba-l {border-style:        solid; border-width:        .125em}
+  .bt-l {border-top-style:    solid; border-top-width:    .125em}
+  .br-l {border-right-style:  solid; border-right-width:  .125em}
+  .bb-l {border-bottom-style: solid; border-bottom-width: .125em}
+  .bl-l {border-left-style:   solid; border-left-width:   .125em}
 
   .bn-l, .bn-l th, .bn-l td {border-style: none; border-width: 0}
 
