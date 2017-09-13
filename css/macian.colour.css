@@ -10,8 +10,18 @@
 .noir  {color: #202020}
 .blanc {color: #f8f8f8!important}
 
+.red {color: #EB4E32 !important}
+.ylw {color: #FFD954 !important}
+.grn {color: #83BD75 !important}
+.blu {color: #2E76C3 !important}
+
 .bg-noir  {background-color: #202020}
 .bg-blanc {background-color: #f8f8f8}
+
+.bg-red {background-color: #EB4E32}
+.bg-ylw {background-color: #FFD954}
+.bg-grn {background-color: #83BD75}
+.bg-blu {background-color: #2E76C3}
 
 .bg-cl {background-color: transparent}
 
