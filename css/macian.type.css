@@ -14,10 +14,6 @@
 .lhs {line-height:     1em} .lht {line-height: 1.272em}
 .lhc {line-height: 1.618em} .lhd {line-height:     2em}
 
-.srf {font-family: "Roboto Slab", serif}
-.sns {font-family: "Roboto", sans-serif}
-.mon {font-family: "Roboto Mono", monospace}
-
 .fwn {font-weight: normal} .fwb {font-weight: bold}
 
 .fw1 {font-weight: 100} .fw2 {font-weight: 200} .fw3 {font-weight: 300}
@@ -45,8 +41,6 @@
 .tu {text-decoration: underline}
 .to {text-decoration: overline}
 
-.ind {text-indent: 1em}
-
 .m  {max-width: 30em}
 .mw {max-width: 34em}
 .mn {max-width: 20em}
@@ -57,13 +51,11 @@
           column-count: 1
 }
 
-a {color: #0074d9; text-decoration: none}
+a {color: #eb4e32; text-decoration: none}
+a:hover {text-decoration: underline}
 
-a:hover {border-bottom: 1px solid}
-
-blockquote {padding: 0 2em; border-left: .1618em solid #202020}
-
-pre {overflow-x: auto; overflow-y: hidden; overflow: scroll}
+.hvl:hover {text-decoration: underline}
+.hvn:hover {text-decoration: none}
 
 mark {background-color: #ffd96d}
 
@@ -96,8 +88,6 @@ ul, ol, .lspi {list-style-position: inside}
   .tkt-s {letter-spacing: -.05em}
   .tkm-s {letter-spacing:  .25em}
 
-  .ind-s {text-indent: 1em}
-
   .m-s  {max-width: 30em}
   .mw-s {max-width: 34em}
   .mn-s {max-width: 20em}
@@ -121,8 +111,6 @@ ul, ol, .lspi {list-style-position: inside}
   .tk-m  {letter-spacing:   .1em}
   .tkt-m {letter-spacing: -.05em}
   .tkm-m {letter-spacing:  .25em}
-
-  .ind-m {text-indent: 1em}
 
   .m-m  {max-width: 30em}
   .mw-m {max-width: 34em}
@@ -148,8 +136,6 @@ ul, ol, .lspi {list-style-position: inside}
   .tkt-l {letter-spacing: -.05em}
   .tkm-l {letter-spacing:  .25em}
 
-  .ind-l {text-indent: 1em}
-
   .m-l  {max-width: 30em}
   .mw-l {max-width: 34em}
   .mn-l {max-width: 20em}
@@ -160,8 +146,22 @@ ul, ol, .lspi {list-style-position: inside}
             column-gap: 1.5em
   }
 
-  .col-2 {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2}
-  .col-3 {-webkit-column-count: 3; -moz-column-count: 3; column-count: 3}
-  .col-4 {-webkit-column-count: 4; -moz-column-count: 4; column-count: 4}
+  .col-2 {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2
+  }
+
+  .col-3 {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3
+  }
+
+  .col-4 {
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4
+  }
 
 }
