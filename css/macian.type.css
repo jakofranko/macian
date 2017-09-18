@@ -55,7 +55,7 @@ a {color: #eb4e32; text-decoration: none}
 a:hover {text-decoration: underline}
 
 .hvl:hover {text-decoration: underline}
-.hvn:hover {text-decoration: none}
+.hvn:hover {text-decoration: none !important}
 
 mark {background-color: #ffd96d}
 
