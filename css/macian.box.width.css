@@ -9,6 +9,11 @@
 
 .wa {width: auto} .wf {width: 100%} .vw {width: 100vw}
 
+.sw1 {width: .25em} .sw2 {width: .5em}
+.sw3 {width:   1em} .sw4 {width:  2em}
+.sw5 {width:   4em} .sw6 {width:  8em}
+.sw7 {width:  16em}
+
 .w1 {width: 10%} .w2 {width: 20%} .w3 {width: 30%}
 .w4 {width: 40%} .w5 {width: 50%} .w6 {width: 60%}
 .w7 {width: 70%} .w8 {width: 80%} .w9 {width: 90%}
@@ -28,6 +33,11 @@
 @media screen and (min-width: 30em) {
 
   .wa-s {width: auto} .wf-s {width: 100%} .vw-s {width: 100vw}
+
+  .sw1-s {width: .25em} .sw2-s {width: .5em}
+  .sw3-s {width:   1em} .sw4-s {width:  2em}
+  .sw5-s {width:   4em} .sw6-s {width:  8em}
+  .sw7-s {width:  16em}
 
   .w1-s {width: 10%} .w2-s {width: 20%} .w3-s {width: 30%}
   .w4-s {width: 40%} .w5-s {width: 50%} .w6-s {width: 60%}
@@ -51,6 +61,11 @@
 
   .wa-m {width: auto} .wf-m {width: 100%} .vw-m {width: 100vw}
 
+  .sw1-m {width: .25em} .sw2-m {width: .5em}
+  .sw3-m {width:   1em} .sw4-m {width:  2em}
+  .sw5-m {width:   4em} .sw6-m {width:  8em}
+  .sw7-m {width:  16em}
+
   .w1-m {width: 10%} .w2-m {width: 20%} .w3-m {width: 30%}
   .w4-m {width: 40%} .w5-m {width: 50%} .w6-m {width: 60%}
   .w7-m {width: 70%} .w8-m {width: 80%} .w9-m {width: 90%}
@@ -72,6 +87,11 @@
 @media screen and (min-width: 60em) {
 
   .wa-l {width: auto} .wf-l {width: 100%} .vw-l {width: 100vw}
+
+  .sw1-l {width: .25em} .sw2-l {width: .5em}
+  .sw3-l {width:   1em} .sw4-l {width:  2em}
+  .sw5-l {width:   4em} .sw6-l {width:  8em}
+  .sw7-l {width:  16em}
 
   .w1-l {width: 10%} .w2-l {width: 20%} .w3-l {width: 30%}
   .w4-l {width: 40%} .w5-l {width: 50%} .w6-l {width: 60%}

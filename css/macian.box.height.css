@@ -9,6 +9,11 @@
 
 .ha {height: auto} .hf {height: 100%} .vh {height: 100vh}
 
+.sh1 {height: .25em} .sh2 {height: .5em}
+.sh3 {height:   1em} .sh4 {height:  2em}
+.sh5 {height:   4em} .sh6 {height:  8em}
+.sh7 {height:  16em}
+
 .h1 {height: 10%} .h2 {height: 20%} .h3 {height: 30%}
 .h4 {height: 40%} .h5 {height: 50%} .h6 {height: 60%}
 .h7 {height: 70%} .h8 {height: 80%} .h9 {height: 90%}
@@ -28,6 +33,11 @@
 @media screen and (min-width: 30em) {
 
   .ha-s {height: auto} .hf-s {height: 100%} .vh-s {height: 100vh}
+
+  .sh1-s {height: .25em} .sh2-s {height: .5em}
+  .sh3-s {height:   1em} .sh4-s {height:  2em}
+  .sh5-s {height:   4em} .sh6-s {height:  8em}
+  .sh7-s {height:  16em}
 
   .h1-s {height: 10%} .h2-s {height: 20%} .h3-s {height: 30%}
   .h4-s {height: 40%} .h5-s {height: 50%} .h6-s {height: 60%}
@@ -51,6 +61,11 @@
 
   .ha-m {height: auto} .hf-m {height: 100%} .vh-m {height: 100vh}
 
+  .sh1-m {height: .25em} .sh2-m {height: .5em}
+  .sh3-m {height:   1em} .sh4-m {height:  2em}
+  .sh5-m {height:   4em} .sh6-m {height:  8em}
+  .sh7-m {height:  16em}
+
   .h1-m {height: 10%} .h2-m {height: 20%} .h3-m {height: 30%}
   .h4-m {height: 40%} .h5-m {height: 50%} .h6-m {height: 60%}
   .h7-m {height: 70%} .h8-m {height: 80%} .h9-m {height: 90%}
@@ -72,6 +87,11 @@
 @media screen and (min-width: 60em) {
 
   .ha-l {height: auto} .hf-l {height: 100%} .vh-l {height: 100vh}
+
+  .sh1-l {height: .25em} .sh2-l {height: .5em}
+  .sh3-l {height:   1em} .sh4-l {height:  2em}
+  .sh5-l {height:   4em} .sh6-l {height:  8em}
+  .sh7-l {height:  16em}
 
   .h1-l {height: 10%} .h2-l {height: 20%} .h3-l {height: 30%}
   .h4-l {height: 40%} .h5-l {height: 50%} .h6-l {height: 60%}
