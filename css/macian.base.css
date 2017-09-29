@@ -65,7 +65,7 @@ body {
 
 .bg-noir ::-webkit-scrollbar-thumb { background-color: #222 }
 
-img, video {max-width: 100%}
+img, video {width: 100%}
 
 table {
 	width: 100%;
