@@ -41,9 +41,7 @@
 .tu {text-decoration: underline}
 .to {text-decoration: overline}
 
-.m  {max-width: 30em}
-.mw {max-width: 34em}
-.mn {max-width: 20em}
+.m {max-width: 30em} .mw {max-width: 34em} .mn {max-width: 20em}
 
 .col-2,.col-3,.col-4 {
   -webkit-column-count: 1;
@@ -79,6 +77,12 @@ ul, ol, .lspi {list-style-position: inside}
   .lhs-s {line-height:   1} .lht-s {line-height: 1.25}
   .lhc-s {line-height: 1.5} .lhd-s {line-height:    2}
 
+  .fwn-s {font-weight: normal} .fwb-s {font-weight: bold}
+
+  .fw1-s {font-weight: 100} .fw2-s {font-weight: 200} .fw3-s {font-weight: 300}
+  .fw4-s {font-weight: 400} .fw5-s {font-weight: 500} .fw6-s {font-weight: 600}
+  .fw7-s {font-weight: 700} .fw8-s {font-weight: 800} .fw9-s {font-weight: 900}
+
   .aj-s {text-align: justify; hyphens: auto}
   .ac-s {text-align: center}
   .ar-s {text-align: right}
@@ -103,6 +107,12 @@ ul, ol, .lspi {list-style-position: inside}
   .lhs-m {line-height:   1} .lht-m {line-height: 1.25}
   .lhc-m {line-height: 1.5} .lhd-m {line-height:    2}
 
+  .fwn-m {font-weight: normal} .fwb-m {font-weight: bold}
+
+  .fw1-m {font-weight: 100} .fw2-m {font-weight: 200} .fw3-m {font-weight: 300}
+  .fw4-m {font-weight: 400} .fw5-m {font-weight: 500} .fw6-m {font-weight: 600}
+  .fw7-m {font-weight: 700} .fw8-m {font-weight: 800} .fw9-m {font-weight: 900}
+
   .aj-m {text-align: justify; hyphens: auto}
   .ac-m {text-align: center}
   .ar-m {text-align: right}
@@ -112,9 +122,7 @@ ul, ol, .lspi {list-style-position: inside}
   .tkt-m {letter-spacing: -.05em}
   .tkm-m {letter-spacing:  .25em}
 
-  .m-m  {max-width: 30em}
-  .mw-m {max-width: 34em}
-  .mn-m {max-width: 20em}
+  .m-m {max-width: 30em} .mw-m {max-width: 34em} .mn-m {max-width: 20em}
 
 }
 
@@ -127,6 +135,12 @@ ul, ol, .lspi {list-style-position: inside}
   .lhs-l {line-height:   1} .lht-l {line-height: 1.25}
   .lhc-l {line-height: 1.5} .lhd-l {line-height:    2}
 
+  .fwn-s {font-weight: normal} .fwb-s {font-weight: bold}
+
+  .fw1-l {font-weight: 100} .fw2-l {font-weight: 200} .fw3-l {font-weight: 300}
+  .fw4-l {font-weight: 400} .fw5-l {font-weight: 500} .fw6-l {font-weight: 600}
+  .fw7-l {font-weight: 700} .fw8-l {font-weight: 800} .fw9-l {font-weight: 900}
+
   .aj-l {text-align: justify; hyphens: auto}
   .ac-l {text-align: center}
   .ar-l {text-align: right}
@@ -136,9 +150,7 @@ ul, ol, .lspi {list-style-position: inside}
   .tkt-l {letter-spacing: -.05em}
   .tkm-l {letter-spacing:  .25em}
 
-  .m-l  {max-width: 30em}
-  .mw-l {max-width: 34em}
-  .mn-l {max-width: 20em}
+  .m-l {max-width: 30em} .mw-l {max-width: 34em} .mn-l {max-width: 20em}
 
   .col-2,.col-3,.col-4 {
     -webkit-column-gap: 1.5em;

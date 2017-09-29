@@ -14,19 +14,15 @@ select {
 	outline: none;
 }
 
-.rn {
-	resize: none
-}
+.rn {resize: none}
 
-select {
-	background: #fff
-}
+select {background: #fff}
 
 input[type="range"] {
 	background-color: transparent;
 	border: none;
 	-webkit-appearance: none;
-	-moz-appearance: none;
+	   -moz-appearance: none;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
@@ -112,25 +108,4 @@ meter::-webkit-meter-optimum-value {
 
 progress::-webkit-progress-value {
 	background-color: #70b77e
-}
-
-progress.red::-webkit-progress-value,
-meter.red::-webkit-meter-optimum-value,
-progress.bg-red::-webkit-progress-bar,
-meter.bg-red::-webkit-meter-bar {
-	background-color: #e85f5c
-}
-
-progress.grn::-webkit-progress-value,
-meter.grn::-webkit-meter-optimum-value,
-progress.bg-grn::-webkit-progress-bar,
-meter.bg-grn::-webkit-meter-bar {
-	background-color: #70b77e
-}
-
-progress.noir::-webkit-progress-value,
-meter.noir::-webkit-meter-optimum-value,
-progress.bg-noir::-webkit-progress-bar,
-meter.bg-noir::-webkit-meter-bar {
-	background-color: #202020
 }

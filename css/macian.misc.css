@@ -10,7 +10,7 @@
 .cover   {background-size:   cover !important}
 .contain {background-size: contain !important}
 
-details,summary {outline: none}
+.on {outline: none}
 
 .oa  {overflow: auto}      .oxa {overflow-x: auto}
 .oya {overflow-y: auto}    .ov  {overflow: visible}

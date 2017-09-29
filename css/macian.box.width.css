@@ -9,9 +9,8 @@
 
 .wa {width: auto} .wf {width: 100%} .vw {width: 100vw}
 
-.sw1 {width: .25em} .sw2 {width: .5em}
-.sw3 {width:   1em} .sw4 {width:  2em}
-.sw5 {width:   4em} .sw6 {width:  8em}
+.sw1 {width: .25em} .sw2 {width: .5em} .sw3 {width: 1em}
+.sw4 {width:   2em} .sw5 {width:  4em} .sw6 {width: 8em}
 .sw7 {width:  16em}
 
 .w1 {width: 10%} .w2 {width: 20%} .w3 {width: 30%}
@@ -34,9 +33,8 @@
 
   .wa-s {width: auto} .wf-s {width: 100%} .vw-s {width: 100vw}
 
-  .sw1-s {width: .25em} .sw2-s {width: .5em}
-  .sw3-s {width:   1em} .sw4-s {width:  2em}
-  .sw5-s {width:   4em} .sw6-s {width:  8em}
+  .sw1-s {width: .25em} .sw2-s {width: .5em} .sw3-s {width: 1em}
+  .sw4-s {width:   2em} .sw5-s {width:  4em} .sw6-s {width: 8em}
   .sw7-s {width:  16em}
 
   .w1-s {width: 10%} .w2-s {width: 20%} .w3-s {width: 30%}
@@ -61,9 +59,8 @@
 
   .wa-m {width: auto} .wf-m {width: 100%} .vw-m {width: 100vw}
 
-  .sw1-m {width: .25em} .sw2-m {width: .5em}
-  .sw3-m {width:   1em} .sw4-m {width:  2em}
-  .sw5-m {width:   4em} .sw6-m {width:  8em}
+  .sw1-m {width: .25em} .sw2-m {width: .5em} .sw3-m {width: 1em}
+  .sw4-m {width:   2em} .sw5-m {width:  4em} .sw6-m {width: 8em}
   .sw7-m {width:  16em}
 
   .w1-m {width: 10%} .w2-m {width: 20%} .w3-m {width: 30%}
@@ -88,9 +85,8 @@
 
   .wa-l {width: auto} .wf-l {width: 100%} .vw-l {width: 100vw}
 
-  .sw1-l {width: .25em} .sw2-l {width: .5em}
-  .sw3-l {width:   1em} .sw4-l {width:  2em}
-  .sw5-l {width:   4em} .sw6-l {width:  8em}
+  .sw1-l {width: .25em} .sw2-l {width: .5em} .sw3-l {width: 1em}
+  .sw4-l {width:   2em} .sw5-l {width:  4em} .sw6-l {width: 8em}
   .sw7-l {width:  16em}
 
   .w1-l {width: 10%} .w2-l {width: 20%} .w3-l {width: 30%}
