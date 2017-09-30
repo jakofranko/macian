@@ -10,6 +10,7 @@
 input,
 textarea,
 select {
+	padding: .5em;
 	border: 0.1em solid #eee;
 	outline: none;
 }
@@ -29,7 +30,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 	height: 5px;
 	background: #eee;
 	border: none;
-	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
+	box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.2);
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -39,7 +40,7 @@ input[type="range"]::-webkit-slider-thumb {
 	border-radius: 50%;
 	background-color: #202020;
 	margin-top: -4px;
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1618)
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2)
 }
 
 input:invalid,

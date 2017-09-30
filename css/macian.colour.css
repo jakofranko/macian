@@ -23,7 +23,7 @@
 .bg-grn {background-color: #83BD75}
 .bg-blu {background-color: #2E76C3}
 
-.bg-cl {background-color: transparent}
+.bg-cl {background-color: transparent !important}
 
 .b-blanc {border-color: #f8f8f8 !important}
 .b-noir  {border-color: #202020 !important}

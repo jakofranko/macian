@@ -74,8 +74,8 @@ ul, ol, .lspi {list-style-position: inside}
   .f3-s {font-size:  1.618em} .f4-s {font-size:  1.272em}
   .f5-s {font-size:      1em} .f6-s {font-size:  .7862em}
 
-  .lhs-s {line-height:   1} .lht-s {line-height: 1.25}
-  .lhc-s {line-height: 1.5} .lhd-s {line-height:    2}
+  .lhs-s {line-height:   1em} .lht-s {line-height: 1.25em}
+  .lhc-s {line-height: 1.5em} .lhd-s {line-height:    2em}
 
   .fwn-s {font-weight: normal} .fwb-s {font-weight: bold}
 
@@ -104,8 +104,8 @@ ul, ol, .lspi {list-style-position: inside}
   .f3-m {font-size:  1.618em} .f4-m {font-size:  1.272em}
   .f5-m {font-size:      1em} .f6-m {font-size:  .7862em}
 
-  .lhs-m {line-height:   1} .lht-m {line-height: 1.25}
-  .lhc-m {line-height: 1.5} .lhd-m {line-height:    2}
+  .lhs-m {line-height:   1em} .lht-m {line-height: 1.25em}
+  .lhc-m {line-height: 1.5em} .lhd-m {line-height:    2em}
 
   .fwn-m {font-weight: normal} .fwb-m {font-weight: bold}
 
@@ -124,6 +124,30 @@ ul, ol, .lspi {list-style-position: inside}
 
   .m-m {max-width: 30em} .mw-m {max-width: 34em} .mn-m {max-width: 20em}
 
+  .col-2-m,.col-3-m,.col-4-m {
+    -webkit-column-gap: 1.5em;
+       -moz-column-gap: 1.5em;
+            column-gap: 1.5em
+  }
+
+  .col-2-m {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2
+  }
+
+  .col-3-m {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3
+  }
+
+  .col-4-m {
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4
+  }
+
 }
 
 @media screen and (min-width: 60em) {
@@ -132,8 +156,8 @@ ul, ol, .lspi {list-style-position: inside}
   .f3-l {font-size:  1.618em} .f4-l {font-size:  1.272em}
   .f5-l {font-size:      1em} .f6-l {font-size:  .7862em}
 
-  .lhs-l {line-height:   1} .lht-l {line-height: 1.25}
-  .lhc-l {line-height: 1.5} .lhd-l {line-height:    2}
+  .lhs-l {line-height:   1em} .lht-l {line-height: 1.25em}
+  .lhc-l {line-height: 1.5em} .lhd-l {line-height:    2em}
 
   .fwn-s {font-weight: normal} .fwb-s {font-weight: bold}
 
