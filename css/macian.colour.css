@@ -10,6 +10,8 @@
 .noir  {color: #202020}
 .blanc {color: #f8f8f8!important}
 
+.a1 {color: #161616}
+
 .red {color: #EB4E32 !important}
 .ylw {color: #FFD954 !important}
 .grn {color: #83BD75 !important}
@@ -17,6 +19,9 @@
 
 .bg-noir  {background-color: #202020}
 .bg-blanc {background-color: #f8f8f8}
+
+.bg-blk {background-color: #000}
+.bg-111 {background-color: #161616}
 
 .bg-red {background-color: #EB4E32}
 .bg-ylw {background-color: #FFD954}

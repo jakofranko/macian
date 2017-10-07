@@ -17,6 +17,8 @@ select {
 
 .rn {resize: none}
 
+.on {outline: none}
+
 select {background: #fff}
 
 input[type="range"] {
@@ -49,7 +51,7 @@ input:invalid::-webkit-input-placeholder {
 }
 
 .disabled,
- :disabled {
+:disabled {
 	opacity: 0.618;
 	cursor: not-allowed
 }
@@ -57,31 +59,14 @@ input:invalid::-webkit-input-placeholder {
 button,
 input[type="button"],
 input[type="submit"],
-input[type="reset"],
-a.btn {
-	background-color: #202020;
-	color: #f8f8f8;
-	padding: .5em;
-	outline: none;
+input[type="reset"] {
 	border: 0;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1618);
 	text-align: center
 }
 
 button:hover,
 input[type="button"]:hover {
 	cursor: pointer
-}
-
-button:active,
-input[type="button"]:active,
-.btn:active {
-	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
-}
-
-.btn {
-	text-decoration: none;
-	color: inherit
 }
 
 progress,
