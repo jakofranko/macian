@@ -12,11 +12,11 @@
 *,
 *::before,
 *::after {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box
+     -moz-box-sizing: border-box;
+          box-sizing: border-box
 }
 
 .noselect > * {
@@ -27,16 +27,16 @@
 }
 
 html {
-	height: 100%;
-	width: 100%
+  height: 100%;
+  width: 100%
 }
 
 body {
-	background-color: #f8f8f8;
-	color: #202020;
-	font: 16px/1.618em "Roboto", sans-serif;
-	-webkit-text-size-adjust: 100%;
-	    -ms-text-size-adjust: 100%
+  background-color: #f8f8f8;
+  color: #202020;
+  font: 16px/1.618em "Roboto", sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%
 }
 
 ::-webkit-scrollbar-track {
@@ -47,12 +47,12 @@ body {
 ::-webkit-scrollbar {
   background-color: #f8f8f8;
   width: .5rem;
-	height: .5rem;
+  height: .5rem;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #202020;
-	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3)
+  background-color: #202020;
+  -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3)
 }
 
 .bg-noir::-webkit-scrollbar-track {
@@ -63,31 +63,31 @@ body {
 .bg-noir::-webkit-scrollbar {
   background-color: #202020;
   width: .5rem;
-	height: .5rem;
+  height: .5rem;
 }
 
 .bg-noir::-webkit-scrollbar-thumb {
-	background-color: #f8f8f8 !important;
-	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3)
+  background-color: #f8f8f8 !important;
+  -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3)
 }
 
 img, video {width: 100%}
 
 table {
-	width: 100%;
-	border-collapse: collapse;
-	overflow-x: auto
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto
 }
 
 th, td {
-	padding: 7px;
-	border: .125em solid #202020
+  padding: 7px;
+  border: .125em solid #202020
 }
 
 .rl thead tr:last-of-type,
 .rl tbody tr {
-	border: 0;
-	border-bottom: .125em solid #ddd
+  border: 0;
+  border-bottom: .125em solid #ddd
 }
 
 nav ul, nav ol, .menu {list-style: none}

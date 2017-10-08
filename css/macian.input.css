@@ -10,9 +10,9 @@
 input,
 textarea,
 select {
-	padding: .5em;
-	border: 0.1em solid #eee;
-	outline: none;
+  padding: .5em;
+  border: 0.1em solid #eee;
+  outline: none;
 }
 
 .rn {resize: none}
@@ -22,76 +22,76 @@ select {
 select {background: #fff}
 
 input[type="range"] {
-	background-color: transparent;
-	border: none;
-	-webkit-appearance: none;
-	   -moz-appearance: none;
+  background-color: transparent;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
-	height: 5px;
-	background: #eee;
-	border: none;
-	box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+  height: 5px;
+  background: #eee;
+  border: none;
+  box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.2);
 }
 
 input[type="range"]::-webkit-slider-thumb {
-	-webkit-appearance: none;
-	height: 1em;
-	width: 1em;
-	border-radius: 50%;
-	background-color: #202020;
-	margin-top: -4px;
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2)
+  -webkit-appearance: none;
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background-color: #202020;
+  margin-top: -4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2)
 }
 
 input:invalid,
 input:invalid::-webkit-input-placeholder {
-	color: #e85f5c
+  color: #e85f5c
 }
 
 .disabled,
 :disabled {
-	opacity: 0.618;
-	cursor: not-allowed
+  opacity: 0.618;
+  cursor: not-allowed
 }
 
 button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-	border: 0;
-	text-align: center
+  border: 0;
+  text-align: center
 }
 
 button:hover,
 input[type="button"]:hover {
-	cursor: pointer
+  cursor: pointer
 }
 
 progress,
 progress::-webkit-progress-bar {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	border: none;
-	background-color: #eee;
-	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: #eee;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
 }
 
 meter,
 meter::-webkit-meter-bar {
-	background: none;
-	background-color: #eee;
-	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
-	-moz-appearance: none;
+  background: none;
+  background-color: #eee;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
+  -moz-appearance: none;
 }
 
 meter::-webkit-meter-optimum-value {
-	background: none;
-	background-color: #70b77e
+  background: none;
+  background-color: #70b77e
 }
 
 progress::-webkit-progress-value {
-	background-color: #70b77e
+  background-color: #70b77e
 }
