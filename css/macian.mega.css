@@ -1,16 +1,15 @@
 /*
 
   Macian
-  A functional CSS framework
 
   Josh Avanier
   MIT
 
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
 
-.srf {font-family: "Roboto Slab", "Times New Roman", "Georgia", serif}
+.srf {font-family: "Times New Roman", "Georgia", serif}
 .sns {font-family: "Roboto", "Helvetica", "Arial", sans-serif}
 .mon {font-family: "Roboto Mono", monospace}
 
@@ -74,18 +73,13 @@ body {
 }
 
 .bg-noir::-webkit-scrollbar-thumb {
-  background-color: #f8f8f8 !important;
+  background-color: #474747 !important;
   -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3)
 }
-
-.r {width: 100%; overflow: auto}
-.c1,.c2,.c3,.c4,.c5,.c6,
-.c7,.c8,.c9,.ca,.cb,.cc {float: left; width: 100%}
 
 img, video {width: 100%}
 
 table {
-  width: 100%;
   border-collapse: collapse;
   overflow-x: auto
 }
@@ -101,8 +95,6 @@ th, td {
   border-bottom: .125em solid #ddd
 }
 
-nav ul, nav ol, .menu {list-style: none}
-nav li, nav li, .menu li {display: inline-block}
 
 .f1, h1 {font-size: 2.6179em} .f2, h2 {font-size: 2.0581em}
 .f3, h3 {font-size:  1.618em} .f4, h4 {font-size:  1.272em}
@@ -213,8 +205,6 @@ ul, ol, .lspi {list-style-position: inside}
 .bg-r {background-repeat: no-repeat; background-position: center right}
 .bg-b {background-repeat: no-repeat; background-position: bottom center}
 .bg-l {background-repeat: no-repeat; background-position: center left}
-
-.on {outline: none}
 
 .oa  {overflow: auto}      .oxa {overflow-x: auto}
 .oya {overflow-y: auto}    .ov  {overflow: visible}
@@ -522,47 +512,17 @@ meter.bg-noir::-webkit-meter-bar {
   background-color: #202020
 }
 
-input,
-textarea,
-select {
-  padding: .5em;
-  border: 0.1em solid #eee;
-  outline: none;
-}
-
 .rn {resize: none}
 
-.on {outline: none}
-
-select {background: #fff}
-
-input[type="range"] {
-  background-color: transparent;
-  border: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  height: 5px;
-  background: #eee;
-  border: none;
-  box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.2);
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  height: 1em;
-  width: 1em;
-  border-radius: 50%;
-  background-color: #202020;
-  margin-top: -4px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2)
+.an {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
 
 input:invalid,
 input:invalid::-webkit-input-placeholder {
-  color: #e85f5c
+  color: #EB4E32
 }
 
 .disabled,
@@ -575,8 +535,7 @@ button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-  border: 0;
-  text-align: center
+  border: 0
 }
 
 button:hover,
@@ -589,26 +548,23 @@ progress::-webkit-progress-bar {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: none;
-  background-color: #eee;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
 }
 
 meter,
 meter::-webkit-meter-bar {
   background: none;
-  background-color: #eee;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
-  -moz-appearance: none;
+  -moz-appearance: none
 }
 
 meter::-webkit-meter-optimum-value {
   background: none;
-  background-color: #70b77e
+  background-color: #83BD75
 }
 
 progress::-webkit-progress-value {
-  background-color: #70b77e
+  background-color: #83BD75
 }
 
 .c-a      {cursor: alias}

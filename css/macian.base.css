@@ -1,6 +1,6 @@
 /*
 
-  Macian.base
+  Macian
 
   Josh Avanier
   MIT
@@ -67,14 +67,13 @@ body {
 }
 
 .bg-noir::-webkit-scrollbar-thumb {
-  background-color: #f8f8f8 !important;
+  background-color: #474747 !important;
   -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3)
 }
 
 img, video {width: 100%}
 
 table {
-  width: 100%;
   border-collapse: collapse;
   overflow-x: auto
 }
@@ -89,6 +88,3 @@ th, td {
   border: 0;
   border-bottom: .125em solid #ddd
 }
-
-nav ul, nav ol, .menu {list-style: none}
-nav li, nav li, .menu li {display: inline-block}

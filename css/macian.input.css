@@ -1,53 +1,29 @@
 /*
 
-  Macian.input
+  Macian
 
   Josh Avanier
   MIT
 
 */
 
-input,
-textarea,
-select {
-  padding: .5em;
-  border: 0.1em solid #eee;
-  outline: none;
+input:focus,
+textarea:focus,
+select:focus {
+  /*outline: 1px solid #222;*/
 }
 
 .rn {resize: none}
 
-.on {outline: none}
-
-select {background: #fff}
-
-input[type="range"] {
-  background-color: transparent;
-  border: none;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  height: 5px;
-  background: #eee;
-  border: none;
-  box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.2);
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  height: 1em;
-  width: 1em;
-  border-radius: 50%;
-  background-color: #202020;
-  margin-top: -4px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2)
+.an {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
 
 input:invalid,
 input:invalid::-webkit-input-placeholder {
-  color: #e85f5c
+  color: #EB4E32
 }
 
 .disabled,
@@ -60,8 +36,7 @@ button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
-  border: 0;
-  text-align: center
+  border: 0
 }
 
 button:hover,
@@ -74,24 +49,21 @@ progress::-webkit-progress-bar {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: none;
-  background-color: #eee;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset
 }
 
 meter,
 meter::-webkit-meter-bar {
   background: none;
-  background-color: #eee;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
-  -moz-appearance: none;
+  -moz-appearance: none
 }
 
 meter::-webkit-meter-optimum-value {
   background: none;
-  background-color: #70b77e
+  background-color: #83BD75
 }
 
 progress::-webkit-progress-value {
-  background-color: #70b77e
+  background-color: #83BD75
 }

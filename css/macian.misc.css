@@ -1,6 +1,6 @@
 /*
 
-  Macian.misc
+  Macian
 
   Josh Avanier
   MIT
@@ -16,8 +16,6 @@
 .bg-b {background-repeat: no-repeat; background-position: bottom center}
 .bg-l {background-repeat: no-repeat; background-position: center left}
 
-.on {outline: none}
-
 .oa  {overflow: auto}      .oxa {overflow-x: auto}
 .oya {overflow-y: auto}    .ov  {overflow: visible}
 .oxv {overflow-x: visible} .oyv {overflow-y: visible}
@@ -25,7 +23,7 @@
 .oyh {overflow-y: hidden}  .os  {overflow: scroll}
 .oxs {overflow-x: scroll}  .oys {overflow-y: scroll}
 
-.cn {margin-left: auto;margin-right: auto}
+.cn {margin-left: auto; margin-right: auto}
 
 .vl {vertical-align: baseline} .vm {vertical-align: middle}
 .vt {vertical-align: top}      .vb {vertical-align: bottom}
