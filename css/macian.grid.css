@@ -11,7 +11,7 @@
 .c1,.c2,.c3,.c4,.c5,.c6,
 .c7,.c8,.c9,.ca,.cb,.cc {float: left; width: 100%}
 
-@media screen and (min-width: 30em) {
+@media screen and (max-width: 30em) {
 
   .cc-s {width: 100%} .cb-s {width: 91.66%} .ca-s {width: 83.33%}
   .c9-s {width:  75%} .c8-s {width: 66.66%} .c7-s {width: 58.33%}
