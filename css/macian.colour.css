@@ -37,10 +37,10 @@
 
 .b-blanc {border-color: #f8f8f8 !important}
 .b-noir  {border-color: #202020 !important}
-.b-red {border-color: #EB4E32 !important}
-.b-ylw {border-color: #FFD954 !important}
-.b-grn {border-color: #83BD75 !important}
-.b-blu {border-color: #2E76C3 !important}
+.b-red   {border-color: #EB4E32 !important}
+.b-ylw   {border-color: #FFD954 !important}
+.b-grn   {border-color: #83BD75 !important}
+.b-blu   {border-color: #2E76C3 !important}
 
 .b-0 {border-color: #000 !important} .b-1 {border-color: #111 !important}
 .b-2 {border-color: #222 !important} .b-3 {border-color: #333 !important}
