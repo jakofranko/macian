@@ -1,0 +1,22 @@
+{
+  "name": "macian",
+  "version": "1.0.0",
+  "description": "Functional CSS framework",
+  "style": "macian.min.css",
+  "main": "macian.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "joshavanier/macian",
+  "keywords": [
+    "macian",
+    "framework",
+    "functional-css"
+  ],
+  "author": "Josh Avanier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshavanier/macian/issues"
+  },
+  "homepage": "https://joshavanier.github.io/macian"
+}
