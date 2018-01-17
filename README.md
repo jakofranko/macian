@@ -12,7 +12,7 @@
 #### Codex
 The Codex is a visual documentation of Macian's components. Take a look at it over [here](https://joshavanier.github.io/macian/)
 
-#### Install
+#### Usage
 ```html
 <link rel="stylesheet" href="https://unpkg.com/macian/macian.min.css">
 ```
@@ -21,4 +21,4 @@ The Codex is a visual documentation of Macian's components. Take a look at it ov
 
 Josh Avanier
 
-[![@joshavanier](https://joshavanier.github.io/badges/svg/twitter.svg)](https://twitter.com/joshavanier) [![joshavanier.com](https://joshavanier.github.io/badges/svg/website.svg)](https://joshavanier.com)
+[![@joshavanier](https://joshavanier.github.io/badges/svg/twitter.svg)](https://twitter.com/joshavanier) [![Memex](https://joshavanier.github.io/badges/svg/website.svg)](https://joshavanier.github.io)
