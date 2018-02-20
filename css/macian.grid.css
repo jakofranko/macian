@@ -11,6 +11,66 @@
 .c1,.c2,.c3,.c4,.c5,.c6,
 .c7,.c8,.c9,.ca,.cb,.cc {float: left; width: 100%}
 
+.g {display: grid}
+.ig {display: inline-grid}
+.sg {display: subgrid}
+
+.gjis {justify-items: start}
+.gjie {justify-items: end}
+.gjic {justify-items: center}
+
+.gjss {justify-self: start}
+.gjse {justify-self: end}
+.gjsc {justify-self: center}
+
+.gjcs {justify-content: start}
+.gjce {justify-content: end}
+.gjcc {justify-content: center}
+.gjct {justify-content: stretch}
+.gjcsa {justify-content: space-around}
+.gjcsb {justify-content: space-between}
+.gjcse {justify-content: space-evenly}
+
+.gais {align-items: start}
+.gaie {align-items: end}
+.gaic {align-items: center}
+
+.gass {align-self: start}
+.gase {align-self: end}
+.gasc {align-self: center}
+
+.gacs {align-content: start}
+.gace {align-content: end}
+.gacc {align-content: center}
+.gact {align-content: stretch}
+.gacsa {align-content: space-around}
+.gacsb {align-content: space-between}
+.gacse {align-content: space-evenly}
+
+.gcg1 {grid-column-gap: .25em}
+.gcg2 {grid-column-gap:  .5em}
+.gcg3 {grid-column-gap:   1em}
+.gcg4 {grid-column-gap:   2em}
+.gcg5 {grid-column-gap:   4em}
+.gcg6 {grid-column-gap:   8em}
+.gcg7 {grid-column-gap:  16em}
+
+.grg1 {grid-row-gap: .25em}
+.grg2 {grid-row-gap:  .5em}
+.grg3 {grid-row-gap:   1em}
+.grg4 {grid-row-gap:   2em}
+.grg5 {grid-row-gap:   4em}
+.grg6 {grid-row-gap:   8em}
+.grg7 {grid-row-gap:  16em}
+
+.gg1 {grid-gap: .25em .25em}
+.gg2 {grid-gap:  .5em  .5em}
+.gg3 {grid-gap:   1em   1em}
+.gg4 {grid-gap:   2em   2em}
+.gg5 {grid-gap:   4em   4em}
+.gg6 {grid-gap:   8em   8em}
+.gg7 {grid-gap:  16em  16em}
+
 @media screen and (max-width: 30em) {
 
   .cc-s {width: 100%} .cb-s {width: 91.66%} .ca-s {width: 83.33%}
