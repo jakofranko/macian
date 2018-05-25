@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -7,120 +7,30 @@
   <title>Macian</title>
   <meta name="author" content="Josh Avanier">
   <meta name="description" content="Macian is a functional CSS framework">
-  <link href="macian.min.css" rel="stylesheet">
+  <link href="font/inter-ui.css" rel="stylesheet">
+  <link href="css/macian.css" rel="stylesheet">
   <style>
     body {
       max-width: 1500px
     }
+
+    #grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
   </style>
 </head>
-<body class="noselect hf p3 p5-l bg-1 blanc cn">
+<body class="noselect hf p3 p5-l cn">
 
   <header class="pv5">
     <h1 class="mb3 f5 ac upc tk">Macian</h1>
   </header>
 
-  <div class="w9-s w9-m w7-l cn mon">
+  <div class="w9-s w9-m w6-l cn">
 
     <div class="mb5">
-      <p class="mb4 f6">.f[1-6](-(s/m/l)) &#183; f<sub>i</sub> = f0r<sup>i/n</sup> &#183; r = &phi;; n = 2</p>
-      <div class="mb3">
-        <p class="f1 lhs bg-blanc">1</p>
-      </div>
-      <div class="mb3">
-        <p class="f2 lhs bg-blanc">2</p>
-      </div>
-      <div class="mb3">
-        <p class="f3 lhs bg-blanc">3</p>
-      </div>
-      <div class="mb3">
-        <p class="f4 lhs bg-blanc">4</p>
-      </div>
-      <div class="mb3">
-        <p class="f5 lhs bg-blanc">5</p>
-      </div>
-      <div class="mb3">
-        <p class="f6 lhs bg-blanc">6</p>
-      </div>
-    </div>
-
-    <div class="mb5 r">
-      <div class="c6 pr4-l">
-        <p class="mb4 f6">.lh[s/c/t/d](-(s/m/l))</p>
-        <div class="r ac">
-          <div class="mb3 c6">
-            <p class="f3 lhs" title=".lhs">&#9608;&#9608;&#9608;<br>&#9608;&#9608;&#9608;</p>
-          </div>
-          <div class="mb3 c6">
-            <p class="f3 lhc" title=".lhc">&#9608;&#9608;&#9608;<br>&#9608;&#9608;&#9608;</p>
-          </div>
-          <div class="mb3 mb0-l c6">
-            <p class="f3 lht" title=".lht">&#9608;&#9608;&#9608;<br>&#9608;&#9608;&#9608;</p>
-          </div>
-          <div class="mb3 mb0-l c6">
-            <p class="f3 lhd" title=".lhd">&#9608;&#9608;&#9608;<br>&#9608;&#9608;&#9608;</p>
-          </div>
-        </div>
-      </div>
-      <div class="c6 pl4-l">
-        <p class="mb4 f6">.m(w/n)(-(s/m/l))</p>
-        <p class="mb4 bb mw f6">.mw (~80)</p>
-        <p class="mb4 bb m f6">.m (~66)</p>
-        <p class="bb mn f6">.mn (~45)</p>
-      </div>
-    </div>
-
-    <div class="mb5">
-      <p class="mb4 f6">.tk(t/m)(-(s/m/l))</p>
-      <div class="r ac al-l">
-        <div class="c3 mb5 mb1-l">
-          <h1 class="f1 lht" title="none">&#9608;&#9608;&#9608;&#9608;</h1></div>
-        <div class="c3 mb5 mb1-l">
-          <h1 class="f1 lht tk ac" title=".tk">&#9608;&#9608;&#9608;&#9608;</h1></div>
-        <div class="c3 mb5 mb1-l">
-          <h1 class="f1 lht tkt ac" title=".tkt">&#9608;&#9608;&#9608;&#9608;</h1></div>
-        <div class="c3 mb5 mb1-l">
-          <h1 class="f1 lht tkm ar" title=".tkm">&#9608;&#9608;&#9608;&#9608;</h1></div>
-      </div>
-    </div>
-
-    <div class="mb5">
-      <p class="mb4 f6">.fw[n/b/(1-9)](-(s/m/l))</p>
-      <div class="r f1 ac sns">
-        <div class="c6 c6-m c4-l mb2 p3 fw1" title=".fw1">1</div>
-        <div class="c6 c6-m c4-l mb2 p3 fw2" title=".fw2">2</div>
-        <div class="c6 c6-m c4-l mb2 p3 fw3" title=".fw3">3</div>
-        <div class="c6 c6-m c4-l mb2 p3 fw4" title=".fw4">4</div>
-        <div class="c6 c6-m c4-l mb2 p3 fw5" title=".fw5">5</div>
-        <div class="c6 c6-m c4-l mb2 p3 fw6" title=".fw6">6</div>
-        <div class="c6 c6-m c4-l mb2 mb0-l p3 pb2-l fw7" title=".fw7">7</div>
-        <div class="c6 c6-m c4-l mb2 mb0-l p3 pb2-l fw8" title=".fw8">8</div>
-        <div class="c6 c6-m c4-l mb2 mb0-l p3 pb2-l fw9" title=".fw9">9</div>
-      </div>
-    </div>
-
-    <div class="mb5">
-      <p class="mb4 f6">.a[l/j/c/r](-(s/m/l))</p>
-      <div class="r f6">
-        <div class="c3 c6-m pv3 pr4 pb0-l al" title=".al">
-          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
-        </div>
-        <div class="c3 c6-m pv3 ph4 pb0-l aj" title=".aj">
-          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
-        </div>
-        <div class="c3 c6-m pv3 ph4 pb0-l ac" title=".ac">
-          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
-        </div>
-        <div class="c3 c6-m pv3 pl4 pb0-l ar" title=".ar">
-          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
-        </div>
-      </div>
-    </div>
-
-    <div class="mb5">
-      <p class="mb4 f6">.c[1-c](-(s/m))</p>
       <div class="r">
-        <div class="c6 c6-m r mb4 mb0-l pr4-m pr4-l">
+        <div class="c6 c6-m r mb5 mb0-l pr4-m pr4-l">
           <div class="cb cb-s cb-m sh4 bt bb br bw2"></div>
           <div class="c1 c1-s c1-m sh4 bt bb bw2"></div>
           <div class="ca ca-s ca-m sh4 bb br bw2"></div>
@@ -146,26 +56,21 @@
         </div>
         <div class="c6 c6-m r mb4 mb0-l pl4-m pl4-l">
           <div class="cc sh4 bt bb bw2"></div>
-
           <div class="c6 c6-s c6-m sh4 bb br bw2"></div>
           <div class="c6 c6-s c6-m sh4 bb bw2"></div>
-
           <div class="c4 c4-s c4-m sh4 bb br bw2"></div>
           <div class="c4 c4-s c4-m sh4 bb br bw2"></div>
           <div class="c4 c4-s c4-m sh4 bb bw2"></div>
-
           <div class="c3 c3-s c3-m sh4 bb br bw2"></div>
           <div class="c3 c3-s c3-m sh4 bb br bw2"></div>
           <div class="c3 c3-s c3-m sh4 bb br bw2"></div>
           <div class="c3 c3-s c3-m sh4 bb bw2"></div>
-
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb bw2"></div>
-
           <div class="c1 c1-s c1-m sh4 bb br bw2"></div>
           <div class="c1 c1-s c1-m sh4 bb br bw2"></div>
           <div class="c1 c1-s c1-m sh4 bb br bw2"></div>
@@ -178,42 +83,81 @@
           <div class="c1 c1-s c1-m sh4 bb br bw2"></div>
           <div class="c1 c1-s c1-m sh4 bb br bw2"></div>
           <div class="c1 c1-s c1-m sh4 bb bw2"></div>
-
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb br bw2"></div>
           <div class="c2 c2-s c2-m sh4 bb bw2"></div>
-
           <div class="c3 c3-s c3-m sh4 bb br bw2"></div>
           <div class="c3 c3-s c3-m sh4 bb br bw2"></div>
           <div class="c3 c3-s c3-m sh4 bb br bw2"></div>
           <div class="c3 c3-s c3-m sh4 bb bw2"></div>
-
           <div class="c4 c4-s c4-m sh4 bb br bw2"></div>
           <div class="c4 c4-s c4-m sh4 bb br bw2"></div>
           <div class="c4 c4-s c4-m sh4 bb bw2"></div>
-
           <div class="c6 c6-s c6-m sh4 bb br bw2"></div>
           <div class="c6 c6-s c6-m sh4 bb bw2"></div>
-
           <div class="cc sh4 bb bw2"></div>
         </div>
       </div>
     </div>
 
     <div class="mb5">
-      <p class="mb4 f6">.(m/p)(t/r/b/l/v/h)[0-7](-(s/m/l))</p>
+      <div class="r f6 tkt">
+        <div class="c3 c6-m pv3 pr4 pb0-l al" title=".al">
+          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+        </div>
+        <div class="c3 c6-m pv3 ph4 pb0-l aj" title=".aj">
+          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+        </div>
+        <div class="c3 c6-m pv3 ph4 pb0-l ac" title=".ac">
+          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+        </div>
+        <div class="c3 c6-m pv3 pl4 pb0-l ar" title=".ar">
+          &#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+        </div>
+      </div>
+    </div>
+
+    <div class="mb5">
+      <div class="mb3"><p class="f1 lhs bg-noir">1</p></div>
+      <div class="mb3"><p class="f2 lhs bg-noir">2</p></div>
+      <div class="mb3"><p class="f3 lhs bg-noir">3</p></div>
+      <div class="mb3"><p class="f4 lhs bg-noir">4</p></div>
+      <div class="mb3"><p class="f5 lhs bg-noir">5</p></div>
+      <div class="mb3"><p class="f6 lhs bg-noir">6</p></div>
+    </div>
+
+    <div id="grid" class="mb5 g grg3 gcg3">
+      <div class="sh4 bg-f"></div>
+      <div class="sh4 bg-e"></div>
+      <div class="sh4 bg-d"></div>
+      <div class="sh4 bg-c"></div>
+      <div class="sh4 bg-b"></div>
+      <div class="sh4 bg-a"></div>
+      <div class="sh4 bg-9"></div>
+      <div class="sh4 bg-8"></div>
+      <div class="sh4 bg-7"></div>
+      <div class="sh4 bg-6"></div>
+      <div class="sh4 bg-5"></div>
+      <div class="sh4 bg-4"></div>
+      <div class="sh4 bg-3"></div>
+      <div class="sh4 bg-2"></div>
+      <div class="sh4 bg-1"></div>
+      <div class="sh4 bg-0"></div>
+    </div>
+
+    <div class="mb5">
       <div class="r f6">
         <div class="mb4 mb0-l c6 pr4-l">
-          <div class="mb3 bg-blanc pb1"></div>
-          <div class="mb3 bg-blanc pb2"></div>
-          <div class="mb3 bg-blanc pb3"></div>
-          <div class="mb3 bg-blanc pb4"></div>
-          <div class="mb3 bg-blanc pb5"></div>
-          <div class="mb3 bg-blanc pb6"></div>
-          <div class="mb3 bg-blanc pb7"></div>
+          <div class="mb3 bg-noir pb1"></div>
+          <div class="mb3 bg-noir pb2"></div>
+          <div class="mb3 bg-noir pb3"></div>
+          <div class="mb3 bg-noir pb4"></div>
+          <div class="mb3 bg-noir pb5"></div>
+          <div class="mb3 bg-noir pb6"></div>
+          <div class="mb3 bg-noir pb7"></div>
         </div>
         <div class="mb4 mb0-l c6 pl4-l ac">
           <p class="mb3 pb4 lhd"><span class="mr0">&#9608;</span>&#9608;</p>
@@ -229,286 +173,76 @@
     </div>
 
     <div class="mb5">
-      <p class="mb4 f6">.(m/x/v)h[f/a/(1-9)](-(s/m/l))</p>
-      <div class="sh7 oyh">
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h9 b-noir"></div>
-          <div class="cn br sw1 h1"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h8 b-noir"></div>
-          <div class="cn br sw1 h2"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h7 b-noir"></div>
-          <div class="cn br sw1 h3"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h6 b-noir"></div>
-          <div class="cn br sw1 h4"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h5 b-noir"></div>
-          <div class="cn br sw1 h5"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h4 b-noir"></div>
-          <div class="cn br sw1 h6"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h3 b-noir"></div>
-          <div class="cn br sw1 h7"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h2 b-noir"></div>
-          <div class="cn br sw1 h8"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 h1 b-noir"></div>
-          <div class="cn br sw1 h9"></div>
-        </div>
-        <div class="dib w1 lf hf">
-          <div class="cn br sw1 hf"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="mb5">
-      <p class="mb4 f6">.(m/x/v)w[f/a/(1-9)](-(s/m/l))</p>
-      <div class="db wf">
-        <div class="wf mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w9 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w8 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w7 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w6 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w5 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w4 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w3 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w2 mb4 bb cn"></div>
-      </div>
-      <div class="db wf">
-        <div class="w1 mb4 bb cn"></div>
-      </div>
-    </div>
-
-    <div class="mb5">
-      <p class="mb4 f6">.(bg-)[colour]</p>
-
-      <div class="mb1 r f6">
-
-        <div class="c3 sh4 bg-red" title=".o5"></div>
-        <div class="c3 sh4 bg-ylw" title=".o4"></div>
-        <div class="c3 sh4 bg-grn" title=".o3"></div>
-        <div class="c3 sh4 bg-blu" title=".o2"></div>
-
-        <div class="c3 sh4 bg-blanc" title=".o5"></div>
-        <div class="c3 sh4 bg-e" title=".o4"></div>
-        <div class="c3 sh4 bg-d" title=".o3"></div>
-        <div class="c3 sh4 bg-c" title=".o2"></div>
-        <div class="c3 sh4 bg-b" title=".o1"></div>
-        <div class="c3 sh4 bg-a" title=".o1"></div>
-
-        <div class="c3 sh4 bg-9" title=".o9"></div>
-        <div class="c3 sh4 bg-8" title=".o8"></div>
-        <div class="c3 sh4 bg-7" title=".o7"></div>
-        <div class="c3 sh4 bg-6" title=".o6"></div>
-        <div class="c3 sh4 bg-5" title=".o5"></div>
-        <div class="c3 sh4 bg-4" title=".o4"></div>
-        <div class="c3 sh4 bg-3" title=".o3"></div>
-        <div class="c3 sh4 bg-2" title=".o2"></div>
-        <div class="c3 sh4 bg-1" title=".o1"></div>
-        <div class="c3 sh4 bg-0" title=".o1"></div>
-      </div>
-    </div>
-
-    <div class="mb5">
-      <p class="mb4 f6">.b[n/t/r/b/l/a](-(s/m/l))</p>
-      <div class="mb4 r f6 ac">
-        <div class="c2 c2-m p2">
-          <div class="bn p2">.bn</div>
-        </div>
-        <div class="c2 c2-m p2">
-          <div class="bt p2">.bt</div>
-        </div>
-        <div class="c2 c2-m p2">
-          <div class="br p2">.br</div>
-        </div>
-        <div class="c2 c2-m p2">
-          <div class="bb p2">.bb</div>
-        </div>
-        <div class="c2 c2-m p2">
-          <div class="bl p2">.bl</div>
-        </div>
-        <div class="c2 c2-m p2">
-          <div class="ba p2">.ba</div>
-        </div>
-      </div>
-      <p class="mb4 f6">.bs[s/o/d](-(s/m/l)) .bw[0-5](-(s/m/l))</p>
       <div class="mb3 r f6 ac">
-        <div class="c4 c4-m p3">
-          <div class="bss bw1 bt-0 br-0 bl-0" title=".bw1"></div>
+        <div class="c4 c4-m pr3">
+          <div class="p3 bss bw5">
+            <div class="p3 bss bw4">
+              <div class="p3 bss bw3">
+                <div class="p3 bss bw2">
+                  <div class="p3 bss bw1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="c4 c4-m p3">
-          <div class="bso bw1 bt-0 br-0 bl-0" title=".bw1"></div>
+
+        <div class="c4 c4-m ph3">
+          <div class="p3 bso bw5">
+            <div class="p3 bso bw4">
+              <div class="p3 bso bw3">
+                <div class="p3 bso bw2">
+                  <div class="p3 bso bw1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="c4 c4-m p3">
-          <div class="bsd bw1 bt-0 br-0 bl-0" title=".bw1"></div>
-        </div>
-      </div>
-      <div class="mb3 r f6 ac">
-        <div class="c4 c4-m p3">
-          <div class="bss bw2 bt-0 br-0 bl-0" title=".bw2"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bso bw2 bt-0 br-0 bl-0" title=".bw2"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bsd bw2 bt-0 br-0 bl-0" title=".bw2"></div>
-        </div>
-      </div>
-      <div class="mb3 r f6 ac">
-        <div class="c4 c4-m p3">
-          <div class="bss bw3 bt-0 br-0 bl-0" title=".bw3"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bso bw3 bt-0 br-0 bl-0" title=".bw3"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bsd bw3 bt-0 br-0 bl-0" title=".bw3"></div>
-        </div>
-      </div>
-      <div class="mb3 r f6 ac">
-        <div class="c4 c4-m p3">
-          <div class="bss bw4 bt-0 br-0 bl-0" title=".bw4"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bso bw4 bt-0 br-0 bl-0" title=".bw4"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bsd bw4 bt-0 br-0 bl-0" title=".bw4"></div>
-        </div>
-      </div>
-      <div class="mb4 r f6 ac">
-        <div class="c4 c4-m p3">
-          <div class="bss bw5 bt-0 br-0 bl-0" title=".bw5"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bso bw5 bt-0 br-0 bl-0" title=".bw5"></div>
-        </div>
-        <div class="c4 c4-m p3">
-          <div class="bsd bw5 bt-0 br-0 bl-0" title=".bw5"></div>
-        </div>
-      </div>
-      <p class="mb4 f6">.br[f/(0-6)](-(s/m/l))</p>
-      <div class="r f6 ac">
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba br0" title=".br0"></div>
-        </div>
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba br1" title=".br1"></div>
-        </div>
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba br2" title=".br2"></div>
-        </div>
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba br3" title=".br3"></div>
-        </div>
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba br4" title=".br4"></div>
-        </div>
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba br5" title=".br5"></div>
-        </div>
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba br6" title=".br6"></div>
-        </div>
-        <div class="c3 c3-m p3">
-          <div class="p3 sh6 ba brf" title=".brf"></div>
+
+        <div class="c4 c4-m pl3">
+          <div class="p3 bsd bw5">
+            <div class="p3 bsd bw4">
+              <div class="p3 bsd bw3">
+                <div class="p3 bsd bw2">
+                  <div class="p3 bsd bw1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="mb5">
-      <p class="mb4 f6">.bs(i)[t(b)/r/l(r)/b](-(s/m/l))</p>
-      <div class="mb4 r f6 ac">
-        <div class="c3 c3-m p2">
-          <div class="bsa p2">.bsa</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bst p2">.bst</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsr p2">.bsr</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsb p2">.bsb</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsl p2">.bsl</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsit p2">.bsit</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsir p2">.bsir</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsib p2">.bsib</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsil p2">.bsil</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsia p2">.bsia</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bslr p2">.bslr</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bstb p2">.bstb</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsilr p2">.bsilr</div>
-        </div>
-        <div class="c3 c3-m p2">
-          <div class="bsitb p2">.bsitb</div>
+      <div class="ba bw2 p3">
+        <div class="ba bw2 br1 p3">
+          <div class="ba bw2 br2 p3">
+            <div class="ba bw2 br3 p3">
+              <div class="ba bw2 br4 p3">
+                <div class="ba bw2 br5 p3">
+                  <div class="ba bw2 br6 p3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="mb5">
-      <p class="mb4 f6">.o[f/(0-9)](-(s/m/l))</p>
-      <div class="r ac">
-        <div class="w1 lf sh4 bg-blanc of" title=".of"></div>
-        <div class="w1 lf sh4 bg-blanc o9" title=".o9"></div>
-        <div class="w1 lf sh4 bg-blanc o8" title=".o8"></div>
-        <div class="w1 lf sh4 bg-blanc o7" title=".o7"></div>
-        <div class="w1 lf sh4 bg-blanc o6" title=".o6"></div>
-        <div class="w1 lf sh4 bg-blanc o5" title=".o5"></div>
-        <div class="w1 lf sh4 bg-blanc o4" title=".o4"></div>
-        <div class="w1 lf sh4 bg-blanc o3" title=".o3"></div>
-        <div class="w1 lf sh4 bg-blanc o2" title=".o2"></div>
-        <div class="w1 lf sh4 bg-blanc o1" title=".o1"></div>
-      </div>
+    <div class="mb5 r ac">
+      <div class="w1 lf sh4 bg-noir of" title=".of"></div>
+      <div class="w1 lf sh4 bg-noir o9" title=".o9"></div>
+      <div class="w1 lf sh4 bg-noir o8" title=".o8"></div>
+      <div class="w1 lf sh4 bg-noir o7" title=".o7"></div>
+      <div class="w1 lf sh4 bg-noir o6" title=".o6"></div>
+      <div class="w1 lf sh4 bg-noir o5" title=".o5"></div>
+      <div class="w1 lf sh4 bg-noir o4" title=".o4"></div>
+      <div class="w1 lf sh4 bg-noir o3" title=".o3"></div>
+      <div class="w1 lf sh4 bg-noir o2" title=".o2"></div>
+      <div class="w1 lf sh4 bg-noir o1" title=".o1"></div>
     </div>
+
     <footer class="pv5">
-      <p class="f6 ac">&copy; 2017&ndash;2018 <a class="blanc" href="https://twitter.com/joshavanier/" title="Josh Avanier">JA</a></p>
+      <p class="f6 ac">&copy; 2017&ndash;2018 <a class="noir" href="https://twitter.com/joshavanier/" title="Josh Avanier">JA</a></p>
     </footer>
   </div>
 </body>
