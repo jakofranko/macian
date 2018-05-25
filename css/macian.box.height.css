@@ -21,9 +21,9 @@
 .vh4 {height: 40vh} .vh5 {height: 50vh} .vh6 {height: 60vh}
 .vh7 {height: 70vh} .vh8 {height: 80vh} .vh9 {height: 90vh}
 
-.mh1 {min-height: 10%} .mh2 {min-height: 20%} .mh3 {min-height: 30%}
-.mh4 {min-height: 40%} .mh5 {min-height: 50%} .mh6 {min-height: 60%}
-.mh7 {min-height: 70%} .mh8 {min-height: 80%} .mh9 {min-height: 90%}
+.nh1 {min-height: 10%} .nh2 {min-height: 20%} .nh3 {min-height: 30%}
+.nh4 {min-height: 40%} .nh5 {min-height: 50%} .nh6 {min-height: 60%}
+.nh7 {min-height: 70%} .nh8 {min-height: 80%} .nh9 {min-height: 90%}
 
 .xh1 {max-height: 10%} .xh2 {max-height: 20%} .xh3 {max-height: 30%}
 .xh4 {max-height: 40%} .xh5 {max-height: 50%} .xh6 {max-height: 60%}
@@ -45,9 +45,9 @@
   .vh4-s {height: 40vh} .vh5-s {height: 50vh} .vh6-s {height: 60vh}
   .vh7-s {height: 70vh} .vh8-s {height: 80vh} .vh9-s {height: 90vh}
 
-  .mh1-s {min-height: 10%} .mh2-s {min-height: 20%} .mh3-s {min-height: 30%}
-  .mh4-s {min-height: 40%} .mh5-s {min-height: 50%} .mh6-s {min-height: 60%}
-  .mh7-s {min-height: 70%} .mh8-s {min-height: 80%} .mh9-s {min-height: 90%}
+  .nh1-s {min-height: 10%} .nh2-s {min-height: 20%} .nh3-s {min-height: 30%}
+  .nh4-s {min-height: 40%} .nh5-s {min-height: 50%} .nh6-s {min-height: 60%}
+  .nh7-s {min-height: 70%} .nh8-s {min-height: 80%} .nh9-s {min-height: 90%}
 
   .xh1-s {max-height: 10%} .xh2-s {max-height: 20%} .xh3-s {max-height: 30%}
   .xh4-s {max-height: 40%} .xh5-s {max-height: 50%} .xh6-s {max-height: 60%}
@@ -71,9 +71,9 @@
   .vh4-m {height: 40vh} .vh5-m {height: 50vh} .vh6-m {height: 60vh}
   .vh7-m {height: 70vh} .vh8-m {height: 80vh} .vh9-m {height: 90vh}
 
-  .mh1-m {min-height: 10%} .mh2-m {min-height: 20%} .mh3-m {min-height: 30%}
-  .mh4-m {min-height: 40%} .mh5-m {min-height: 50%} .mh6-m {min-height: 60%}
-  .mh7-m {min-height: 70%} .mh8-m {min-height: 80%} .mh9-m {min-height: 90%}
+  .nh1-m {min-height: 10%} .nh2-m {min-height: 20%} .nh3-m {min-height: 30%}
+  .nh4-m {min-height: 40%} .nh5-m {min-height: 50%} .nh6-m {min-height: 60%}
+  .nh7-m {min-height: 70%} .nh8-m {min-height: 80%} .nh9-m {min-height: 90%}
 
   .xh1-m {max-height: 10%} .xh2-m {max-height: 20%} .xh3-m {max-height: 30%}
   .xh4-m {max-height: 40%} .xh5-m {max-height: 50%} .xh6-m {max-height: 60%}
@@ -97,9 +97,9 @@
   .vh4-l {height: 40vh} .vh5-l {height: 50vh} .vh6-l {height: 60vh}
   .vh7-l {height: 70vh} .vh8-l {height: 80vh} .vh9-l {height: 90vh}
 
-  .mh1-l {min-height: 10%} .mh2-l {min-height: 20%} .mh3-l {min-height: 30%}
-  .mh4-l {min-height: 40%} .mh5-l {min-height: 50%} .mh6-l {min-height: 60%}
-  .mh7-l {min-height: 70%} .mh8-l {min-height: 80%} .mh9-l {min-height: 90%}
+  .nh1-l {min-height: 10%} .nh2-l {min-height: 20%} .nh3-l {min-height: 30%}
+  .nh4-l {min-height: 40%} .nh5-l {min-height: 50%} .nh6-l {min-height: 60%}
+  .nh7-l {min-height: 70%} .nh8-l {min-height: 80%} .nh9-l {min-height: 90%}
 
   .xh1-l {max-height: 10%} .xh2-l {max-height: 20%} .xh3-l {max-height: 30%}
   .xh4-l {max-height: 40%} .xh5-l {max-height: 50%} .xh6-l {max-height: 60%}

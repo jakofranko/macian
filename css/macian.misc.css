@@ -10,11 +10,11 @@
 .cover   {background-size:   cover !important}
 .contain {background-size: contain !important}
 
-.bg-c {background-repeat: no-repeat; background-position: center center}
-.bg-t {background-repeat: no-repeat; background-position: top center}
-.bg-r {background-repeat: no-repeat; background-position: center right}
-.bg-b {background-repeat: no-repeat; background-position: bottom center}
-.bg-l {background-repeat: no-repeat; background-position: center left}
+.bgp-c {background-repeat: no-repeat; background-position: center center}
+.bgp-t {background-repeat: no-repeat; background-position: top center}
+.bgp-r {background-repeat: no-repeat; background-position: center right}
+.bgp-b {background-repeat: no-repeat; background-position: bottom center}
+.bgp-l {background-repeat: no-repeat; background-position: center left}
 
 .oa  {overflow: auto}      .oxa {overflow-x: auto}
 .oya {overflow-y: auto}    .ov  {overflow: visible}
@@ -33,11 +33,11 @@
   .cover-s   {background-size: cover   !important}
   .contain-s {background-size: contain !important}
 
-  .bg-c-s {background-repeat: no-repeat; background-position: center center}
-  .bg-t-s {background-repeat: no-repeat; background-position: top center}
-  .bg-r-s {background-repeat: no-repeat; background-position: center right}
-  .bg-b-s {background-repeat: no-repeat; background-position: bottom center}
-  .bg-l-s {background-repeat: no-repeat; background-position: center left}
+  .bgp-c-s {background-repeat: no-repeat; background-position: center center}
+  .bgp-t-s {background-repeat: no-repeat; background-position: top center}
+  .bgp-r-s {background-repeat: no-repeat; background-position: center right}
+  .bgp-b-s {background-repeat: no-repeat; background-position: bottom center}
+  .bgp-l-s {background-repeat: no-repeat; background-position: center left}
 
   .oa-s  {overflow: auto}      .oxa-s {overflow-x: auto}
   .oya-s {overflow-y: auto}    .ov-s  {overflow: visible}
@@ -58,11 +58,11 @@
   .cover-m   {background-size: cover   !important}
   .contain-m {background-size: contain !important}
 
-  .bg-c-m {background-repeat: no-repeat; background-position: center center}
-  .bg-t-m {background-repeat: no-repeat; background-position: top center}
-  .bg-r-m {background-repeat: no-repeat; background-position: center right}
-  .bg-b-m {background-repeat: no-repeat; background-position: bottom center}
-  .bg-l-m {background-repeat: no-repeat; background-position: center left}
+  .bgp-c-m {background-repeat: no-repeat; background-position: center center}
+  .bgp-t-m {background-repeat: no-repeat; background-position: top center}
+  .bgp-r-m {background-repeat: no-repeat; background-position: center right}
+  .bgp-b-m {background-repeat: no-repeat; background-position: bottom center}
+  .bgp-l-m {background-repeat: no-repeat; background-position: center left}
 
   .oa-m  {overflow: auto}      .oxa-m {overflow-x: auto}
   .oya-m {overflow-y: auto}    .ov-m  {overflow: visible}
@@ -83,11 +83,11 @@
   .cover-l   {background-size: cover   !important}
   .contain-l {background-size: contain !important}
 
-  .bg-c-l {background-repeat: no-repeat; background-position: center center}
-  .bg-t-l {background-repeat: no-repeat; background-position: top center}
-  .bg-r-l {background-repeat: no-repeat; background-position: center right}
-  .bg-b-l {background-repeat: no-repeat; background-position: bottom center}
-  .bg-l-l {background-repeat: no-repeat; background-position: center left}
+  .bgp-c-l {background-repeat: no-repeat; background-position: center center}
+  .bgp-t-l {background-repeat: no-repeat; background-position: top center}
+  .bgp-r-l {background-repeat: no-repeat; background-position: center right}
+  .bgp-b-l {background-repeat: no-repeat; background-position: bottom center}
+  .bgp-l-l {background-repeat: no-repeat; background-position: center left}
 
   .oa-l  {overflow: auto}      .oxa-l {overflow-x: auto}
   .oya-l {overflow-y: auto}    .ov-l  {overflow: visible}
