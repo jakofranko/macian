@@ -1,14 +1,7 @@
-/*
-
-  Macian
-
-  Josh Avanier
-  MIT
-
-*/
-
-.p0 {padding:   0} .p1 {padding: .25em} .p2 {padding: .5em} .p3 {padding:  1em}
-.p4 {padding: 2em} .p5 {padding:   4em} .p6 {padding:  8em} .p7 {padding: 16em}
+.p0 {padding:    0} .p1 {padding: .25em}
+.p2 {padding: .5em} .p3 {padding:   1em}
+.p4 {padding:  2em} .p5 {padding:   4em}
+.p6 {padding:  8em} .p7 {padding:  16em}
 
 .pt0 {padding-top:    0} .pt1 {padding-top: .25em}
 .pt2 {padding-top: .5em} .pt3 {padding-top:   1em}

@@ -1,12 +1,3 @@
-/*
-
-  Macian
-
-  Josh Avanier
-  MIT
-
-*/
-
 .dev > * {box-shadow:inset 0 0 1px #ccc}
 
 *,
@@ -20,10 +11,10 @@
 }
 
 .noselect > * {
--webkit-user-select: none;
-   -moz-user-select: none;
-    -ms-user-select: none;
-        user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 html {
@@ -34,41 +25,9 @@ html {
 body {
   background-color: #f8f8f8;
   color: #202020;
-  font: 16px/1.618em "Roboto", sans-serif;
+  font: 16px/1.618em "Inter UI", "Helvetica", "Arial",  sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #f8f8f8;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-
-::-webkit-scrollbar {
-  background-color: #f8f8f8;
-  width: .5rem;
-  height: .5rem;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #202020;
-  -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
-}
-
-.bg-noir::-webkit-scrollbar-track {
-  background-color: #202020;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-
-.bg-noir::-webkit-scrollbar {
-  background-color: #202020;
-  width: .5rem;
-  height: .5rem;
-}
-
-.bg-noir::-webkit-scrollbar-thumb {
-  background-color: #474747 !important;
-  -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
 }
 
 img, video {width: 100%}
@@ -81,10 +40,4 @@ table {
 th, td {
   padding: 7px;
   border: .125em solid #202020;
-}
-
-.rl thead tr:last-of-type,
-.rl tbody tr {
-  border: 0;
-  border-bottom: .125em solid #ddd;
 }

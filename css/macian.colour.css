@@ -1,12 +1,3 @@
-/*
-
-  Macian
-
-  Josh Avanier
-  MIT
-
-*/
-
 .noir  {color: #202020}
 .blanc {color: #f8f8f8}
 
@@ -51,37 +42,27 @@
 .b-c {border-color: #ccc !important} .b-d {border-color: #ddd !important}
 .b-e {border-color: #eee !important} .b-f {border-color: #fff !important}
 
-progress.red::-webkit-progress-value,
-meter.red::-webkit-meter-optimum-value,
-progress.bg-red::-webkit-progress-bar,
-meter.bg-red::-webkit-meter-bar {
+progress.red::-webkit-progress-value, meter.red::-webkit-meter-optimum-value,
+progress.bg-red::-webkit-progress-bar, meter.bg-red::-webkit-meter-bar {
   background-color: #EB4E32
 }
 
-progress.ylw::-webkit-progress-value,
-meter.ylw::-webkit-meter-optimum-value,
-progress.bg-ylw::-webkit-progress-bar,
-meter.bg-ylw::-webkit-meter-bar {
+progress.ylw::-webkit-progress-value, meter.ylw::-webkit-meter-optimum-value,
+progress.bg-ylw::-webkit-progress-bar, meter.bg-ylw::-webkit-meter-bar {
   background-color: #FFD954
 }
 
-progress.grn::-webkit-progress-value,
-meter.grn::-webkit-meter-optimum-value,
-progress.bg-grn::-webkit-progress-bar,
-meter.bg-grn::-webkit-meter-bar {
+progress.grn::-webkit-progress-value, meter.grn::-webkit-meter-optimum-value,
+progress.bg-grn::-webkit-progress-bar, meter.bg-grn::-webkit-meter-bar {
   background-color: #83BD75
 }
 
-progress.blu::-webkit-progress-value,
-meter.blu::-webkit-meter-optimum-value,
-progress.bg-blu::-webkit-progress-bar,
-meter.bg-blu::-webkit-meter-bar {
+progress.blu::-webkit-progress-value, meter.blu::-webkit-meter-optimum-value,
+progress.bg-blu::-webkit-progress-bar, meter.bg-blu::-webkit-meter-bar {
   background-color: #2E76C3
 }
 
-progress.noir::-webkit-progress-value,
-meter.noir::-webkit-meter-optimum-value,
-progress.bg-noir::-webkit-progress-bar,
-meter.bg-noir::-webkit-meter-bar {
+progress.noir::-webkit-progress-value, meter.noir::-webkit-meter-optimum-value,
+progress.bg-noir::-webkit-progress-bar, meter.bg-noir::-webkit-meter-bar {
   background-color: #202020
 }

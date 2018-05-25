@@ -1,12 +1,3 @@
-/*
-
-  Macian
-
-  Josh Avanier
-  MIT
-
-*/
-
 .cover   {background-size:   cover !important}
 .contain {background-size: contain !important}
 
@@ -27,6 +18,12 @@
 
 .vl {vertical-align: baseline} .vm {vertical-align: middle}
 .vt {vertical-align: top}      .vb {vertical-align: bottom}
+
+.rl thead tr:last-of-type,
+.rl tbody tr {
+  border: 0;
+  border-bottom: .125em solid #ddd;
+}
 
 @media screen and (min-width: 30em) {
 

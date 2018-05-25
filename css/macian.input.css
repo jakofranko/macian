@@ -1,24 +1,10 @@
-/*
-
-  Macian
-
-  Josh Avanier
-  MIT
-
-*/
-
-input:focus,
-textarea:focus,
-select:focus {
-  /*outline: 1px solid #222;*/
-}
-
+.on {outline: none}
 .rn {resize: none}
 
 .an {
-  appearance: none;
-  -moz-appearance: none;
   -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 input:invalid,
@@ -44,16 +30,14 @@ input[type="button"]:hover {
   cursor: pointer;
 }
 
-progress,
-progress::-webkit-progress-bar {
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+progress, progress::-webkit-progress-bar {
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
-meter,
-meter::-webkit-meter-bar {
+meter, meter::-webkit-meter-bar {
   background: none;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1618) inset;
   -moz-appearance: none;

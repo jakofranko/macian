@@ -1,12 +1,3 @@
-/*
-
-  Macian
-
-  Josh Avanier
-  MIT
-
-*/
-
 .dn  {display: none}
 .db  {display: block}
 .dt  {display: table}
@@ -25,8 +16,7 @@
 .o6 {opacity: .6} .o5 {opacity: .5}
 .o4 {opacity: .4} .o3 {opacity: .3}
 .o2 {opacity: .2} .o1 {opacity: .1}
-
-.o0 {opacity: 0}
+.o0 {opacity:  0}
 
 @media screen and (min-width: 30em) {
 
@@ -48,8 +38,7 @@
   .o6-s {opacity: .6} .o5-s {opacity: .5}
   .o4-s {opacity: .4} .o3-s {opacity: .3}
   .o2-s {opacity: .2} .o1-s {opacity: .1}
-
-  .o0-s {opacity: 0}
+  .o0-s {opacity:  0}
 
 }
 
@@ -73,8 +62,7 @@
   .o6-m {opacity: .6} .o5-m {opacity: .5}
   .o4-m {opacity: .4} .o3-m {opacity: .3}
   .o2-m {opacity: .2} .o1-m {opacity: .1}
-
-  .o0-m {opacity: 0}
+  .o0-m {opacity:  0}
 
 }
 
@@ -98,7 +86,6 @@
   .o6-l {opacity: .6} .o5-l {opacity: .5}
   .o4-l {opacity: .4} .o3-l {opacity: .3}
   .o2-l {opacity: .2} .o1-l {opacity: .1}
-
-  .o0-l {opacity: 0}
+  .o0-l {opacity:  0}
 
 }

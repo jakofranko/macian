@@ -1,17 +1,9 @@
-/*
-
-  Macian
-
-  Josh Avanier
-  MIT
-
-*/
-
 .r {width: 100%; overflow: auto}
-.c1,.c2,.c3,.c4,.c5,.c6,
-.c7,.c8,.c9,.ca,.cb,.cc {float: left; width: 100%}
 
-.g {display: grid}
+.c1, .c2, .c3, .c4, .c5, .c6,
+.c7, .c8, .c9, .ca, .cb, .cc {float: left; width: 100%}
+
+.g  {display: grid}
 .ig {display: inline-grid}
 .sg {display: subgrid}
 
@@ -23,10 +15,10 @@
 .gjse {justify-self: end}
 .gjsc {justify-self: center}
 
-.gjcs {justify-content: start}
-.gjce {justify-content: end}
-.gjcc {justify-content: center}
-.gjct {justify-content: stretch}
+.gjcs  {justify-content: start}
+.gjce  {justify-content: end}
+.gjcc  {justify-content: center}
+.gjct  {justify-content: stretch}
 .gjcsa {justify-content: space-around}
 .gjcsb {justify-content: space-between}
 .gjcse {justify-content: space-evenly}
@@ -47,29 +39,20 @@
 .gacsb {align-content: space-between}
 .gacse {align-content: space-evenly}
 
-.gcg1 {grid-column-gap: .25em}
-.gcg2 {grid-column-gap:  .5em}
-.gcg3 {grid-column-gap:   1em}
-.gcg4 {grid-column-gap:   2em}
-.gcg5 {grid-column-gap:   4em}
-.gcg6 {grid-column-gap:   8em}
-.gcg7 {grid-column-gap:  16em}
+.gcg0 {grid-column-gap:   0  } .gcg1 {grid-column-gap: .25em}
+.gcg2 {grid-column-gap:  .5em} .gcg3 {grid-column-gap:   1em}
+.gcg4 {grid-column-gap:   2em} .gcg5 {grid-column-gap:   4em}
+.gcg6 {grid-column-gap:   8em} .gcg7 {grid-column-gap:  16em}
 
-.grg1 {grid-row-gap: .25em}
-.grg2 {grid-row-gap:  .5em}
-.grg3 {grid-row-gap:   1em}
-.grg4 {grid-row-gap:   2em}
-.grg5 {grid-row-gap:   4em}
-.grg6 {grid-row-gap:   8em}
-.grg7 {grid-row-gap:  16em}
+.grg0 {grid-row-gap:   0  } .grg1 {grid-row-gap: .25em}
+.grg2 {grid-row-gap:  .5em} .grg3 {grid-row-gap:   1em}
+.grg4 {grid-row-gap:   2em} .grg5 {grid-row-gap:   4em}
+.grg6 {grid-row-gap:   8em} .grg7 {grid-row-gap:  16em}
 
-.gg1 {grid-gap: .25em .25em}
-.gg2 {grid-gap:  .5em  .5em}
-.gg3 {grid-gap:   1em   1em}
-.gg4 {grid-gap:   2em   2em}
-.gg5 {grid-gap:   4em   4em}
-.gg6 {grid-gap:   8em   8em}
-.gg7 {grid-gap:  16em  16em}
+.gg0 {grid-gap:   0     0  } .gg1 {grid-gap: .25em .25em}
+.gg2 {grid-gap:  .5em  .5em} .gg3 {grid-gap:   1em   1em}
+.gg4 {grid-gap:   2em   2em} .gg5 {grid-gap:   4em   4em}
+.gg6 {grid-gap:   8em   8em} .gg7 {grid-gap:  16em  16em}
 
 @media screen and (max-width: 30em) {
 
@@ -77,6 +60,57 @@
   .c9-s {width:  75%} .c8-s {width: 66.66%} .c7-s {width: 58.33%}
   .c6-s {width:  50%} .c5-s {width: 41.66%} .c4-s {width: 33.33%}
   .c3-s {width:  25%} .c2-s {width: 16.66%} .c1-s {width:  8.33%}
+
+  .g-s  {display: grid}
+  .ig-s {display: inline-grid}
+  .sg-s {display: subgrid}
+
+  .gjis-s {justify-items: start}
+  .gjie-s {justify-items: end}
+  .gjic-s {justify-items: center}
+
+  .gjss-s {justify-self: start}
+  .gjse-s {justify-self: end}
+  .gjsc-s {justify-self: center}
+
+  .gjcs-s  {justify-content: start}
+  .gjce-s  {justify-content: end}
+  .gjcc-s  {justify-content: center}
+  .gjct-s  {justify-content: stretch}
+  .gjcsa-s {justify-content: space-around}
+  .gjcsb-s {justify-content: space-between}
+  .gjcse-s {justify-content: space-evenly}
+
+  .gais-s {align-items: start}
+  .gaie-s {align-items: end}
+  .gaic-s {align-items: center}
+
+  .gass-s {align-self: start}
+  .gase-s {align-self: end}
+  .gasc-s {align-self: center}
+
+  .gacs-s {align-content: start}
+  .gace-s {align-content: end}
+  .gacc-s {align-content: center}
+  .gact-s {align-content: stretch}
+  .gacsa-s {align-content: space-around}
+  .gacsb-s {align-content: space-between}
+  .gacse-s {align-content: space-evenly}
+
+  .gcg0-s {grid-column-gap:   0  } .gcg1-s {grid-column-gap: .25em}
+  .gcg2-s {grid-column-gap:  .5em} .gcg3-s {grid-column-gap:   1em}
+  .gcg4-s {grid-column-gap:   2em} .gcg5-s {grid-column-gap:   4em}
+  .gcg6-s {grid-column-gap:   8em} .gcg7-s {grid-column-gap:  16em}
+
+  .grg0-s {grid-row-gap:   0  } .grg1-s {grid-row-gap: .25em}
+  .grg2-s {grid-row-gap:  .5em} .grg3-s {grid-row-gap:   1em}
+  .grg4-s {grid-row-gap:   2em} .grg5-s {grid-row-gap:   4em}
+  .grg6-s {grid-row-gap:   8em} .grg7-s {grid-row-gap:  16em}
+
+  .gg0-s {grid-gap:   0     0  } .gg1-s {grid-gap: .25em .25em}
+  .gg2-s {grid-gap:  .5em  .5em} .gg3-s {grid-gap:   1em   1em}
+  .gg4-s {grid-gap:   2em   2em} .gg5-s {grid-gap:   4em   4em}
+  .gg6-s {grid-gap:   8em   8em} .gg7-s {grid-gap:  16em  16em}
 
 }
 
@@ -86,6 +120,57 @@
   .c9-m {width:  75%} .c8-m {width: 66.66%} .c7-m {width: 58.33%}
   .c6-m {width:  50%} .c5-m {width: 41.66%} .c4-m {width: 33.33%}
   .c3-m {width:  25%} .c2-m {width: 16.66%} .c1-m {width:  8.33%}
+
+  .g-m  {display: grid}
+  .ig-m {display: inline-grid}
+  .sg-m {display: subgrid}
+
+  .gjis-m {justify-items: start}
+  .gjie-m {justify-items: end}
+  .gjic-m {justify-items: center}
+
+  .gjss-m {justify-self: start}
+  .gjse-m {justify-self: end}
+  .gjsc-m {justify-self: center}
+
+  .gjcs-m  {justify-content: start}
+  .gjce-m  {justify-content: end}
+  .gjcc-m  {justify-content: center}
+  .gjct-m  {justify-content: stretch}
+  .gjcsa-m {justify-content: space-around}
+  .gjcsb-m {justify-content: space-between}
+  .gjcse-m {justify-content: space-evenly}
+
+  .gais-m {align-items: start}
+  .gaie-m {align-items: end}
+  .gaic-m {align-items: center}
+
+  .gass-m {align-self: start}
+  .gase-m {align-self: end}
+  .gasc-m {align-self: center}
+
+  .gacs-m {align-content: start}
+  .gace-m {align-content: end}
+  .gacc-m {align-content: center}
+  .gact-m {align-content: stretch}
+  .gacsa-m {align-content: space-around}
+  .gacsb-m {align-content: space-between}
+  .gacse-m {align-content: space-evenly}
+
+  .gcg0-m {grid-column-gap:   0  } .gcg1-m {grid-column-gap: .25em}
+  .gcg2-m {grid-column-gap:  .5em} .gcg3-m {grid-column-gap:   1em}
+  .gcg4-m {grid-column-gap:   2em} .gcg5-m {grid-column-gap:   4em}
+  .gcg6-m {grid-column-gap:   8em} .gcg7-m {grid-column-gap:  16em}
+
+  .grg0-m {grid-row-gap:   0  } .grg1-m {grid-row-gap: .25em}
+  .grg2-m {grid-row-gap:  .5em} .grg3-m {grid-row-gap:   1em}
+  .grg4-m {grid-row-gap:   2em} .grg5-m {grid-row-gap:   4em}
+  .grg6-m {grid-row-gap:   8em} .grg7-m {grid-row-gap:  16em}
+
+  .gg0-m {grid-gap:   0     0  } .gg1-m {grid-gap: .25em .25em}
+  .gg2-m {grid-gap:  .5em  .5em} .gg3-m {grid-gap:   1em   1em}
+  .gg4-m {grid-gap:   2em   2em} .gg5-m {grid-gap:   4em   4em}
+  .gg6-m {grid-gap:   8em   8em} .gg7-m {grid-gap:  16em  16em}
 
 }
 
@@ -100,5 +185,56 @@
   .c9-l {width:  75%} .c8-l {width: 66.66%} .c7-l {width: 58.33%}
   .c6-l {width:  50%} .c5-l {width: 41.66%} .c4-l {width: 33.33%}
   .c3-l {width:  25%} .c2-l {width: 16.66%} .c1-l {width:  8.33%}
+
+  .g-l  {display: grid}
+  .ig-l {display: inline-grid}
+  .sg-l {display: subgrid}
+
+  .gjis-l {justify-items: start}
+  .gjie-l {justify-items: end}
+  .gjic-l {justify-items: center}
+
+  .gjss-l {justify-self: start}
+  .gjse-l {justify-self: end}
+  .gjsc-l {justify-self: center}
+
+  .gjcs-l  {justify-content: start}
+  .gjce-l  {justify-content: end}
+  .gjcc-l  {justify-content: center}
+  .gjct-l  {justify-content: stretch}
+  .gjcsa-l {justify-content: space-around}
+  .gjcsb-l {justify-content: space-between}
+  .gjcse-l {justify-content: space-evenly}
+
+  .gais-l {align-items: start}
+  .gaie-l {align-items: end}
+  .gaic-l {align-items: center}
+
+  .gass-l {align-self: start}
+  .gase-l {align-self: end}
+  .gasc-l {align-self: center}
+
+  .gacs-l {align-content: start}
+  .gace-l {align-content: end}
+  .gacc-l {align-content: center}
+  .gact-l {align-content: stretch}
+  .gacsa-l {align-content: space-around}
+  .gacsb-l {align-content: space-between}
+  .gacse-l {align-content: space-evenly}
+
+  .gcg0-l {grid-column-gap:   0  } .gcg1-l {grid-column-gap: .25em}
+  .gcg2-l {grid-column-gap:  .5em} .gcg3-l {grid-column-gap:   1em}
+  .gcg4-l {grid-column-gap:   2em} .gcg5-l {grid-column-gap:   4em}
+  .gcg6-l {grid-column-gap:   8em} .gcg7-l {grid-column-gap:  16em}
+
+  .grg0-l {grid-row-gap:   0  } .grg1-l {grid-row-gap: .25em}
+  .grg2-l {grid-row-gap:  .5em} .grg3-l {grid-row-gap:   1em}
+  .grg4-l {grid-row-gap:   2em} .grg5-l {grid-row-gap:   4em}
+  .grg6-l {grid-row-gap:   8em} .grg7-l {grid-row-gap:  16em}
+
+  .gg0-l {grid-gap:   0     0  } .gg1-l {grid-gap: .25em .25em}
+  .gg2-l {grid-gap:  .5em  .5em} .gg3-l {grid-gap:   1em   1em}
+  .gg4-l {grid-gap:   2em   2em} .gg5-l {grid-gap:   4em   4em}
+  .gg6-l {grid-gap:   8em   8em} .gg7-l {grid-gap:  16em  16em}
 
 }
