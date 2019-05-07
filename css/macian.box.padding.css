@@ -41,7 +41,7 @@
 .ph6 {padding-left:   8em; padding-right:   8em}
 .ph7 {padding-left:  16em; padding-right:  16em}
 
-@media screen and (min-width: 30em) {
+@media screen and (max-width: 30em) {
 
   .p0-s {padding:    0} .p1-s {padding: .25em}
   .p2-s {padding: .5em} .p3-s {padding:   1em}
