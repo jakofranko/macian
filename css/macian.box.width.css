@@ -20,7 +20,7 @@
 .xw4 {max-width: 40%} .xw5 {max-width: 50%} .xw6 {max-width: 60%}
 .xw7 {max-width: 70%} .xw8 {max-width: 80%} .xw9 {max-width: 90%}
 
-@media screen and (min-width: 30em) {
+@media screen and (max-width: 30em) {
 
   .wa-s {width: auto} .wf-s {width: 100%} .vw-s {width: 100vw}
 

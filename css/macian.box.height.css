@@ -20,7 +20,7 @@
 .xh4 {max-height: 40%} .xh5 {max-height: 50%} .xh6 {max-height: 60%}
 .xh7 {max-height: 70%} .xh8 {max-height: 80%} .xh9 {max-height: 90%}
 
-@media screen and (min-width: 30em) {
+@media screen and (max-width: 30em) {
 
   .ha-s {height: auto} .hf-s {height: 100%} .vh-s {height: 100vh}
 
