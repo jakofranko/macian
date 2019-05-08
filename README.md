@@ -5,10 +5,7 @@
 #### Features
 + Mobile-first architecture
 + Golden ditonic typographic scale
-+ Tachyons-inspired utility classes
-
-#### Codex
-The Codex is a visual documentation of Macian's components. Take a look at it over [here](https://joshavanier.github.io/macian/)
++ Small utility classes
 
 #### Usage
 ```html
@@ -17,8 +14,4 @@ The Codex is a visual documentation of Macian's components. Take a look at it ov
 
 ---
 
-Josh Avanier
-
-**[Twitter](https://twitter.com/joshavanier)** &middot; **[Memex](https://joshavanier.github.io)**
-
-**MIT**
+**By [Avanier](https://joshavanier.github.io). Licensed under [MIT](LICENSE).**
