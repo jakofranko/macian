@@ -39,7 +39,7 @@
 .mh6 {margin-left:   8em; margin-right:   8em}
 .mh7 {margin-left:  16em; margin-right:  16em}
 
-@media screen and (min-width: 30em) {
+@media screen and (max-width: 30em) {
 
   .m0-s {margin:    0} .m1-s {margin: .25em}
   .m2-s {margin: .5em} .m3-s {margin:   1em}

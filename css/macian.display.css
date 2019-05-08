@@ -18,7 +18,7 @@
 .o2 {opacity: .2} .o1 {opacity: .1}
 .o0 {opacity:  0}
 
-@media screen and (min-width: 30em) {
+@media screen and (max-width: 30em) {
 
   .dn-s  {display: none}
   .db-s  {display: block}

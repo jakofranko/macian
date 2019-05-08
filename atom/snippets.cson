@@ -151,7 +151,7 @@
 
 	'macian-small':
 		'prefix': 'macian-small'
-		'body': '@media screen and (min-width: 30em) {\n\t$1\n}'
+		'body': '@media screen and (max-width: 30em) {\n\t$1\n}'
 
 	'macian-medium':
 		'prefix': 'macian-medium'
