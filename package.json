@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/joshavanier/macian/issues"
   },
-  "homepage": "https://joshavanier.github.io/macian"
+  "homepage": "https://joshavanier.github.io/macian",
+  "devDependencies": {
+    "clean-css": "^4.2.1"
+  }
 }
