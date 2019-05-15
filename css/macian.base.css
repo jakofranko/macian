@@ -13,7 +13,6 @@
 .noselect > * {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -27,7 +26,6 @@ body {
   color: #202020;
   font: 16px/1.618em "Inter UI", "Helvetica", "Arial",  sans-serif;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
 img, video {width: 100%}
