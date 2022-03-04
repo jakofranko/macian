@@ -3,13 +3,15 @@
  section: Base CSS
  ---
 
- Foreground color classes (text colors), are prefixed by `cl-*`.
+ Use `blanc` and 'bg-noir' for black text on a white background.
+
+ Foreground color classes (text colors), are prefixed by `cl-*`. For named colors (red, ylw, grn, blu, noir, and blanc), the `cl-` prefix may be ommited.
  Background color classes, are prefixed by `bg-*`.
  Border color classes, are prefixed by `b-*`.
 
  What follows the prefix can be either a number (0-f) for greyscale colors, or one of `red`, `grn`, `ylw`, `blu`, `noir`, or `blanc`. For text/foreground colors, the `cl-` may be ommited.
 
- The named colors may also be especilaly applied to the `<progress />` element.
+ The named colors may also be specifically applied to the `<progress />` element.
 
  ```example:html
  <p class="cl-2 bg-d b-red">This is an example paragraph</p>
@@ -17,16 +19,16 @@
  <progress max="100" value="40" class="ylw bg-blu b-red">40%</progress>
  ```
  */
-.noir  {color: #202020}
-.blanc {color: #f8f8f8}
+.noir, .cl-noir  {color: #202020}
+.blanc, .cl-blanc {color: #f8f8f8}
+.red, .cl-red {color: #EB4E32} .ylw, .cl-ylw {color: #FFD954}
+.grn, .cl-grn {color: #83BD75} .blu, .cl-blu {color: #2E76C3}
 
 .cl-0 {color: #000} .cl-1 {color: #111} .cl-2 {color: #222} .cl-3 {color: #333}
 .cl-4 {color: #444} .cl-5 {color: #555} .cl-6 {color: #666} .cl-7 {color: #777}
 .cl-8 {color: #888} .cl-9 {color: #999} .cl-a {color: #aaa} .cl-b {color: #bbb}
 .cl-c {color: #ccc} .cl-d {color: #ddd} .cl-e {color: #eee} .cl-f {color: #fff}
 
-.red {color: #EB4E32} .ylw {color: #FFD954}
-.grn {color: #83BD75} .blu {color: #2E76C3}
 
 .bg-noir  {background-color: #202020}
 .bg-blanc {background-color: #f8f8f8}
