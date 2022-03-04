@@ -1,12 +1,12 @@
 {
   "name": "macian",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functional CSS framework",
   "style": "macian.min.css",
   "main": "macian.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js"
+    "build": "postcss css/macian.css -o macian.min.css"
   },
   "repository": "joshavanier/macian",
   "keywords": [
@@ -21,6 +21,11 @@
   },
   "homepage": "https://joshavanier.github.io/macian",
   "devDependencies": {
-    "clean-css": "^4.2.1"
+    "clean-css": "^4.2.1",
+    "cssnano": "^5.1.0",
+    "mdcss": "^1.5.2",
+    "postcss": "^8.4.7",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2"
   }
 }
