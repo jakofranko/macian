@@ -30,7 +30,18 @@
         <a class="menu-heading" href="#base-css"><span>Base CSS</span></a>
         
     
+        <a class="menu-item" href="#borders"><span>Borders</span></a>
+        
+        
         <a class="menu-item" href="#colors"><span>Colors</span></a>
+        
+        
+  
+        
+        <a class="menu-heading" href="#height--width"><span>Height &amp; Width</span></a>
+        
+    
+        <a class="menu-item" href="#height"><span>Height</span></a>
         
         
   
@@ -47,15 +58,36 @@
       <div class="markdown-body">
         
         
+    <section id="borders">
+      <h2 class="page-title">Borders</h2>
+
+      <div class="markdown-body">
+        <p>Add a border to all sides of an element with <code>ba</code>;</p>
+<p> The basic border classes are <code>b*</code> with the second character determining all (<code>border-style</code>), top (<code>border-top-style</code> etc.), right, bottom, and left: <code>ba</code>, <code>bt</code>, <code>br</code>, <code>bb</code>, and <code>bl</code> in order.</p>
+<p> Border style for dotted, dashed, solid, and none are <code>bso</code>, <code>bsd</code>, <code>bss</code>, and <code>bn</code> in order.</p>
+<p> Border radius can be set with <code>.br*</code> where <code>*</code> is a number from 0-6, or <code>brf</code> for 100% border radius.</p>
+<p> Border width can be set with <code>.bw*</code> where <code>*</code> is a number from 0-5.</p>
+<p> Border width can be set to 0 for individual sides via <code>b*-0</code> where <code>*</code> is one of <code>t</code>, <code>r</code>, <code>b</code>, or <code>l</code>;</p>
+<p> Most of these classes have responsive versions by appending <code>-s</code>, <code>-m</code>, or <code>-l</code> to them, though not all.</p>
+<pre><code class="lang-example:html"> &lt;p class=&quot;ba br4 bw3&quot;&gt;This paragraph has a relatively thick border with rounded corners.&lt;/p&gt;
+ &lt;p class=&quot;br bso bw1&quot;&gt;This paragraph has only the right side bordered with a thin, dotted line.&lt;/p&gt;
+ &lt;p class=&quot;br-s bl-s bt-m bb-m ba-l bw1-s bw2-m bw3-l&quot;&gt;This paragraph is bordered differently at different sizes.&lt;/p&gt;
+</code></pre>
+
+        
+      </div>
+    </section>
+    
     <section id="colors">
       <h2 class="page-title">Colors</h2>
 
       <div class="markdown-body">
-        <p>Foreground color classes (text colors), are prefixed by <code>cl-*</code>.
+        <p>Use <code>blanc</code> and &#39;bg-noir&#39; for black text on a white background.</p>
+<p> Foreground color classes (text colors), are prefixed by <code>cl-*</code>. For named colors (red, ylw, grn, blu, noir, and blanc), the <code>cl-</code> prefix may be ommited.
  Background color classes, are prefixed by <code>bg-*</code>.
  Border color classes, are prefixed by <code>b-*</code>.</p>
 <p> What follows the prefix can be either a number (0-f) for greyscale colors, or one of <code>red</code>, <code>grn</code>, <code>ylw</code>, <code>blu</code>, <code>noir</code>, or <code>blanc</code>. For text/foreground colors, the <code>cl-</code> may be ommited.</p>
-<p> The named colors may also be especilaly applied to the <code>&lt;progress /&gt;</code> element.</p>
+<p> The named colors may also be specifically applied to the <code>&lt;progress /&gt;</code> element.</p>
 <pre><code class="lang-example:html"> &lt;p class=&quot;cl-2 bg-d b-red&quot;&gt;This is an example paragraph&lt;/p&gt;
  &lt;p class=&quot;grn bg-ylw b-1&quot;&gt;Another example paragraph&lt;/p&gt;
  &lt;progress max=&quot;100&quot; value=&quot;40&quot; class=&quot;ylw bg-blu b-red&quot;&gt;40%&lt;/progress&gt;
@@ -68,10 +100,39 @@
       </div>
     </section>
     
+    <section id="height--width">
+      <h1 class="page-title">Height &amp; Width</h1>
+
+      <div class="markdown-body">
+        
+        
+    <section id="height">
+      <h2 class="page-title">Height</h2>
+
+      <div class="markdown-body">
+        <p>To make an element the height of the screen, you can use <code>vh</code>.</p>
+<p> Similarly, you can set height to auto with <code>ha</code>, and to <code>100%</code> with <code>hf</code>.</p>
+<p> To set height in percentages, you use <code>h*</code> where <code>*</code> is 1-9.</p>
+<p> To set height in <code>vh</code> units, use <code>vh*</code> where <code>*</code> is 1-9.</p>
+<p> To set height in <code>em</code> units, use <code>sh*</code> where <code>*</code> is 1-7.</p>
+<p> To set min- or max-height in percentages, use <code>nh*</code> or <code>xh*</code> where <code>*</code> is 1-9.</p>
+<p> All of these classes have responsive options, and can be appended with <code>-s</code>, <code>-m</code>, or <code>-l</code>.</p>
+<pre><code class="lang-example:html"> &lt;div class=&quot;vh&quot;&gt;This div is the same height as the viewport.&lt;/div&gt;
+ &lt;div class=&quot;nh5-s nh6-m nh7-l&quot;&gt;This div has different min-heights at different screen sizes&lt;/div&gt;
+ &lt;p class=&quot;sh4&quot;&gt;This paragraph should be twice as tall as the normal text (2em)&lt;/p&gt;
+</code></pre>
+
+        
+      </div>
+    </section>
+    
+      </div>
+    </section>
+    
         </main>
       </div>
       <footer class="footer">
-        Last modified Thursday, 3 March 2022 21:27
+        Last modified Friday, 4 March 2022 11:47
       </footer>
     </div>
     <script src="prism.js?871234"></script>
