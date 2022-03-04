@@ -1,0 +1,9 @@
+1. The borders classes have a lot of issues that prevent them from being intuitive:
+    1. `br` is the `border-right-style/width` class, but that is also the prefix for the `border-radius` classes. This should be differentiated a bit.
+    2. The zero-width classes break all the conventions; I would expect `btw0`, `bbw0` etc., but instead they are `bt-0`.
+    3. Lots of the class categories lack responsive versions, notably the border-style classes, and the zero-border classes.
+2. The height and width classes also have a lot of inconsistencies that make them difficult to intuit:
+    1. The classes that use the `em` unit are prefixed with `s` for some reason e.g., `sh1`. Presumably this is "screen-height 1"? I'd like to come up with a different convention `em` unit classes.
+    2. The min-height classes are prefixed with `n`. This should probably be `mnh` ?
+    3. the max-height classes are prefixed with `x`. This hsould probably be `mxh` ?
+    4. The `em` unit classes only go up to 7??
