@@ -1,3 +1,28 @@
+/*---
+ title: Borders
+ section: Base CSS
+  ---
+
+ Add a border to all sides of an element with `ba`;
+ 
+ The basic border classes are `b*` with the second character determining all (`border-style`), top (`border-top-style` etc.), right, bottom, and left: `ba`, `bt`, `br`, `bb`, and `bl` in order.
+
+ Border style for dotted, dashed, solid, and none are `bso`, `bsd`, `bss`, and `bn` in order.
+
+ Border radius can be set with `.br*` where `*` is a number from 0-6, or `brf` for 100% border radius.
+
+ Border width can be set with `.bw*` where `*` is a number from 0-5.
+
+ Border width can be set to 0 for individual sides via `b*-0` where `*` is one of `t`, `r`, `b`, or `l`;
+
+ Most of these classes have responsive versions by appending `-s`, `-m`, or `-l` to them, though not all.
+
+ ```example:html
+ <p class="ba br4 bw3">This paragraph has a relatively thick border with rounded corners.</p>
+ <p class="br bso bw1">This paragraph has only the right side bordered with a thin, dotted line.</p>
+ <p class="br-s bl-s bt-m bb-m ba-l bw1-s bw2-m bw3-l">This paragraph is bordered differently at different sizes.</p>
+ ```
+ */
 .ba {border-style:        solid; border-width:        .125em}
 .bt {border-top-style:    solid; border-top-width:    .125em}
 .br {border-right-style:  solid; border-right-width:  .125em}
@@ -22,39 +47,6 @@
 .bt-0 {border-top-width:    0} .br-0 {border-right-width: 0}
 .bb-0 {border-bottom-width: 0} .bl-0 {border-left-width:  0}
 
-.bsn  {box-shadow:  0 !important}
-.bst  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-.bsr  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-.bsb  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-.bsl  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-.bsa  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-.bsit {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-.bsir {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-.bsib {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-.bsil {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-.bsia {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-.bslr {
-  box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
-             -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-}
-
-.bstb {
-  box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
-              0  8px 12px -8px rgba(0, 0, 0, 0.2)
-}
-
-.bsilr {
-  box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
-              inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-}
-
-.bsitb {
-  box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
-              inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
-}
-
 @media screen and (max-width: 30em) {
 
   .ba-s {border-style:        solid; border-width:        .125em}
@@ -68,39 +60,6 @@
   .bw0-s {border-width:     0} .bw1-s {border-width: .125em}
   .bw2-s {border-width: .25em} .bw3-s {border-width:   .5em}
   .bw4-s {border-width:   1em} .bw5-s {border-width:    2em}
-
-  .bsn-s  {box-shadow:  0 !important}
-  .bst-s  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsr-s  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsb-s  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsl-s  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsa-s  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-  .bsit-s {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsir-s {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsib-s {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsil-s {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsia-s {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-  .bslr-s {
-    box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
-               -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bstb-s {
-    box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
-                0  8px 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bsilr-s {
-    box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
-                inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bsitb-s {
-    box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
-                inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
-  }
 
 }
 
@@ -118,39 +77,6 @@
   .bw2-m {border-width: .25em} .bw3-m {border-width:   .5em}
   .bw4-m {border-width:   1em} .bw5-m {border-width:    2em}
 
-  .bsn-m  {box-shadow:  0 !important}
-  .bst-m  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsr-m  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsb-m  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsl-m  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsa-m  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-  .bsit-m {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsir-m {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsib-m {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsil-m {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsia-m {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-  .bslr-m {
-    box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
-               -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bstb-m {
-    box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
-                0  8px 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bsilr-m {
-    box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
-                inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bsitb-m {
-    box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
-                inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
 }
 
 @media screen and (min-width: 60em) {
@@ -166,38 +92,5 @@
   .bw0-l {border-width:     0} .bw1-l {border-width: .125em}
   .bw2-l {border-width: .25em} .bw3-l {border-width:   .5em}
   .bw4-l {border-width:   1em} .bw5-l {border-width:    2em}
-
-  .bsn-l  {box-shadow:  0 !important}
-  .bst-l  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsr-l  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsb-l  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsl-l  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsa-l  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-  .bsit-l {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsir-l {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsib-l {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
-  .bsil-l {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
-  .bsia-l {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
-
-  .bslr-l {
-    box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
-               -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bstb-l {
-    box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
-                0  8px 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bsilr-l {
-    box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
-                inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
-  }
-
-  .bsitb-l {
-    box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
-                inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
-  }
 
 }
