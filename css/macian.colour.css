@@ -3,7 +3,7 @@
  section: Base CSS
  ---
 
- Use `blanc` and 'bg-noir' for black text on a white background.
+ Use `blanc` and `bg-noir` for black text on a white background.
 
  Foreground color classes (text colors), are prefixed by `cl-*`. For named colors (red, ylw, grn, blu, noir, and blanc), the `cl-` prefix may be ommited.
  Background color classes, are prefixed by `bg-*`.
