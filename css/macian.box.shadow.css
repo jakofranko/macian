@@ -1,0 +1,143 @@
+.bsn  {box-shadow:  0 !important}
+.bst  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+.bsr  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+.bsb  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+.bsl  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+.bsa  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+.bsit {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+.bsir {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+.bsib {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+.bsil {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+.bsia {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+.bslr {
+  box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
+             -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+}
+
+.bstb {
+  box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
+              0  8px 12px -8px rgba(0, 0, 0, 0.2)
+}
+
+.bsilr {
+  box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
+              inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+}
+
+.bsitb {
+  box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
+              inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
+}
+
+@media screen and (max-width: 30em) {
+
+    .bsn-s  {box-shadow:  0 !important}
+    .bst-s  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsr-s  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsb-s  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsl-s  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsa-s  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+    .bsit-s {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsir-s {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsib-s {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsil-s {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsia-s {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+    .bslr-s {
+      box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
+                 -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bstb-s {
+      box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
+                  0  8px 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bsilr-s {
+      box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
+                  inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bsitb-s {
+      box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
+                  inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+
+    .bsn-m  {box-shadow:  0 !important}
+    .bst-m  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsr-m  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsb-m  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsl-m  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsa-m  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+    .bsit-m {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsir-m {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsib-m {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsil-m {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsia-m {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+    .bslr-m {
+      box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
+                 -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bstb-m {
+      box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
+                  0  8px 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bsilr-m {
+      box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
+                  inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bsitb-m {
+      box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
+                  inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+}
+
+@media screen and (min-width: 60em) {
+
+    .bsn-l  {box-shadow:  0 !important}
+    .bst-l  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsr-l  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsb-l  {box-shadow:  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsl-l  {box-shadow: -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsa-l  {box-shadow:  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+    .bsit-l {box-shadow: inset  0   8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsir-l {box-shadow: inset -8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsib-l {box-shadow: inset  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
+    .bsil-l {box-shadow: inset  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
+    .bsia-l {box-shadow: inset  0   0    8px      rgba(0, 0, 0, 0.2)}
+
+    .bslr-l {
+      box-shadow: 8px 0 12px -8px rgba(0, 0, 0, 0.2),
+                 -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bstb-l {
+      box-shadow: 0 -8px 12px -8px rgba(0, 0, 0, 0.2),
+                  0  8px 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bsilr-l {
+      box-shadow: inset  8px 0 12px -8px rgba(0, 0, 0, 0.2),
+                  inset -8px 0 12px -8px rgba(0, 0, 0, 0.2)
+    }
+
+    .bsitb-l {
+      box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
+                  inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
+    }
+    
+}
