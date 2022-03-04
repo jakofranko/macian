@@ -1,3 +1,22 @@
+/*---
+ title: Colors
+ section: Base CSS
+ ---
+
+ Foreground color classes (text colors), are prefixed by `cl-*`.
+ Background color classes, are prefixed by `bg-*`.
+ Border color classes, are prefixed by `b-*`.
+
+ What follows the prefix can be either a number (0-f) for greyscale colors, or one of `red`, `grn`, `ylw`, `blu`, `noir`, or `blanc`. For text/foreground colors, the `cl-` may be ommited.
+
+ The named colors may also be especilaly applied to the `<progress />` element.
+
+ ```example:html
+ <p class="cl-2 bg-d b-red">This is an example paragraph</p>
+ <p class="grn bg-ylw b-1">Another example paragraph</p>
+ <progress max="100" value="40" class="ylw bg-blu b-red">40%</progress>
+ ```
+ */
 .noir  {color: #202020}
 .blanc {color: #f8f8f8}
 
