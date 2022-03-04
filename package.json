@@ -21,7 +21,6 @@
   },
   "homepage": "https://joshavanier.github.io/macian",
   "devDependencies": {
-    "clean-css": "^4.2.1",
     "cssnano": "^5.1.0",
     "mdcss": "^1.5.2",
     "postcss": "^8.4.7",
