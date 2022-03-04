@@ -1,6 +1,6 @@
 {
   "name": "macian",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Functional CSS framework",
   "style": "macian.min.css",
   "main": "macian.min.css",
