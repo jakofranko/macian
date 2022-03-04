@@ -1,3 +1,28 @@
+/*---
+ title: Height
+ section: Height & Width
+  ---
+
+ To make an element the height of the screen, you can use `vh`.
+
+ Similarly, you can set height to auto with `ha`, and to `100%` with `hf`.
+
+ To set height in percentages, you use `h*` where `*` is 1-9.
+
+ To set height in `vh` units, use `vh*` where `*` is 1-9.
+
+ To set height in `em` units, use `sh*` where `*` is 1-7.
+
+ To set min- or max-height in percentages, use `nh*` or `xh*` where `*` is 1-9.
+
+ All of these classes have responsive options, and can be appended with `-s`, `-m`, or `-l`.
+
+ ```example:html
+ <div class="vh">This div is the same height as the viewport.</div>
+ <div class="nh5-s nh6-m nh7-l">This div has different min-heights at different screen sizes</div>
+ <p class="sh4">This paragraph should be twice as tall as the normal text (2em)</p>
+ ```
+ */
 .ha {height: auto} .hf {height: 100%} .vh {height: 100vh}
 
 .sh1 {height: .25em} .sh2 {height: .5em} .sh3 {height: 1em}
