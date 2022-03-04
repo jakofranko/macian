@@ -14,8 +14,8 @@
 
 ---
 
-**By [Avanier](https://avanier.studio/macian). Licensed under [MIT](LICENSE).**
+**By [Avanier](https://avanier.studio/macian) and [Jake](https://jakofranko.github.io). Licensed under [MIT](LICENSE).**
 
 ## Note
 
-This is a fork of [Josh's GitLab repo](https://gitlab.com/joshavanier/macian/-/tree/master). The fork was created to maintain a version of Macian for npm.
+This is a fork of [Josh's GitLab repo](https://gitlab.com/joshavanier/macian/-/tree/master). I have decided to improve this a bit and maintain an npm version as I find it very useful in my own projects especially for rapid prototyping.
