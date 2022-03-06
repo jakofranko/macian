@@ -7,3 +7,5 @@
     2. The min-height classes are prefixed with `n`. This should probably be `mnh` ?
     3. the max-height classes are prefixed with `x`. This hsould probably be `mxh` ?
     4. The `em` unit classes only go up to 7??
+3. Add flex classes
+4. Add margin 0 auto class (or just margin-side: auto classes)
