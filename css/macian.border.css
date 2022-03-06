@@ -17,9 +17,9 @@
 
  Most of these classes have responsive versions by appending `-s`, `-m`, or `-l` to them, though not all.
 
- ```example:html
+ ```html
  <p class="ba br4 bw3">This paragraph has a relatively thick border with rounded corners.</p>
- <p class="br bso bw1">This paragraph has only the right side bordered with a thin, dotted line.</p>
+ <p class="bso bw1">This paragraph is bordered with a thin, dotted line.</p>
  <p class="br-s bl-s bt-m bb-m ba-l bw1-s bw2-m bw3-l">This paragraph is bordered differently at different sizes.</p>
  ```
  */

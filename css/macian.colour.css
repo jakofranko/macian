@@ -13,10 +13,10 @@
 
  The named colors may also be specifically applied to the `<progress />` element.
 
- ```example:html
- <p class="cl-2 bg-d b-red">This is an example paragraph</p>
- <p class="grn bg-ylw b-1">Another example paragraph</p>
- <progress max="100" value="40" class="ylw bg-blu b-red">40%</progress>
+ ```html
+ <p class="cl-2 bg-d ba b-blu">This is an example paragraph</p>
+ <p class="grn bg-red ba b-1">Another example paragraph</p>
+ <progress max="100" value="40" class="m1 ylw bg-blu b-red">40%</progress>
  ```
  */
 .noir, .cl-noir  {color: #202020}
