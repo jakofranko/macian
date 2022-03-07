@@ -10,6 +10,14 @@
  What follows the prefix can be either a number (0-f) for greyscale colors, or one of `red`, `grn`, `ylw`, `blu`, `noir`, or `blanc`. For text/foreground colors, the `cl-` may be ommited.
 
  The named colors may also be specifically applied to the `<progress />` element.
+ ```color
+ @color: #f8f8f8 @name: Blanc
+ @color: #202020 @name: Noir
+ @color: #2E76C3 @name: Blu
+ @color: #FFD954 @name: Ylw
+ @color: #EB4E32 @name: Red
+ @color: #83BD75 @name: Grn
+ ```
 
  ```html
  <p class="cl-2 bg-d ba b-blu">This is an example paragraph</p>
