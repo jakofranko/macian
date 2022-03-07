@@ -1,198 +1,365 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Style Guide</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="primer.css" rel="stylesheet"><link href="style.css" rel="stylesheet"><link href="octicons/octicons.css" rel="stylesheet">
-    <script>examples={"base":"","target":"_self","css":["style.css"],"js":[],"bodyjs":[],"htmlcss":"background:none;border:0;clip:auto;display:block;height:auto;margin:0;padding:0;position:static;width:auto","bodycss":"background:none;border:0;clip:auto;display:block;height:auto;margin:0;padding:16px;position:static;width:auto"};</script>
-    
-  </head>
-  <body>
-    <header class="masthead" style="background-color: #4078c0;">
-      <div class="container">
-        <a href="/" class="masthead-logo">
-          <img src="mdcss-logo.png" alt="Style Guide" height="32"> Style Guide
-        </a>
-        <nav class="masthead-nav">
-            
-        </nav>
-      </div>
-    </header>
 
-    <div class="container">
-      <div class="columns docs-layout">
-        <div class="one-fourth column">
-          <nav class="menu docs-menu">
-            
-    
-        <a class="menu-heading" href="#base-css"><span>Base CSS</span></a>
-        
-    
-        <a class="menu-item" href="#borders"><span>Borders</span></a>
-        
-        
-        <a class="menu-item" href="#colors"><span>Colors</span></a>
-        
-        
-  
-        
-        <a class="menu-heading" href="#height--width"><span>Height &amp; Width</span></a>
-        
-    
-        <a class="menu-item" href="#height"><span>Height</span></a>
-        
-        
-  
-        
-  
-          </nav>
-        </div>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Macian Style Guide
+	</title>
+	<link href="prism.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/macian/macian.min.css">
+	<script src="examples.js"></script>
+	<script>
+		examples.css = ['https://unpkg.com/macian/macian.min.css'];
+	</script>
+	<style media="screen">
+        ul ul { padding-inline-start: 20px; }
+        .top-b { top: 12em; }
+		#grid {
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr 1fr;
+		}
+	</style>
+</head>
 
-        <main class="three-fourths column markdown-body">
-          
-    <section id="base-css">
-      <h1 class="page-title">Base CSS</h1>
+<body>
+	<main class="container p4">
+		<header class="pv5">
+			<h1 class="mb3 f5 ac upc tk">Macian</h1>
+		</header>
 
-      <div class="markdown-body">
-        
-        
-    <section id="borders">
-      <h2 class="page-title">Borders</h2>
+		<div class="w9-s w9-m w6-l cn">
 
-      <div class="markdown-body">
-        <p>Add a border to all sides of an element with <code>ba</code>.</p>
+			<div class="mb5">
+				<div class="r">
+					<div class="c6 c6-m r mb5 mb0-l pr4-m pr4-l">
+						<div class="cb cb-s cb-m sh4 bt bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bt bb bw2"></div>
+						<div class="ca ca-s ca-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb bw2"></div>
+						<div class="c9 c9-s c9-m sh4 bb br bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb bw2"></div>
+						<div class="c8 c8-s c8-m sh4 bb br bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb bw2"></div>
+						<div class="c7 c7-s c7-m sh4 bb br bw2"></div>
+						<div class="c5 c5-s c5-m sh4 bb bw2"></div>
+						<div class="c6 c6-s c6-m sh4 bb br bw2"></div>
+						<div class="c6 c6-s c6-m sh4 bb bw2"></div>
+						<div class="c5 c5-s c5-m sh4 bb br bw2"></div>
+						<div class="c7 c7-s c7-m sh4 bb bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb br bw2"></div>
+						<div class="c8 c8-s c8-m sh4 bb bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb br bw2"></div>
+						<div class="c9 c9-s c9-m sh4 bb bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="ca ca-s ca-m sh4 bb bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="cb cb-s cb-m sh4 bb bw2"></div>
+					</div>
+					<div class="c6 c6-m r mb4 mb0-l pl4-m pl4-l">
+						<div class="cc sh4 bt bb bw2"></div>
+						<div class="c6 c6-s c6-m sh4 bb br bw2"></div>
+						<div class="c6 c6-s c6-m sh4 bb bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb br bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb br bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb br bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb br bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb br bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb br bw2"></div>
+						<div class="c1 c1-s c1-m sh4 bb bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb br bw2"></div>
+						<div class="c2 c2-s c2-m sh4 bb bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb br bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb br bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb br bw2"></div>
+						<div class="c3 c3-s c3-m sh4 bb bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb br bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb br bw2"></div>
+						<div class="c4 c4-s c4-m sh4 bb bw2"></div>
+						<div class="c6 c6-s c6-m sh4 bb br bw2"></div>
+						<div class="c6 c6-s c6-m sh4 bb bw2"></div>
+						<div class="cc sh4 bb bw2"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mb5">
+				<div class="r f6 tkt">
+					<div class="c3 c6-m pv3 pr4 pb0-l al" title=".al">
+						&#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+					</div>
+					<div class="c3 c6-m pv3 ph4 pb0-l aj" title=".aj">
+						&#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+					</div>
+					<div class="c3 c6-m pv3 ph4 pb0-l ac" title=".ac">
+						&#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+					</div>
+					<div class="c3 c6-m pv3 pl4 pb0-l ar" title=".ar">
+						&#9608; &#9608; &#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;&#9608;&#9608; &#9608;&#9608;&#9608; &#9608;&#9608; &#9608; &#9608;
+					</div>
+				</div>
+			</div>
+
+			<div class="mb5">
+				<div class="mb3">
+					<p class="f1 lhs bg-noir">1</p>
+				</div>
+				<div class="mb3">
+					<p class="f2 lhs bg-noir">2</p>
+				</div>
+				<div class="mb3">
+					<p class="f3 lhs bg-noir">3</p>
+				</div>
+				<div class="mb3">
+					<p class="f4 lhs bg-noir">4</p>
+				</div>
+				<div class="mb3">
+					<p class="f5 lhs bg-noir">5</p>
+				</div>
+				<div class="mb3">
+					<p class="f6 lhs bg-noir">6</p>
+				</div>
+			</div>
+
+			<div id="grid" class="mb5 g grg3 gcg3">
+				<div class="sh4 bg-f"></div>
+				<div class="sh4 bg-e"></div>
+				<div class="sh4 bg-d"></div>
+				<div class="sh4 bg-c"></div>
+				<div class="sh4 bg-b"></div>
+				<div class="sh4 bg-a"></div>
+				<div class="sh4 bg-9"></div>
+				<div class="sh4 bg-8"></div>
+				<div class="sh4 bg-7"></div>
+				<div class="sh4 bg-6"></div>
+				<div class="sh4 bg-5"></div>
+				<div class="sh4 bg-4"></div>
+				<div class="sh4 bg-3"></div>
+				<div class="sh4 bg-2"></div>
+				<div class="sh4 bg-1"></div>
+				<div class="sh4 bg-0"></div>
+			</div>
+
+			<div class="mb5">
+				<div class="r f6">
+					<div class="mb4 mb0-l c6 pr4-l">
+						<div class="mb3 bg-noir pb1"></div>
+						<div class="mb3 bg-noir pb2"></div>
+						<div class="mb3 bg-noir pb3"></div>
+						<div class="mb3 bg-noir pb4"></div>
+						<div class="mb3 bg-noir pb5"></div>
+						<div class="mb3 bg-noir pb6"></div>
+						<div class="mb3 bg-noir pb7"></div>
+					</div>
+					<div class="mb4 mb0-l c6 pl4-l ac">
+						<p class="mb3 pb4 lhd"><span class="mr0">&#9608;</span>&#9608;</p>
+						<p class="mb3 pb4 lhd"><span class="mr1">&#9608;</span>&#9608;</p>
+						<p class="mb3 pb4 lhd"><span class="mr2">&#9608;</span>&#9608;</p>
+						<p class="mb3 pb4 lhd"><span class="mr3">&#9608;</span>&#9608;</p>
+						<p class="mb3 pb4 lhd"><span class="mr4">&#9608;</span>&#9608;</p>
+						<p class="mb3 pb4 lhd"><span class="mr5">&#9608;</span>&#9608;</p>
+						<p class="mb3 pb4 lhd"><span class="mr6">&#9608;</span>&#9608;</p>
+						<p class="mb3 lhd"><span class="mr7">&#9608;</span>&#9608;</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mb5">
+				<div class="ba bw2 p3">
+					<div class="ba bw2 br1 p3">
+						<div class="ba bw2 br2 p3">
+							<div class="ba bw2 br3 p3">
+								<div class="ba bw2 br4 p3">
+									<div class="ba bw2 br5 p3">
+										<div class="ba bw2 br6 p3"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mb5 r ac">
+				<div class="w1 lf sh4 bg-noir of" title=".of"></div>
+				<div class="w1 lf sh4 bg-noir o9" title=".o9"></div>
+				<div class="w1 lf sh4 bg-noir o8" title=".o8"></div>
+				<div class="w1 lf sh4 bg-noir o7" title=".o7"></div>
+				<div class="w1 lf sh4 bg-noir o6" title=".o6"></div>
+				<div class="w1 lf sh4 bg-noir o5" title=".o5"></div>
+				<div class="w1 lf sh4 bg-noir o4" title=".o4"></div>
+				<div class="w1 lf sh4 bg-noir o3" title=".o3"></div>
+				<div class="w1 lf sh4 bg-noir o2" title=".o2"></div>
+				<div class="w1 lf sh4 bg-noir o1" title=".o1"></div>
+			</div>
+		</div>
+		<div class="r">
+			<div class="c3">
+				&nbsp;
+				<nav class="psf top-b">
+					
+					<ul>
+						
+						<li>
+							<a href="#base-css"><span>
+									Base CSS</span></a>
+							
+					<ul>
+						
+						<li>
+							<a href="#borders"><span>
+									Borders</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#colors"><span>
+									Colors</span></a>
+							
+						</li>
+						
+					</ul>
+					
+						</li>
+						
+						<li>
+							<a href="#height--width"><span>
+									Height & Width</span></a>
+							
+					<ul>
+						
+						<li>
+							<a href="#height"><span>
+									Height</span></a>
+							
+						</li>
+						
+					</ul>
+					
+						</li>
+						
+					</ul>
+					
+				</nav>
+			</div>
+			<div class="c6">
+				
+				<section id="base-css">
+					<h2 class="mb2 mt4">
+						Base CSS
+					</h2>
+
+					<div>
+						
+						
+				<section id="borders">
+					<h3 class="mb2 mt4">
+						Borders
+					</h3>
+
+					<div>
+						<p>Add a border to all sides of an element with <code>ba</code>.</p>
 <p> The basic border classes are <code>b*</code> with the second character determining all (<code>border-style</code>), top (<code>border-top-style</code> etc.), right, bottom, and left: <code>ba</code>, <code>bt</code>, <code>br</code>, <code>bb</code>, and <code>bl</code> in order.</p>
 <p> Border style for dotted, dashed, solid, and none are <code>bso</code>, <code>bsd</code>, <code>bss</code>, and <code>bn</code> in order.</p>
 <p> Border radius can be set with <code>.br*</code> where <code>*</code> is a number from 0-6, or <code>brf</code> for 100% border radius.</p>
 <p> Border width can be set with <code>.bw*</code> where <code>*</code> is a number from 0-5.</p>
 <p> Border width can be set to 0 for individual sides via <code>b*-0</code> where <code>*</code> is one of <code>t</code>, <code>r</code>, <code>b</code>, or <code>l</code>;</p>
 <p> Most of these classes have responsive versions by appending <code>-s</code>, <code>-m</code>, or <code>-l</code> to them, though not all.</p>
-<pre><code class="lang-example:html"> &lt;p class=&quot;ba br4 bw3&quot;&gt;This paragraph has a relatively thick border with rounded corners.&lt;/p&gt;
- &lt;p class=&quot;br bso bw1&quot;&gt;This paragraph has only the right side bordered with a thin, dotted line.&lt;/p&gt;
+<pre><code class="lang-html"> &lt;p class=&quot;ba br4 bw3&quot;&gt;This paragraph has a relatively thick border with rounded corners.&lt;/p&gt;
+ &lt;p class=&quot;bso bw1&quot;&gt;This paragraph is bordered with a thin, dotted line.&lt;/p&gt;
  &lt;p class=&quot;br-s bl-s bt-m bb-m ba-l bw1-s bw2-m bw3-l&quot;&gt;This paragraph is bordered differently at different sizes.&lt;/p&gt;
 </code></pre>
 
-        
-      </div>
-    </section>
-    
-    <section id="colors">
-      <h2 class="page-title">Colors</h2>
+						
+					</div>
+				</section>
+				
+				<section id="colors">
+					<h3 class="mb2 mt4">
+						Colors
+					</h3>
 
-      <div class="markdown-body">
-        <p>Use <code>blanc</code> and <code>bg-noir</code> for black text on a white background.</p>
+					<div>
+						<p>Use <code>blanc</code> and <code>bg-noir</code> for black text on a white background.</p>
 <p> Foreground color classes (text colors), are prefixed by <code>cl-*</code>. For named colors (red, ylw, grn, blu, noir, and blanc), the <code>cl-</code> prefix may be ommited.
  Background color classes, are prefixed by <code>bg-*</code>.
  Border color classes, are prefixed by <code>b-*</code>.</p>
 <p> What follows the prefix can be either a number (0-f) for greyscale colors, or one of <code>red</code>, <code>grn</code>, <code>ylw</code>, <code>blu</code>, <code>noir</code>, or <code>blanc</code>. For text/foreground colors, the <code>cl-</code> may be ommited.</p>
 <p> The named colors may also be specifically applied to the <code>&lt;progress /&gt;</code> element.</p>
-<pre><code class="lang-example:html"> &lt;p class=&quot;cl-2 bg-d b-red&quot;&gt;This is an example paragraph&lt;/p&gt;
- &lt;p class=&quot;grn bg-ylw b-1&quot;&gt;Another example paragraph&lt;/p&gt;
- &lt;progress max=&quot;100&quot; value=&quot;40&quot; class=&quot;ylw bg-blu b-red&quot;&gt;40%&lt;/progress&gt;
+<pre><code class="lang-html"> &lt;p class=&quot;cl-2 bg-d ba b-blu&quot;&gt;This is an example paragraph&lt;/p&gt;
+ &lt;p class=&quot;grn bg-red ba b-1&quot;&gt;Another example paragraph&lt;/p&gt;
+ &lt;progress max=&quot;100&quot; value=&quot;40&quot; class=&quot;m1 ylw bg-blu b-red&quot;&gt;40%&lt;/progress&gt;
 </code></pre>
 
-        
-      </div>
-    </section>
-    
-      </div>
-    </section>
-    
-    <section id="height--width">
-      <h1 class="page-title">Height &amp; Width</h1>
+						
+					</div>
+				</section>
+				
+					</div>
+				</section>
+				
+				<section id="height--width">
+					<h2 class="mb2 mt4">
+						Height &amp; Width
+					</h2>
 
-      <div class="markdown-body">
-        
-        
-    <section id="height">
-      <h2 class="page-title">Height</h2>
+					<div>
+						
+						
+				<section id="height">
+					<h3 class="mb2 mt4">
+						Height
+					</h3>
 
-      <div class="markdown-body">
-        <p>To make an element the height of the screen, you can use <code>vh</code>.</p>
+					<div>
+						<p>To make an element the height of the screen, you can use <code>vh</code>.</p>
 <p> Similarly, you can set height to auto with <code>ha</code>, and to <code>100%</code> with <code>hf</code>.</p>
 <p> To set height in percentages, you use <code>h*</code> where <code>*</code> is 1-9.</p>
 <p> To set height in <code>vh</code> units, use <code>vh*</code> where <code>*</code> is 1-9.</p>
 <p> To set height in <code>em</code> units, use <code>sh*</code> where <code>*</code> is 1-7.</p>
 <p> To set min- or max-height in percentages, use <code>nh*</code> or <code>xh*</code> where <code>*</code> is 1-9.</p>
 <p> All of these classes have responsive options, and can be appended with <code>-s</code>, <code>-m</code>, or <code>-l</code>.</p>
-<pre><code class="lang-example:html"> &lt;div class=&quot;vh&quot;&gt;This div is the same height as the viewport.&lt;/div&gt;
+<pre><code class="lang-html"> &lt;div class=&quot;vh&quot;&gt;This div is the same height as the viewport.&lt;/div&gt;
  &lt;div class=&quot;nh5-s nh6-m nh7-l&quot;&gt;This div has different min-heights at different screen sizes&lt;/div&gt;
  &lt;p class=&quot;sh4&quot;&gt;This paragraph should be twice as tall as the normal text (2em)&lt;/p&gt;
 </code></pre>
 
-        
-      </div>
-    </section>
-    
-      </div>
-    </section>
-    
-        </main>
-      </div>
-      <footer class="footer">
-        Last modified Friday, 4 March 2022 11:51
-      </footer>
-    </div>
-    <script src="prism.js?871234"></script>
-    <script src="examples.js?873428"></script>
-    <script src="script.js?02359872"></script>
-    <script src="anchor.min.js?225234"></script>
-    <script src="interact.min.js?8552934"></script>
-    <script>
-     anchors.options = {
-         placement: 'left',
-         visible: 'hover',
-         class: 'anchor-link'
-     };
-     anchors.add('h2, h3');
+						
+					</div>
+				</section>
+				
+					</div>
+				</section>
+				
+			</div>
+		</div>
+	</main>
+	<script src="prism.js"></script>
+	<script src="script.js"></script>
+</body>
 
-     /* interact('.docs-resize')
-      *   .resizable({
-      *     edges: {
-      *       left: '.c-resize--left',
-      *       right: '.c-resize--right',
-      *       bottom: false,
-      *       top: false
-      *     },
-      *     onmove: function (e) {
-      *       var width = e.rect.width,
-      *         windowWidth = $(window).width();
-
-      *       if (width < 160) {
-      *         width = 160;
-      *       } else if ((width * 2) + 100 > windowWidth) {
-      *         width = (windowWidth - 100) / 2;
-      *       }
-
-      *       $('.docs-example').find('docs-resize').addClass('resize-overlay');
-      *       $('.docs-resize').style.width = (width * 2) + 'px';
-      *     },
-      *     onend: function () {
-      *       $('.docs-example').find('docs-resize').removeClass('resize-overlay');
-      *     }
-      *   })
-      *   .on('resizemove', function (event) {
-      *     var target = event.target,
-      *         x = (parseFloat(target.getAttribute('data-x')) || 0);
-
-      *     // update the element's style
-      *     target.style.width  = event.rect.width + 'px';
-
-      *     // translate when resizing from top or left edges
-      *     x += event.deltaRect.left;
-
-      *     target.style.webkitTransform = target.style.transform =
-      *       'translateX(' + x + 'px)';
-
-      *     target.setAttribute('data-x', x);
-      *     target.textContent = Math.round(event.rect.width);
-      *   });*/
-    </script>
-    
-  
-  </body>
 </html>
-
-

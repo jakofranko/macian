@@ -17,12 +17,13 @@
   "author": "Josh Avanier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshavanier/macian/issues"
+    "url": "https://github.com/jakofranko/macian/issues"
   },
-  "homepage": "https://joshavanier.github.io/macian",
+  "homepage": "https://jakofranko.github.io/macian/",
   "devDependencies": {
     "cssnano": "^5.1.0",
     "mdcss": "^1.5.2",
+    "mdcss-theme-macian": "^1.0.0",
     "postcss": "^8.4.7",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2"
