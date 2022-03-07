@@ -3,9 +3,7 @@
  section: Height & Width
   ---
 
- To make an element the height of the screen, you can use `vh`.
-
- Similarly, you can set height to auto with `ha`, and to `100%` with `hf`.
+ To make an element the height of the screen, you can use `vh`. Similarly, you can set height to auto with `ha`, and to `100%` with `hf`.
 
  To set height in percentages, you use `h*` where `*` is 1-9.
 

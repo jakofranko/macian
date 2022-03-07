@@ -3,8 +3,6 @@
  section: Base CSS
   ---
 
- Add a border to all sides of an element with `ba`.
-
  The basic border classes are `b*` with the second character determining all (`border-style`), top (`border-top-style` etc.), right, bottom, and left: `ba`, `bt`, `br`, `bb`, and `bl` in order.
 
  Border style for dotted, dashed, solid, and none are `bso`, `bsd`, `bss`, and `bn` in order.
