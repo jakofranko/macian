@@ -7,7 +7,11 @@
     2. The min-height classes are prefixed with `n`. This should probably be `mnh` ?
     3. the max-height classes are prefixed with `x`. This hsould probably be `mxh` ?
     4. The `em` unit classes only go up to 7??
+    5. the min-width class prefix is `mw`, but the min-height prefix is `nh` ?????
 3. Add flex classes
 4. Add margin 0 auto class (or just margin-side: auto classes)
 5. Add additional top/bottom classes through to f
 6. Differentiate out the grid system from css grids
+7. Box shadows can be set on the 'horizontal' sides via `bslr` or 'vertical' sides via `bstb`, but the margin and padding classes do this via `mv*` or `mh*` (for 'vertical' and 'horizontal'). Need to standardize.
+8. Convert colors and perhaps other reused values into variables.
+9. Some classes append `a` to the name to designate 'all sides', like `ba` for "border all sides", or `bsia` for "box shadow inset all sides". However, other classes imply all sides, like `m4` or `p4`, which apply margins or padding to all sides. We should standardize on this.
