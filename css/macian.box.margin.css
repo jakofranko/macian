@@ -1,3 +1,22 @@
+/*---
+ title: Margins
+ section: Base CSS
+  ---
+
+ Margins can be set with the `m*` class, where `*` is a number between 0-7.
+
+ You can also set the margin for a specific side with the `m[side][size]` classes, where `[side]` is either `t` (top), `b` (bottom), `r` (right), or `l` (left), and `[size]` is a number between 0-7.
+
+ Convenience classes are also available to set the horizontal margins, and the vertical margins with `mh*` (margin horizontal) class, and the `mv*` class, again, where `*` is a number between 0-7.
+
+ Responsive versions for all the margin classes are available by appending `-s`, `-m`, or `-l` to the classes.
+
+ ```html
+ <div class="m5">This div has margin all the way around.</div>
+ <div class="mt1 mr2 mb3 ml4">This div has different sized margins on each side.</div>
+ <div class="mv2-m mv3-l mh4-m mh5-l">This div has different horizontal and vertical margins depending on the screen-size.</div>
+ ```
+ */
 .m0 {margin:   0} .m1 {margin: .25em} .m2 {margin: .5em} .m3 {margin:  1em}
 .m4 {margin: 2em} .m5 {margin:   4em} .m6 {margin:  8em} .m7 {margin: 16em}
 
