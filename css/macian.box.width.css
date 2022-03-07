@@ -1,3 +1,26 @@
+/*---
+ title: Width
+ section: Height & Width
+  ---
+
+ To make an element the width of the screen, you can use `vw`. Similarly, you can set width to auto with `wa`, and to `100%` with `wf`.
+
+ To set width in percentages, you use `w*` where `*` is 1-9.
+
+ To set width in `vw` units, use `vw*` where `*` is 1-9.
+
+ To set width in `em` units, use `sw*` where `*` is 1-7.
+
+ To set min- or max-width in percentages, use `mw*` or `xw*` where `*` is 1-9.
+
+ All of these classes have responsive options, and can be appended with `-s`, `-m`, or `-l`.
+
+ ```html
+ <div class="vw">This div is the same width as the viewport.</div>
+ <div class="mw5-s mw6-m mw7-l">This div has different min-widths at different screen sizes</div>
+ <p class="sw4">This paragraph should be twice as wide as the normal text (2em)</p>
+ ```
+ */
 .wa {width: auto} .wf {width: 100%} .vw {width: 100vw}
 
 .sw1 {width: .25em} .sw2 {width: .5em} .sw3 {width: 1em}
