@@ -1,3 +1,25 @@
+/*---
+ title: Shadows
+ section: Base CSS
+  ---
+
+ Box shadow styles can be set with the `bs*` classes.
+
+ Box shadows can be set for indivisual sides by setting `*` to `t`, `b`, `r`, or `l`. They can be set on all sides via `bsa`, or set to none via `bsn`.
+
+ Inset shadows can be set with the `bsi*` classes, where `*` is one of the side-letters specified above.
+
+ Both the `bs` and `bsi` classes can be appended with `lr` or `tb` to put the shadows on the horizontal or vertical sides.
+
+ Responsive versions of all the classes can be set by appending `-s`, `-m` or `-l`.
+
+ ```html
+ <p class="bsa">This paragraph has a box shadow applied on all sides.</p>
+ <p class="bsia">This paragraph has an inset box shadow on all sides.</p>
+ <p class="bslr bsitb">This paragraph has a box shadow on the horizontal, and inset shadow on the vertical.</p>
+ <p class="bst-s bsib-s bsr-m bsil-m bsb-l bsit-l">This paragraph has different shadows depending on the size of the screen.</p>
+ ```
+ */
 .bsn  {box-shadow:  0 !important}
 .bst  {box-shadow:  0  -8px 12px -8px rgba(0, 0, 0, 0.2)}
 .bsr  {box-shadow:  8px 0   12px -8px rgba(0, 0, 0, 0.2)}
@@ -139,5 +161,5 @@
       box-shadow: inset 0  8px 12px -8px rgba(0, 0, 0, 0.2),
                   inset 0 -8px 12px -8px rgba(0, 0, 0, 0.2)
     }
-    
+
 }
