@@ -1,3 +1,22 @@
+/*---
+ title: Padding
+ section: Base CSS
+  ---
+
+ Padding can be set with the `p*` class, where `*` is a number between 0-7.
+
+ You can also set the padding for a specific side with the `p[side][size]` classes, where `[side]` is either `t` (top), `b` (bottom), `r` (right), or `l` (left), and `[size]` is a number between 0-7.
+
+ Convenience classes are also available to set the horizontal padding, and the vertical padding with `ph*` (padding horizontal) class, and the `pv*` class, again, where `*` is a number between 0-7.
+
+ Responsive versions for all the padding classes are available by appending `-s`, `-m`, or `-l` to the classes.
+
+ ```html
+ <div class="p5">This div has padding all the way around.</div>
+ <div class="pt1 pr2 pb3 pl4">This div has different sized padding on each side.</div>
+ <div class="pv2-m pv3-l ph4-p ph5-l">This div has different horizontal and vertical padding depending on the screen-size.</div>
+ ```
+ */
 .p0 {padding:    0} .p1 {padding: .25em}
 .p2 {padding: .5em} .p3 {padding:   1em}
 .p4 {padding:  2em} .p5 {padding:   4em}
