@@ -9,10 +9,10 @@
 		Macian Style Guide
 	</title>
 	<link href="prism.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/macian/macian.min.css">
+	<link rel="stylesheet" href="./macian.min.css">
 	<script src="examples.js"></script>
 	<script>
-		examples.css = ['https://unpkg.com/macian/macian.min.css'];
+		examples.css = ['./macian.min.css'];
 	</script>
 	<style media="screen">
         ul ul { padding-inline-start: 20px; }
@@ -237,6 +237,24 @@
 						</li>
 						
 						<li>
+							<a href="#margins"><span>
+									Margins</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#padding"><span>
+									Padding</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#shadows"><span>
+									Shadows</span></a>
+							
+						</li>
+						
+						<li>
 							<a href="#colors"><span>
 									Colors</span></a>
 							
@@ -255,6 +273,12 @@
 						<li>
 							<a href="#height"><span>
 									Height</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#width"><span>
+									Width</span></a>
 							
 						</li>
 						
@@ -282,8 +306,7 @@
 					</h3>
 
 					<div>
-						<p>Add a border to all sides of an element with <code>ba</code>.</p>
-<p> The basic border classes are <code>b*</code> with the second character determining all (<code>border-style</code>), top (<code>border-top-style</code> etc.), right, bottom, and left: <code>ba</code>, <code>bt</code>, <code>br</code>, <code>bb</code>, and <code>bl</code> in order.</p>
+						<p>The basic border classes are <code>b*</code> with the second character determining all (<code>border-style</code>), top (<code>border-top-style</code> etc.), right, bottom, and left: <code>ba</code>, <code>bt</code>, <code>br</code>, <code>bb</code>, and <code>bl</code> in order.</p>
 <p> Border style for dotted, dashed, solid, and none are <code>bso</code>, <code>bsd</code>, <code>bss</code>, and <code>bn</code> in order.</p>
 <p> Border radius can be set with <code>.br*</code> where <code>*</code> is a number from 0-6, or <code>brf</code> for 100% border radius.</p>
 <p> Border width can be set with <code>.bw*</code> where <code>*</code> is a number from 0-5.</p>
@@ -298,18 +321,83 @@
 					</div>
 				</section>
 				
+				<section id="margins">
+					<h3 class="mb2 mt4">
+						Margins
+					</h3>
+
+					<div>
+						<p>Margins can be set with the <code>m*</code> class, where <code>*</code> is a number between 0-7.</p>
+<p> You can also set the margin for a specific side with the <code>m[side][size]</code> classes, where <code>[side]</code> is either <code>t</code> (top), <code>b</code> (bottom), <code>r</code> (right), or <code>l</code> (left), and <code>[size]</code> is a number between 0-7.</p>
+<p> Convenience classes are also available to set the horizontal margins, and the vertical margins with <code>mh*</code> (margin horizontal) class, and the <code>mv*</code> class, again, where <code>*</code> is a number between 0-7.</p>
+<p> Responsive versions for all the margin classes are available by appending <code>-s</code>, <code>-m</code>, or <code>-l</code> to the classes.</p>
+<pre><code class="lang-html"> &lt;div class=&quot;m5&quot;&gt;This div has margin all the way around.&lt;/div&gt;
+ &lt;div class=&quot;mt1 mr2 mb3 ml4&quot;&gt;This div has different sized margins on each side.&lt;/div&gt;
+ &lt;div class=&quot;mv2-m mv3-l mh4-m mh5-l&quot;&gt;This div has different horizontal and vertical margins depending on the screen-size.&lt;/div&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="padding">
+					<h3 class="mb2 mt4">
+						Padding
+					</h3>
+
+					<div>
+						<p>Padding can be set with the <code>p*</code> class, where <code>*</code> is a number between 0-7.</p>
+<p> You can also set the padding for a specific side with the <code>p[side][size]</code> classes, where <code>[side]</code> is either <code>t</code> (top), <code>b</code> (bottom), <code>r</code> (right), or <code>l</code> (left), and <code>[size]</code> is a number between 0-7.</p>
+<p> Convenience classes are also available to set the horizontal padding, and the vertical padding with <code>ph*</code> (padding horizontal) class, and the <code>pv*</code> class, again, where <code>*</code> is a number between 0-7.</p>
+<p> Responsive versions for all the padding classes are available by appending <code>-s</code>, <code>-m</code>, or <code>-l</code> to the classes.</p>
+<pre><code class="lang-html"> &lt;div class=&quot;p5&quot;&gt;This div has padding all the way around.&lt;/div&gt;
+ &lt;div class=&quot;pt1 pr2 pb3 pl4&quot;&gt;This div has different sized padding on each side.&lt;/div&gt;
+ &lt;div class=&quot;pv2-m pv3-l ph4-p ph5-l&quot;&gt;This div has different horizontal and vertical padding depending on the screen-size.&lt;/div&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="shadows">
+					<h3 class="mb2 mt4">
+						Shadows
+					</h3>
+
+					<div>
+						<p>Box shadow styles can be set with the <code>bs*</code> classes.</p>
+<p> Box shadows can be set for indivisual sides by setting <code>*</code> to <code>t</code>, <code>b</code>, <code>r</code>, or <code>l</code>. They can be set on all sides via <code>bsa</code>, or set to none via <code>bsn</code>.</p>
+<p> Inset shadows can be set with the <code>bsi*</code> classes, where <code>*</code> is one of the side-letters specified above.</p>
+<p> Both the <code>bs</code> and <code>bsi</code> classes can be appended with <code>lr</code> or <code>tb</code> to put the shadows on the horizontal or vertical sides.</p>
+<p> Responsive versions of all the classes can be set by appending <code>-s</code>, <code>-m</code> or <code>-l</code>.</p>
+<pre><code class="lang-html"> &lt;p class=&quot;bsa&quot;&gt;This paragraph has a box shadow applied on all sides.&lt;/p&gt;
+ &lt;p class=&quot;bsia&quot;&gt;This paragraph has an inset box shadow on all sides.&lt;/p&gt;
+ &lt;p class=&quot;bslr bsitb&quot;&gt;This paragraph has a box shadow on the horizontal, and inset shadow on the vertical.&lt;/p&gt;
+ &lt;p class=&quot;bst-s bsib-s bsr-m bsil-m bsb-l bsit-l&quot;&gt;This paragraph has different shadows depending on the size of the screen.&lt;/p&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
 				<section id="colors">
 					<h3 class="mb2 mt4">
 						Colors
 					</h3>
 
 					<div>
-						<p>Use <code>blanc</code> and <code>bg-noir</code> for black text on a white background.</p>
-<p> Foreground color classes (text colors), are prefixed by <code>cl-*</code>. For named colors (red, ylw, grn, blu, noir, and blanc), the <code>cl-</code> prefix may be ommited.
+						<p>Foreground color classes (text colors), are prefixed by <code>cl-*</code>. For named colors (red, ylw, grn, blu, noir, and blanc), the <code>cl-</code> prefix may be ommited.
  Background color classes, are prefixed by <code>bg-*</code>.
  Border color classes, are prefixed by <code>b-*</code>.</p>
 <p> What follows the prefix can be either a number (0-f) for greyscale colors, or one of <code>red</code>, <code>grn</code>, <code>ylw</code>, <code>blu</code>, <code>noir</code>, or <code>blanc</code>. For text/foreground colors, the <code>cl-</code> may be ommited.</p>
 <p> The named colors may also be specifically applied to the <code>&lt;progress /&gt;</code> element.</p>
+<pre><code class="lang-color"> @color: #f8f8f8 @name: Blanc
+ @color: #202020 @name: Noir
+ @color: #2E76C3 @name: Blu
+ @color: #FFD954 @name: Ylw
+ @color: #EB4E32 @name: Red
+ @color: #83BD75 @name: Grn
+</code></pre>
 <pre><code class="lang-html"> &lt;p class=&quot;cl-2 bg-d ba b-blu&quot;&gt;This is an example paragraph&lt;/p&gt;
  &lt;p class=&quot;grn bg-red ba b-1&quot;&gt;Another example paragraph&lt;/p&gt;
  &lt;progress max=&quot;100&quot; value=&quot;40&quot; class=&quot;m1 ylw bg-blu b-red&quot;&gt;40%&lt;/progress&gt;
@@ -336,8 +424,7 @@
 					</h3>
 
 					<div>
-						<p>To make an element the height of the screen, you can use <code>vh</code>.</p>
-<p> Similarly, you can set height to auto with <code>ha</code>, and to <code>100%</code> with <code>hf</code>.</p>
+						<p>To make an element the height of the screen, you can use <code>vh</code>. Similarly, you can set height to auto with <code>ha</code>, and to <code>100%</code> with <code>hf</code>.</p>
 <p> To set height in percentages, you use <code>h*</code> where <code>*</code> is 1-9.</p>
 <p> To set height in <code>vh</code> units, use <code>vh*</code> where <code>*</code> is 1-9.</p>
 <p> To set height in <code>em</code> units, use <code>sh*</code> where <code>*</code> is 1-7.</p>
@@ -346,6 +433,27 @@
 <pre><code class="lang-html"> &lt;div class=&quot;vh&quot;&gt;This div is the same height as the viewport.&lt;/div&gt;
  &lt;div class=&quot;nh5-s nh6-m nh7-l&quot;&gt;This div has different min-heights at different screen sizes&lt;/div&gt;
  &lt;p class=&quot;sh4&quot;&gt;This paragraph should be twice as tall as the normal text (2em)&lt;/p&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="width">
+					<h3 class="mb2 mt4">
+						Width
+					</h3>
+
+					<div>
+						<p>To make an element the width of the screen, you can use <code>vw</code>. Similarly, you can set width to auto with <code>wa</code>, and to <code>100%</code> with <code>wf</code>.</p>
+<p> To set width in percentages, you use <code>w*</code> where <code>*</code> is 1-9.</p>
+<p> To set width in <code>vw</code> units, use <code>vw*</code> where <code>*</code> is 1-9.</p>
+<p> To set width in <code>em</code> units, use <code>sw*</code> where <code>*</code> is 1-7.</p>
+<p> To set min- or max-width in percentages, use <code>mw*</code> or <code>xw*</code> where <code>*</code> is 1-9.</p>
+<p> All of these classes have responsive options, and can be appended with <code>-s</code>, <code>-m</code>, or <code>-l</code>.</p>
+<pre><code class="lang-html"> &lt;div class=&quot;vw&quot;&gt;This div is the same width as the viewport.&lt;/div&gt;
+ &lt;div class=&quot;mw5-s mw6-m mw7-l&quot;&gt;This div has different min-widths at different screen sizes&lt;/div&gt;
+ &lt;p class=&quot;sw4&quot;&gt;This paragraph should be twice as wide as the normal text (2em)&lt;/p&gt;
 </code></pre>
 
 						
