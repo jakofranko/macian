@@ -15,3 +15,10 @@
 7. Box shadows can be set on the 'horizontal' sides via `bslr` or 'vertical' sides via `bstb`, but the margin and padding classes do this via `mv*` or `mh*` (for 'vertical' and 'horizontal'). Need to standardize.
 8. Convert colors and perhaps other reused values into variables.
 9. Some classes append `a` to the name to designate 'all sides', like `ba` for "border all sides", or `bsia` for "box shadow inset all sides". However, other classes imply all sides, like `m4` or `p4`, which apply margins or padding to all sides. We should standardize on this.
+10. There are a few classes in the `macian.display.css` file that are not really display styles; one is a table style, and several are opacity levels.
+11. Create table-specific file and add more styles for tables.
+12. The grid file has several issues:
+    1. There are several display classes that should live in the `Display` file, as well as match the convention for the display classes.
+    2. It contains the classes for both the 'floating div' style of columns (a la old bootstrap), as well as the utilities for CSS grids. These should live in separate files.
+    3. The CSS grid support could use a lot of additional helper classes to aid in setting up the grid template rows and columns (maybe one set of classes from 1-f for setting row templates, and another set of classes for column templates)
+    4. Support for grid templates? Could be cool for rapid html layouts?
