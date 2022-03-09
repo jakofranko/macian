@@ -47,7 +47,7 @@
  ```html
  <div class="o5">This is slightly transparent.</div>
  <div class="o7">This is slightly less transparent.</div>
- <div class="o9">This is almost opaque transparent.</div>
+ <div class="o9">This is almost opaque.</div>
  ```
  */
 .of {opacity:  1} .o9 {opacity: .9}
