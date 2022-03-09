@@ -1,3 +1,47 @@
+/*---
+ title: Cursors
+ section: Base CSS
+  ---
+
+ Cursor styles can be set with the below styles.
+
+ ```css
+ .c-a      {cursor: alias}
+ .c-a-s    {cursor: all-scroll}
+ .c-c      {cursor: copy}
+ .c-c-m    {cursor: context-menu}
+ .c-c-r    {cursor: col-resize}
+ .c-cl     {cursor: cell}
+ .c-d      {cursor: default}
+ .c-e-r    {cursor: e-resize}
+ .c-ew-r   {cursor: ew-resize}
+ .c-g      {cursor: grab}
+ .c-ging   {cursor: grabbing}
+ .c-h      {cursor: help}
+ .c-m      {cursor: move}
+ .c-n      {cursor: none}
+ .c-n-d    {cursor: no-drop}
+ .c-n-r    {cursor: n-resize}
+ .c-na     {cursor: not-allowed}
+ .c-ne-r   {cursor: ne-resize}
+ .c-nesw-r {cursor: nesw-resize}
+ .c-nw-r   {cursor: nw-resize}
+ .c-nwse-r {cursor: nwse-resize}
+ .c-pg     {cursor: progress}
+ .c-pt     {cursor: pointer}
+ .c-r-r    {cursor: row-resize}
+ .c-s-r    {cursor: ns-resize}
+ .c-s-r    {cursor: s-resize}
+ .c-se-r   {cursor: se-resize}
+ .c-sw-r   {cursor: sw-resize}
+ .c-v-t    {cursor: vertical-text}
+ .c-w      {cursor: wait}
+ .c-w-r    {cursor: w-resize}
+ .c-x      {cursor: crosshair}
+ .c-z-i    {cursor: zoom-in}
+ .c-z-o    {cursor: zoom-out}
+ ```
+ */
 .c-a      {cursor: alias}
 .c-a-s    {cursor: all-scroll}
 .c-c      {cursor: copy}
