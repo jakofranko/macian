@@ -1,5 +1,23 @@
-.r {width: 100%; overflow: auto}
+/*---
+ title: Grid System
+ section: Layout
+  ---
 
+ Macian provides a system for laying out your HTML, that will feel very familiar to anyone who has used Bootstrap.
+
+ Rows are designated with the `r` class. Only use rows if you are planning to have multiple columns.
+
+ Columns are designated by the `c*` class, where `*` is a number between 1-c.
+
+ ```html
+ <div class="r">
+    <div class="c4 ba">Col 1</div>
+    <div class="c4 ba">Col 2</div>
+    <div class="c4 ba">Col 3</div>
+</div>
+ ```
+ */
+.r {width: 100%; overflow: auto}
 .c1, .c2, .c3, .c4, .c5, .c6,
 .c7, .c8, .c9, .ca, .cb, .cc {float: left; width: 100%}
 
