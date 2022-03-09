@@ -23,6 +23,27 @@
 .c1, .c2, .c3, .c4, .c5, .c6,
 .c7, .c8, .c9, .ca, .cb, .cc {float: left; width: 100%}
 
+/*---
+ title: CSS Grid
+ section: Base CSS
+  ---
+
+ Macian provides utility classes for creating [CSS Grids](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
+
+ First, give the parent element the `g` class, to set the display to `grid`. The grid row gap can be set with `grg*`, the column gap with `gcg*`, or the grid gap with `gg*`, with the `*` in all cases being a number between 0-7. Note, currently the template rows and columns need to be specified seperately.
+
+ To justify items, use the `gji*`, to justify self, use `gjs*`, to align items use `gai*`, to align self use `gas*`, and to align content, use `gac*`, the `*` in all cases being either `s` for `start`, `e` for `end`, or `c` for `center`. The `gac*` classes can additionally have a `*` equal to `t` for `stretch`, `sa` for `space-around, `sb` for `space-between`, or `se` for `space-evenly`.
+
+ Responsive versions of all the grid classes are available.
+
+ ```html
+<div class="g gg2 gaie" style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr);">
+    <div class="ba" style="grid-column-start: 1; grid-row-start: 1;">This is a grid item.</div>
+    <div class="ba" style="grid-column-start: 2; grid-row-start: 2;">This is a grid item.</div>
+    <div class="ba" style="grid-column-start: 3; grid-row-start: 3;">This is a grid item.</div>
+</div>
+ ```
+ */
 .g  {display: grid}
 .ig {display: inline-grid}
 .sg {display: subgrid}
