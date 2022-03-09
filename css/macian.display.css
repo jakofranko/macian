@@ -1,3 +1,26 @@
+/*---
+ title: Display
+ section: Base CSS
+  ---
+
+ It's possible to set the display style with the following styles, generally following a `d*` format, where `*` is the display value.
+
+ Responsive versions of these classes are available.
+
+ ```css
+ .dn  {display: none}
+ .db  {display: block}
+ .dt  {display: table}
+ .di  {display: inline}
+ .dtr {display: table-row}
+ .dtl {display: table-cell}
+ .dib {display: inline-block}
+ .dit {display: inline-table}
+ .dtc {display: table-column}
+ .drg {display: table-row-group}
+ .dcg {display: table-column-group}
+ ```
+ */
 .dn  {display: none}
 .db  {display: block}
 .dt  {display: table}
@@ -9,8 +32,24 @@
 .dtc {display: table-column}
 .drg {display: table-row-group}
 .dcg {display: table-column-group}
+
+/* TODO: this class should be moved to a table-specific file */
 .dtf {table-layout: fixed; width: 100%}
 
+/* TODO: this should get moved to either the colors or some other file... */
+/*---
+ title: Opacity
+ section: Base CSS
+  ---
+
+ The opacity for an element can be set with the `o*` classes, where `*` is a number from 0-9, or f.
+
+ ```html
+ <div class="o5">This is slightly transparent.</div>
+ <div class="o7">This is slightly less transparent.</div>
+ <div class="o9">This is almost opaque transparent.</div>
+ ```
+ */
 .of {opacity:  1} .o9 {opacity: .9}
 .o8 {opacity: .8} .o7 {opacity: .7}
 .o6 {opacity: .6} .o5 {opacity: .5}
