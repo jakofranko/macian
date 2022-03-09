@@ -266,6 +266,24 @@
 							
 						</li>
 						
+						<li>
+							<a href="#display"><span>
+									Display</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#opacity"><span>
+									Opacity</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#css-grid"><span>
+									CSS Grid</span></a>
+							
+						</li>
+						
 					</ul>
 					
 						</li>
@@ -285,6 +303,22 @@
 						<li>
 							<a href="#width"><span>
 									Width</span></a>
+							
+						</li>
+						
+					</ul>
+					
+						</li>
+						
+						<li>
+							<a href="#layout"><span>
+									Layout</span></a>
+							
+					<ul>
+						
+						<li>
+							<a href="#grid-system"><span>
+									Grid System</span></a>
 							
 						</li>
 						
@@ -460,6 +494,68 @@
 					</div>
 				</section>
 				
+				<section id="display">
+					<h3 class="mb2 mt4">
+						Display
+					</h3>
+
+					<div>
+						<p>It&#39;s possible to set the display style with the following styles, generally following a <code>d*</code> format, where <code>*</code> is the display value.</p>
+<p> Responsive versions of these classes are available.</p>
+<pre><code class="lang-css"> .dn  {display: none}
+ .db  {display: block}
+ .dt  {display: table}
+ .di  {display: inline}
+ .dtr {display: table-row}
+ .dtl {display: table-cell}
+ .dib {display: inline-block}
+ .dit {display: inline-table}
+ .dtc {display: table-column}
+ .drg {display: table-row-group}
+ .dcg {display: table-column-group}
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="opacity">
+					<h3 class="mb2 mt4">
+						Opacity
+					</h3>
+
+					<div>
+						<p>The opacity for an element can be set with the <code>o*</code> classes, where <code>*</code> is a number from 0-9, or f.</p>
+<pre><code class="lang-html"> &lt;div class=&quot;o5&quot;&gt;This is slightly transparent.&lt;/div&gt;
+ &lt;div class=&quot;o7&quot;&gt;This is slightly less transparent.&lt;/div&gt;
+ &lt;div class=&quot;o9&quot;&gt;This is almost opaque.&lt;/div&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="css-grid">
+					<h3 class="mb2 mt4">
+						CSS Grid
+					</h3>
+
+					<div>
+						<p>Macian provides utility classes for creating <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS Grids</a>.</p>
+<p> First, give the parent element the <code>g</code> class, to set the display to <code>grid</code>. The grid row gap can be set with <code>grg*</code>, the column gap with <code>gcg*</code>, or the grid gap with <code>gg*</code>, with the <code>*</code> in all cases being a number between 0-7. Note, currently the template rows and columns need to be specified seperately.</p>
+<p> To justify items, use the <code>gji*</code>, to justify self, use <code>gjs*</code>, to align items use <code>gai*</code>, to align self use <code>gas*</code>, and to align content, use <code>gac*</code>, the <code>*</code> in all cases being either <code>s</code> for <code>start</code>, <code>e</code> for <code>end</code>, or <code>c</code> for <code>center</code>. The <code>gac*</code> classes can additionally have a <code>*</code> equal to <code>t</code> for <code>stretch</code>, <code>sa</code> for <code>space-around,</code>sb<code>for</code>space-between<code>, or</code>se<code>for</code>space-evenly`.</p>
+<p> Responsive versions of all the grid classes are available.</p>
+<pre><code class="lang-html">&lt;div class=&quot;g gg2 gaie&quot; style=&quot;grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr);&quot;&gt;
+    &lt;div class=&quot;ba&quot; style=&quot;grid-column-start: 1; grid-row-start: 1;&quot;&gt;This is a grid item.&lt;/div&gt;
+    &lt;div class=&quot;ba&quot; style=&quot;grid-column-start: 2; grid-row-start: 2;&quot;&gt;This is a grid item.&lt;/div&gt;
+    &lt;div class=&quot;ba&quot; style=&quot;grid-column-start: 3; grid-row-start: 3;&quot;&gt;This is a grid item.&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
 					</div>
 				</section>
 				
@@ -507,6 +603,38 @@
 <pre><code class="lang-html"> &lt;div class=&quot;vw&quot;&gt;This div is the same width as the viewport.&lt;/div&gt;
  &lt;div class=&quot;mw5-s mw6-m mw7-l&quot;&gt;This div has different min-widths at different screen sizes&lt;/div&gt;
  &lt;p class=&quot;sw4&quot;&gt;This paragraph should be twice as wide as the normal text (2em)&lt;/p&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+					</div>
+				</section>
+				
+				<section id="layout">
+					<h2 class="mb2 mt4">
+						Layout
+					</h2>
+
+					<div>
+						
+						
+				<section id="grid-system">
+					<h3 class="mb2 mt4">
+						Grid System
+					</h3>
+
+					<div>
+						<p>Macian provides a system for laying out your HTML, that will feel very familiar to anyone who has used Bootstrap.</p>
+<p> Rows are designated with the <code>r</code> class. Only use rows if you are planning to have multiple columns.</p>
+<p> Columns are designated by the <code>c*</code> class, where <code>*</code> is a number between 1-c.</p>
+<p> Responsive versions of these classes are available to set different column width depending on screen size.</p>
+<pre><code class="lang-html">&lt;div class=&quot;r&quot;&gt;
+    &lt;div class=&quot;c4 c4-m c6-s ba&quot;&gt;Col 1&lt;/div&gt;
+    &lt;div class=&quot;c4 c4-m c6-s ba&quot;&gt;Col 2&lt;/div&gt;
+    &lt;div class=&quot;c4 c4-m cc-s ba&quot;&gt;Col 3&lt;/div&gt;
+&lt;/div&gt;
 </code></pre>
 
 						
