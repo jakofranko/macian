@@ -290,6 +290,18 @@
 							
 						</li>
 						
+						<li>
+							<a href="#positions"><span>
+									Positions</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#z-index"><span>
+									Z-Index</span></a>
+							
+						</li>
+						
 					</ul>
 					
 						</li>
@@ -571,6 +583,41 @@
 						<p>Outline, resize, and appearance for inputs can be set to none via the <code>on</code>, <code>rn</code>, and <code>an</code> classes.</p>
 <pre><code class="lang-html"> &lt;input type=&quot;text&quot; placeholder=&quot;This text input has the default appearance.&quot; /&gt;
  &lt;input type=&quot;text&quot; placeholder=&quot;This text input has had outline, resize, and appearance set to none.&quot; class=&quot;on rn an&quot; /&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="positions">
+					<h3 class="mb2 mt4">
+						Positions
+					</h3>
+
+					<div>
+						<p>To set the <code>position</code> of an element, use the  <code>ps*</code> class, where <code>*</code> is one of <code>s</code>, <code>a</code>, <code>r</code>, or <code>f</code>, for <code>static</code>, <code>absolute</code>, <code>relative</code>, and <code>fixed</code>, respectively.</p>
+<p> To set <code>top</code>, <code>bottom</code>, <code>left</code>, and <code>right</code>, you can use the <code>t*</code>, <code>b*</code>, <code>l*</code>, and <code>r*</code> classes, where <code>*</code> is a number between -2 and 2.</p>
+<p> To set all four sides to <code>0</code>, use the <code>a0</code> class.</p>
+<p> Responsive versions are available for these classes.</p>
+<pre><code class="lang-html"> &lt;div class=&quot;sw5 sh5 bg-blu psa t1 r1&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;sw5 sh5 bg-grn psa b1 l1&quot;&gt;&lt;/div&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="z-index">
+					<h3 class="mb2 mt4">
+						Z-Index
+					</h3>
+
+					<div>
+						<p>To set the <code>z-index</code> for an element, use the <code>z*</code> class, where <code>*</code> is a number between 1-9.</p>
+<p> Responsive versions are available for these classes.</p>
+<pre><code class="lang-html"> &lt;div class=&quot;sw5 sh5 rf bg-blu z3-m z2-s&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;sw6 sh5 rf bg-grn z2-m z1-s&quot;&gt;&lt;/div&gt;
+ &lt;div class=&quot;sw7 sh5 rf bg-red z1-m z3-s&quot;&gt;&lt;/div&gt;
 </code></pre>
 
 						
