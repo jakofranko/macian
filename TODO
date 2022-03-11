@@ -22,3 +22,5 @@
     2. It contains the classes for both the 'floating div' style of columns (a la old bootstrap), as well as the utilities for CSS grids. These should live in separate files.
     3. The CSS grid support could use a lot of additional helper classes to aid in setting up the grid template rows and columns (maybe one set of classes from 1-f for setting row templates, and another set of classes for column templates)
     4. Support for grid templates? Could be cool for rapid html layouts?
+13. The layout file is kind of ambiguously defined; it might could be named more specifically to fit a group of CSS classes
+14. The `float` classes in the layout file are named `rf` and `lf` and should be `fr` and `fl`
