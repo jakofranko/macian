@@ -1,3 +1,15 @@
+/*---
+ title: Inputs
+ section: Base CSS
+  ---
+
+ Outline, resize, and appearance for inputs can be set to none via the `on`, `rn`, and `an` classes.
+
+ ```html
+ <input type="text" placeholder="This text input has the default appearance." />
+ <input type="text" placeholder="This text input has had outline, resize, and appearance set to none." class="on rn an" />
+ ```
+ */
 .on {outline: none}
 .rn {resize: none}
 
