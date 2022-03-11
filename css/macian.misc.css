@@ -1,3 +1,11 @@
+.dev > * {box-shadow:inset 0 0 1px #ccc}
+
+.noselect > * {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .cover   {background-size:   cover !important}
 .contain {background-size: contain !important}
 
