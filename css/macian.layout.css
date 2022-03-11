@@ -1,3 +1,21 @@
+/*---
+ title: Positions
+ section: Base CSS
+  ---
+
+ To set the `position` of an element, use the  `ps*` class, where `*` is one of `s`, `a`, `r`, or `f`, for `static`, `absolute`, `relative`, and `fixed`, respectively.
+
+ To set `top`, `bottom`, `left`, and `right`, you can use the `t*`, `b*`, `l*`, and `r*` classes, where `*` is a number between -2 and 2.
+
+ To set all four sides to `0`, use the `a0` class.
+
+ Responsive versions are available for these classes.
+
+ ```html
+ <div class="sw5 sh5 bg-blu psa t1 r1"></div>
+ <div class="sw5 sh5 bg-grn psa b1 l1"></div>
+ ```
+ */
 .a0 {top: 0;right: 0;bottom: 0;left: 0}
 
 .t0 {top: 0} .r0 {right: 0} .b0 {bottom: 0} .l0 {left: 0}
@@ -11,6 +29,21 @@
 .pss {position: static}   .psr {position: relative}
 .psa {position: absolute} .psf {position: fixed}
 
+/*---
+ title: Z-Index
+ section: Base CSS
+  ---
+
+ To set the `z-index` for an element, use the `z*` class, where `*` is a number between 1-9.
+
+ Responsive versions are available for these classes.
+
+ ```html
+ <div class="sw5 sh5 rf bg-blu z3-m z2-s"></div>
+ <div class="sw6 sh5 rf bg-grn z2-m z1-s"></div>
+ <div class="sw7 sh5 rf bg-red z1-m z3-s"></div>
+ ```
+ */
 .z1 {z-index: 1} .z2 {z-index: 2} .z3 {z-index: 3}
 .z4 {z-index: 4} .z5 {z-index: 5} .z6 {z-index: 6}
 .z7 {z-index: 7} .z8 {z-index: 8} .z9 {z-index: 9}
