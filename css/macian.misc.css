@@ -6,6 +6,15 @@
           user-select: none;
 }
 
+/*---
+ title: Background Styles
+ section: Base CSS
+  ---
+
+ To set the background-size of an element, you can use either the `cover` or `contain` classes.
+
+ To set the background position of an element, you can use the `bgp-*` classes, where `*` is either `c`, `t`, `r`, `b`, `l`, for `center center`, `top center`, `center right`, `bottom center`, and `center left`, respectively.
+ */
 .cover   {background-size:   cover !important}
 .contain {background-size: contain !important}
 
@@ -15,6 +24,21 @@
 .bgp-b {background-repeat: no-repeat; background-position: bottom center}
 .bgp-l {background-repeat: no-repeat; background-position: center left}
 
+/*---
+ title: Overflow Styles
+ section: Base CSS
+  ---
+
+ To designate how overflow is to be handled, you can use the `o*`, `ox*`, and `oy*` classes, where `*` is either `a`, `v`, `h`, or `s`, for `auto`, `visible`, `hidden`, or `scroll`, respectively.
+
+ There are responsive versions of these classes available.
+ ```html
+ <div class="sh7 oys-m oyh-s">
+     <div class="sh7">This div is just as tall as it's parent</div>
+     <div class="sh7">This div is also, so you had to scroll to get here, but couldn't when the viewport is small.</div>
+ </div>
+ ```
+ */
 .oa  {overflow: auto}      .oxa {overflow-x: auto}
 .oya {overflow-y: auto}    .ov  {overflow: visible}
 .oxv {overflow-x: visible} .oyv {overflow-y: visible}
