@@ -24,7 +24,8 @@
     4. Support for grid templates? Could be cool for rapid html layouts?
 13. The layout file is kind of ambiguously defined; it might could be named more specifically to fit a group of CSS classes
 14. The `float` classes in the layout file are named `rf` and `lf` and should be `fr` and `fl`
-15. Clearn up the misc file. Some things genuinely belong here, but there is a lot that doesn't:
+15. Clean up the misc file. Some things genuinely belong here, but there is a lot that doesn't:
     1. Backgrounds could get their own file
     2. The margin auto classes are in here, and belong in the margin file with a standardized name
     3. The vertical align classes should be expanded to include all options and then included in both the typography AND the table docs
+16. Add helper class to be used with the `r` class that sets a 'gutter' for the columns, all except the last child
