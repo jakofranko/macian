@@ -314,6 +314,18 @@
 							
 						</li>
 						
+						<li>
+							<a href="#vertical-alignment"><span>
+									Vertical Alignment</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#row-line-style-tables"><span>
+									Row-line-style Tables</span></a>
+							
+						</li>
+						
 					</ul>
 					
 						</li>
@@ -349,6 +361,12 @@
 						<li>
 							<a href="#grid-system"><span>
 									Grid System</span></a>
+							
+						</li>
+						
+						<li>
+							<a href="#centering"><span>
+									Centering</span></a>
 							
 						</li>
 						
@@ -667,6 +685,66 @@
 					</div>
 				</section>
 				
+				<section id="vertical-alignment">
+					<h3 class="mb2 mt4">
+						Vertical Alignment
+					</h3>
+
+					<div>
+						<p>Use <code>vl</code>, <code>vm</code>, <code>vt</code>, and <code>vb</code> to set the <code>vertical-align</code> property of an element to either <code>baseline</code>, <code>middle</code>, <code>top</code>, or <code>bottom</code>, respectively.</p>
+<p> There are responsive versions of these classes.</p>
+<pre><code class="lang-html"> &lt;table&gt;
+    &lt;tr class=&quot;sh6&quot;&gt;
+        &lt;td class=&quot;vl&quot;&gt;a baseline aligned item&lt;/td&gt;
+        &lt;td class=&quot;vm&quot;&gt;a middle aligned item&lt;/td&gt;
+        &lt;td class=&quot;vt&quot;&gt;a top aligned item&lt;/td&gt;
+        &lt;td class=&quot;vb&quot;&gt;and a bottom aligned item&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="row-line-style-tables">
+					<h3 class="mb2 mt4">
+						Row-line-style Tables
+					</h3>
+
+					<div>
+						<p>You can style a table to only have borders at the row lines with the <code>rl</code> class. Currently, you also have to specify that the table have no borders too.</p>
+<pre><code class="lang-html"> &lt;table class=&quot;bn rl&quot;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Heading 1&lt;/th&gt;
+            &lt;th&gt;Heading 2&lt;/th&gt;
+            &lt;th&gt;Heading 3&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+            &lt;td&gt;some data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
 					</div>
 				</section>
 				
@@ -746,6 +824,23 @@
     &lt;div class=&quot;c4 c4-m c6-s ba&quot;&gt;Col 2&lt;/div&gt;
     &lt;div class=&quot;c4 c4-m cc-s ba&quot;&gt;Col 3&lt;/div&gt;
 &lt;/div&gt;
+</code></pre>
+
+						
+					</div>
+				</section>
+				
+				<section id="centering">
+					<h3 class="mb2 mt4">
+						Centering
+					</h3>
+
+					<div>
+						<p>To center <code>div</code>s (or any element that is set to <code>display: block</code>), you can apply the <code>cn</code> class.</p>
+<p> There are responsive versions of this class.</p>
+<pre><code class="lang-html"> &lt;div class=&quot;sh5 sw5 pt3 bg-blu&quot;&gt;
+    &lt;div class=&quot;sh3 sw3 bg-ylw cn p2&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
 </code></pre>
 
 						
