@@ -46,6 +46,21 @@
 .oyh {overflow-y: hidden}  .os  {overflow: scroll}
 .oxs {overflow-x: scroll}  .oys {overflow-y: scroll}
 
+/*---
+ title: Centering
+ section: Layout
+  ---
+
+ To center `div`s (or any element that is set to `display: block`), you can apply the `cn` class.
+
+ There are responsive versions of this class.
+
+ ```html
+ <div class="sh5 sw5 pt3 bg-blu">
+    <div class="sh3 sw3 bg-ylw cn p2"></div>
+ </div>
+ ```
+ */
 .cn {margin-left: auto; margin-right: auto}
 
 .vl {vertical-align: baseline} .vm {vertical-align: middle}
