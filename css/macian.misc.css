@@ -63,6 +63,26 @@
  */
 .cn {margin-left: auto; margin-right: auto}
 
+/*---
+ title: Vertical Alignment
+ section: Base CSS
+  ---
+
+ Use `vl`, `vm`, `vt`, and `vb` to set the `vertical-align` property of an element to either `baseline`, `middle`, `top`, or `bottom`, respectively.
+
+ There are responsive versions of these classes.
+
+ ```html
+ <table>
+    <tr class="sh6">
+        <td class="vl">a baseline aligned item</td>
+        <td class="vm">a middle aligned item</td>
+        <td class="vt">a top aligned item</td>
+        <td class="vb">and a bottom aligned item</td>
+    </tr>
+</table>
+ ```
+ */
 .vl {vertical-align: baseline} .vm {vertical-align: middle}
 .vt {vertical-align: top}      .vb {vertical-align: bottom}
 
