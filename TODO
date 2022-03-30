@@ -29,3 +29,4 @@
     2. The margin auto classes are in here, and belong in the margin file with a standardized name
     3. The vertical align classes should be expanded to include all options and then included in both the typography AND the table docs
 16. Add helper class to be used with the `r` class that sets a 'gutter' for the columns, all except the last child
+17. The `rl` class is broken on tables out of the box, because it doesn't properly set the border of the rest of the cells to 0, just the table rows.
