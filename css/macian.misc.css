@@ -86,6 +86,41 @@
 .vl {vertical-align: baseline} .vm {vertical-align: middle}
 .vt {vertical-align: top}      .vb {vertical-align: bottom}
 
+/*---
+ title: Row-line-style Tables
+ section: Base CSS
+  ---
+
+ You can style a table to only have borders at the row lines with the `rl` class. Currently, you also have to specify that the table have no borders too.
+
+ ```html
+ <table class="bn rl">
+    <thead>
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>some data</td>
+            <td>some data</td>
+            <td>some data</td>
+        </tr>
+        <tr>
+            <td>some data</td>
+            <td>some data</td>
+            <td>some data</td>
+        </tr>
+        <tr>
+            <td>some data</td>
+            <td>some data</td>
+            <td>some data</td>
+        </tr>
+    </tbody>
+ ```
+ */
 .rl thead tr:last-of-type,
 .rl tbody tr {
   border: 0;
