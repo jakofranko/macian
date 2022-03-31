@@ -1,43 +1,215 @@
+/*---
+ title: Fonts
+ section: Typography
+  ---
+
+ You can designate serif, sans-serif, or mono fonts with the `srf`, `sns`, and `mon` classes respectively.
+
+ ```html
+ <p class="srf">Serif font family</p>
+ <p class="sns">Sans Serif font family</p>
+ <p class="mon">Mono font family</p>
+ ```
+ */
 .srf {font-family: "Times New Roman", "Georgia", serif}
 .sns {font-family: "Inter UI", "Helvetica", "Arial", sans-serif}
 .mon {font-family: "Roboto Mono", monospace}
 
+/*---
+ title: Font Size
+ section: Typography
+  ---
+
+ Specify the sixe of your font with the `f*` class where `*` is a number 1-6. These sizes naturally correspond to the inherant sizes of their respective heading tags (`<h1>` === `.f1` etc.).
+
+ There are responsive versions of these classes.
+
+ ```html
+ <p class="f1">The Brown Fox Jumped Lazily Over the Log</p>
+ <p class="f2">The Brown Fox Jumped Lazily Over the Log</p>
+ <p class="f3">The Brown Fox Jumped Lazily Over the Log</p>
+ <p class="f4">The Brown Fox Jumped Lazily Over the Log</p>
+ <p class="f5">The Brown Fox Jumped Lazily Over the Log</p>
+ <p class="f6">The Brown Fox Jumped Lazily Over the Log</p>
+ ```
+ */
 .f1, h1 {font-size: 2.6179em} .f2, h2 {font-size: 2.0581em}
 .f3, h3 {font-size:  1.618em} .f4, h4 {font-size:  1.272em}
 .f5, h5 {font-size:      1em} .f6, h6 {font-size:  .7862em}
 
+/*---
+ title: Line Height
+ section: Typography
+  ---
+
+ Specify the line height for your text with (in increasing height) `lhs`, `lht`, `lhc`, and `lhd`.
+
+ There are responsive versions of these classes.
+
+ ```html
+    <p class="lhs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat culpa, expedita quibusdam esse, sunt et eius, nesciunt beatae asperiores laudantium tempore iusto fugit reprehenderit nihil, eligendi commodi unde. Cum, similique.</p>
+    <hr>
+    <p class="lht">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat culpa, expedita quibusdam esse, sunt et eius, nesciunt beatae asperiores laudantium tempore iusto fugit reprehenderit nihil, eligendi commodi unde. Cum, similique.</p>
+    <hr>
+    <p class="lhc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat culpa, expedita quibusdam esse, sunt et eius, nesciunt beatae asperiores laudantium tempore iusto fugit reprehenderit nihil, eligendi commodi unde. Cum, similique.</p>
+    <hr>
+    <p class="lhd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat culpa, expedita quibusdam esse, sunt et eius, nesciunt beatae asperiores laudantium tempore iusto fugit reprehenderit nihil, eligendi commodi unde. Cum, similique.</p>
+ ```
+ */
 .lhs {line-height:     1em} .lht {line-height: 1.272em}
 .lhc {line-height: 1.618em} .lhd {line-height:     2em}
 
+/*---
+ title: Font Weight
+ section: Typography
+  ---
+
+ Specify normal `font-weight` with `fwn` and `bold` with `fwb`.
+
+ You can also specify numeric font weights with the `fw*` classes, where `*` is a number from 1-9.
+
+ There are responsive versions of these classes.
+
+ ```html
+ <span class="fwb-m fwn-s">Bold on medium screens, normal on small screens</span>
+ <span class="fw9-m fw1-s">Bold on medium screens, normal on small screens</span>
+
+ ```
+ */
 .fwn {font-weight: normal} .fwb {font-weight: bold}
 
 .fw1 {font-weight: 100} .fw2 {font-weight: 200} .fw3 {font-weight: 300}
 .fw4 {font-weight: 400} .fw5 {font-weight: 500} .fw6 {font-weight: 600}
 .fw7 {font-weight: 700} .fw8 {font-weight: 800} .fw9 {font-weight: 900}
 
+/*---
+ title: Font Styles
+ section: Typography
+  ---
+
+ Set the `font-style` to `normal` with `fn`, `italic` with `fi`, and to `oblique` with `fo`.
+
+ ```html
+ <span class="fi">Italic</span>
+ <span class="fo">Oblique</span>
+ ```
+ */
 .fn {font-style: normal} .fi {font-style: italic} .fo {font-style: oblique}
 
+/*---
+ title: Font Variants
+ section: Typography
+  ---
+
+ Set the `font-variant` to `small-caps` with `sc`.
+
+ ```html
+ <span class="sc">small caps</span>
+ ```
+ */
 .sc {font-variant: small-caps}
 
+/*---
+ title: Text Alignment
+ section: Typography
+  ---
+
+ Designate the `text-align` property with `aj` for `justify`, `al` for `left`, `ar` for `right`, and `ac` for `center`.
+
+ There are responsive versions of these classes.
+
+ ```html
+ <p class="aj">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ <hr>
+ <p class="ar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ <hr>
+ <p class="ac">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ ```
+ */
 .aj {text-align: justify; hyphens: auto}
 .al {text-align: left}
 .ar {text-align: right}
 .ac {text-align: center}
 
+/*---
+ title: Text Transforms
+ section: Typography
+  ---
+
+ You can apply `text-transform` properties with `cap` for `captialize`, `upc` for `uppercase`, and `lwc` for `lowercase`.
+
+ ```html
+ <span class="cap">captialize</span>
+ <span class="upc">uppercase</span>
+ <span class="lwc">LOWERCASE</span>
+ ```
+ */
 .cap {text-transform: capitalize}
 .upc {text-transform: uppercase}
 .lwc {text-transform: lowercase}
 
+/*---
+ title: Letter Spacing
+ section: Typography
+  ---
+
+ Letter spacing can be set with the `tk`, `tkt`, and `tkm` classes.
+
+ There are responsive versions of these classes.
+
+ ```html
+ <span class="tk">Lorem Ipsum</span>
+ <span class="tkt">Lorem Ipsum</span>
+ <span class="tkm">Lorem Ipsum</span>
+ ```
+ */
 .tk  {letter-spacing:   .1em}
 .tkt {letter-spacing: -.05em}
 .tkm {letter-spacing:  .25em}
 
-.ts {text-decoration: strikethrough}
+/*---
+ title: Text Decorations
+ section: Typography
+  ---
+
+ Apply `strikethrough`, `underline` or `overline` `text-decoration` properties with `ts`, `tu`, or `to`.
+
+ Apply an underline on `hover` with the `hvl` class, or remove text decoration on hover via `hvn`;
+
+ ```html
+ <span class="ts">Lorem Ipsum</span>
+ <span class="tu">Lorem Ipsum</span>
+ <span class="to">Lorem Ipsum</span>
+ <span class="hvl">Lorem Ipsum</span>
+ <span class="ts hvn">Lorem Ipsum</span>
+ ```
+ */
+.ts {text-decoration: line-through}
 .tu {text-decoration: underline}
 .to {text-decoration: overline}
+.hvl:hover {text-decoration: underline}
+.hvn:hover {text-decoration: none !important}
 
+/*---
+ title: Paragraph Optimum Widths
+ section: Typography
+  ---
+
+ You can set the optimum width for a paragraph via the `m` class. A slightly wider variant is the `mw` class, and a slightly thinner variant of this is the `mn` class.
+
+ There are responsive versions of these classes.
+
+ ```html
+ <p class="m">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ <hr>
+ <p class="mw">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ <hr>
+ <p class="mn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ ```
+ */
 .m {max-width: 30em} .mw {max-width: 34em} .mn {max-width: 20em}
 
+/* TODO: flesh this out; these are useless as is */
 .col-2,.col-3,.col-4 {
   -webkit-column-count: 1;
      -moz-column-count: 1;
@@ -106,7 +278,6 @@ You can designate the list style type with the `ls*` classes, where `*` is one o
 ```
  */
 ul, ol, .lspi {list-style-position: inside}
-
 .lsz  {list-style-type: decimal-leading-zero}
 .lsur {list-style-type: upper-roman}
 .lslr {list-style-type: lower-roman}
