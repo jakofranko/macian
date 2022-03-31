@@ -20,6 +20,11 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+a {color: #eb4e32; text-decoration: none}
+a:hover {text-decoration: underline}
+
+mark {background-color: #ffd96d}
+
 img, video {width: 100%}
 
 table {

@@ -44,14 +44,67 @@
           column-count: 1
 }
 
-a {color: #eb4e32; text-decoration: none}
-a:hover {text-decoration: underline}
+/*---
+ title: List Styles
+ section: Base CSS
+  ---
 
-.hvl:hover {text-decoration: underline}
-.hvn:hover {text-decoration: none !important}
+By default, `ul` and `ol` lists have the `list-style-position` set to `inside`, but you can explicitely set this via the `lspi` class.
 
-mark {background-color: #ffd96d}
+You can designate the list style type with the `ls*` classes, where `*` is one of
 
+- `z` for `decimal-leading-zero`
+- `ur` for `upper-roman`
+- `lr` for `lower-roman`
+- `ua` for 'upper-alpha'
+- `la` for `lower-alpha`
+- `c` for `circle`
+- `s` for `square`
+- `n` for `none`
+
+```html
+ <ul class="lsz">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+ <ul class="lsur">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+ <ul class="lslr">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+ <ul class="lsua">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+ <ul class="lsla">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+ <ul class="lsc">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+ <ul class="lss">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+ <ul class="lsn">
+    <li>lorem</li>
+    <li>ipsum</li>
+    <li>dolor</li>
+ </ul>
+```
+ */
 ul, ol, .lspi {list-style-position: inside}
 
 .lsz  {list-style-type: decimal-leading-zero}
