@@ -30,3 +30,6 @@
     3. The vertical align classes should be expanded to include all options and then included in both the typography AND the table docs
 16. Add helper class to be used with the `r` class that sets a 'gutter' for the columns, all except the last child
 17. The `rl` class is broken on tables out of the box, because it doesn't properly set the border of the rest of the cells to 0, just the table rows.
+18. Many of the typography styles break the property-value format of the classes, like `sc` class, which should probably be `fvsc` etc.
+19. There are some `max-width` styles in the typography file that are meant to define optimum paragraph widths, but they probably belong more in the `widths` file and documentation.
+20. Flesh out the `column-count` classes to add more than just the 1 column count class, as well as `column-width` classes, for nice, multi-column layouts.
