@@ -1,6 +1,6 @@
 {
   "name": "macian",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Functional CSS framework",
   "style": "macian.min.css",
   "main": "macian.min.css",
@@ -15,8 +15,8 @@
     "functional-css"
   ],
   "contributors": [
-      "Josh Avanier",
-      "Jake Franklin <jakofranko@gmail.com>"
+    "Josh Avanier",
+    "Jake Franklin <jakofranko@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
