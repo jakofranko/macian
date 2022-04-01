@@ -26,7 +26,7 @@
   "devDependencies": {
     "cssnano": "^5.1.0",
     "mdcss": "^1.5.2",
-    "mdcss-theme-macian": "^1.0.1",
+    "mdcss-theme-macian": "^1.1.0",
     "postcss": "^8.4.7",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2"
