@@ -7,11 +7,11 @@
 
  Border style for dotted, dashed, solid, and none are `bso`, `bsd`, `bss`, and `bn` in order.
 
- Border radius can be set with `.br*` where `*` is a number from 0-6, or `brf` for 100% border radius.
+ Border radius can be set with `.brd*` where `*` is a number from 0-6, or `brdf` for 100% border radius.
 
  Border width can be set with `.bw*` where `*` is a number from 0-5.
 
- Border width can be set to 0 for individual sides via `b*-0` where `*` is one of `t`, `r`, `b`, or `l`;
+ Border width can be set to 0 for individual sides via `b*0` where `*` is one of `t`, `r`, `b`, or `l`;
 
  Most of these classes have responsive versions by appending `-s`, `-m`, or `-l` to them, though not all.
 
@@ -33,17 +33,17 @@
 
 .bn, .bn th, .bn td {border-style: none; border-width: 0}
 
-.br0 {border-radius:        0} .br1 {border-radius:  .7862em}
-.br2 {border-radius:      1em} .br3 {border-radius:  1.272em}
-.br4 {border-radius:  1.618em} .br5 {border-radius: 2.0581em}
-.br6 {border-radius: 2.6179em} .brf {border-radius:     100%}
+.brd0 {border-radius:        0} .brd1 {border-radius:  .7862em}
+.brd2 {border-radius:      1em} .brd3 {border-radius:  1.272em}
+.brd4 {border-radius:  1.618em} .brd5 {border-radius: 2.0581em}
+.brd6 {border-radius: 2.6179em} .brdf {border-radius:     100%}
 
 .bw0 {border-width:     0} .bw1 {border-width: .125em}
 .bw2 {border-width: .25em} .bw3 {border-width:   .5em}
 .bw4 {border-width:   1em} .bw5 {border-width:    2em}
 
-.bt-0 {border-top-width:    0} .br-0 {border-right-width: 0}
-.bb-0 {border-bottom-width: 0} .bl-0 {border-left-width:  0}
+.bt0 {border-top-width:    0} .br0 {border-right-width: 0}
+.bb0 {border-bottom-width: 0} .bl0 {border-left-width:  0}
 
 @media screen and (max-width: 30em) {
 
