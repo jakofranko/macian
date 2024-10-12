@@ -1,9 +1,5 @@
 1. The borders classes have a lot of issues that prevent them from being intuitive:
-    1. `br` is the `border-right-style/width` class, but that is also the  
-    prefix for the `border-radius` classes. This should be differentiated a bit.
-    2. The zero-width classes break all the conventions.  
-    I would expect `btw0`, `bbw0` etc., but instead they are `bt-0`.
-    3. Lots of the class categories lack responsive versions,  
+    * Lots of the class categories lack responsive versions,  
     notably the border-style classes, and the zero-border classes.
 2. The height and width classes also have a lot of inconsistencies  
 that make them difficult to intuit:
